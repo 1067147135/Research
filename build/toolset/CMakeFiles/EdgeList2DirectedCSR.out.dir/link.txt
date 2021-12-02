@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -O3  -fopenmp -march=native  -rdynamic CMakeFiles/EdgeList2DirectedCSR.out.dir/edgelist_to_csr_directed.cpp.o  -o EdgeList2DirectedCSR.out  -Wl,-rpath,/home/shiwenlan/test/parallel3/build/util ../util/libgraph.so ../util/liblog.so 

@@ -1,0 +1,3430 @@
+---------------------------------------------------------------------------
+Command:
+Input graph folder: ../../dataset/soc-Epinions1/for_demo/
+Input query file: ../../dataset/soc-Epinions1/for_demo/unhot2unhot_pairs.bin
+Input result folder: ./
+Input method: IDX_DFS
+Input length constraint: 7
+Input per query time limit: 30 seconds
+Input target number of results: 18446744073709551615
+---------------------------------------------------------------------------
+2-hop-labeling finished, using time: 10489292258
+num of queries: 1000
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 2, src 26228, dst 22928, status Complete, result count 0, preprocessing time 0.021937 seconds, query time 0.065949 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 3, src 37226, dst 72743, status Complete, result count 0, preprocessing time 0.018920 seconds, query time 0.040639 seconds,
+pid: 0, count: 0
+ID 4, src 64769, dst 12895, status Complete, result count 0, preprocessing time 0.012990 seconds, query time 0.014253 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 5, src 48617, dst 61135, status Complete, result count 0, preprocessing time 0.003349 seconds, query time 0.003619 seconds,
+pid: 0, count: 0
+ID 6, src 39560, dst 57246, status Complete, result count 0, preprocessing time 0.009114 seconds, query time 0.022782 seconds,
+pid: 0, count: 0
+ID 7, src 15309, dst 21479, status Complete, result count 0, preprocessing time 0.019318 seconds, query time 0.123426 seconds,
+pid: 0, count: 0
+ID 8, src 64814, dst 4280, status Complete, result count 0, preprocessing time 0.012336 seconds, query time 0.012717 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 9, src 13432, dst 16486, status Complete, result count 0, preprocessing time 0.019615 seconds, query time 0.234669 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 10, src 36986, dst 15160, status Complete, result count 0, preprocessing time 0.021333 seconds, query time 0.306694 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 11, src 12447, dst 21190, status Complete, result count 0, preprocessing time 0.021558 seconds, query time 0.425689 seconds,
+pid: 0, count: 0
+ID 12, src 69425, dst 20420, status Complete, result count 0, preprocessing time 0.008437 seconds, query time 0.008777 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 13, src 46024, dst 39090, status Complete, result count 0, preprocessing time 0.017246 seconds, query time 0.048096 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 14, src 29797, dst 71655, status Complete, result count 0, preprocessing time 0.019482 seconds, query time 0.091998 seconds,
+pid: 0, count: 0
+ID 15, src 19531, dst 71942, status Complete, result count 0, preprocessing time 0.019545 seconds, query time 0.034876 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 16, src 32914, dst 64222, status Complete, result count 0, preprocessing time 0.015982 seconds, query time 0.025429 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 17, src 32857, dst 18342, status Complete, result count 0, preprocessing time 0.017361 seconds, query time 0.028077 seconds,
+pid: 0, count: 0
+ID 18, src 33255, dst 6981, status Complete, result count 0, preprocessing time 0.018978 seconds, query time 0.067755 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 19, src 65894, dst 75321, status Complete, result count 0, preprocessing time 0.016478 seconds, query time 0.021453 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 20, src 6197, dst 39823, status Complete, result count 0, preprocessing time 0.010611 seconds, query time 0.018761 seconds,
+pid: 0, count: 0
+ID 21, src 46498, dst 20661, status Complete, result count 0, preprocessing time 0.013479 seconds, query time 0.019035 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 22, src 13761, dst 51584, status Complete, result count 0, preprocessing time 0.016001 seconds, query time 0.073868 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 23, src 11951, dst 32687, status Complete, result count 0, preprocessing time 0.017618 seconds, query time 0.023875 seconds,
+pid: 0, count: 0
+ID 24, src 61572, dst 17434, status Complete, result count 0, preprocessing time 0.013484 seconds, query time 0.015419 seconds,
+pid: 0, count: 0
+ID 25, src 65914, dst 3259, status Complete, result count 0, preprocessing time 0.008046 seconds, query time 0.011969 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 26, src 13595, dst 56985, status Complete, result count 0, preprocessing time 0.010179 seconds, query time 0.033554 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 27, src 54608, dst 14332, status Complete, result count 0, preprocessing time 0.017034 seconds, query time 0.027206 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 28, src 5016, dst 40739, status Complete, result count 0, preprocessing time 0.015930 seconds, query time 0.079978 seconds,
+pid: 0, count: 0
+ID 29, src 21551, dst 12092, status Complete, result count 0, preprocessing time 0.015059 seconds, query time 0.066266 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 30, src 18283, dst 9459, status Complete, result count 0, preprocessing time 0.018823 seconds, query time 1.143397 seconds,
+pid: 0, count: 0
+ID 31, src 49180, dst 16870, status Complete, result count 0, preprocessing time 0.018696 seconds, query time 0.021955 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 32, src 9090, dst 18444, status Complete, result count 0, preprocessing time 0.015636 seconds, query time 0.374878 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 33, src 45973, dst 4246, status Complete, result count 0, preprocessing time 0.020742 seconds, query time 0.109695 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 34, src 45323, dst 31333, status Complete, result count 0, preprocessing time 0.019802 seconds, query time 0.047764 seconds,
+pid: 0, count: 0
+ID 35, src 65017, dst 51894, status Complete, result count 0, preprocessing time 0.009381 seconds, query time 0.009784 seconds,
+pid: 0, count: 0
+ID 36, src 53014, dst 4778, status Complete, result count 0, preprocessing time 0.008054 seconds, query time 0.013562 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 37, src 13457, dst 29637, status Complete, result count 0, preprocessing time 0.017545 seconds, query time 0.129586 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 38, src 25417, dst 36291, status Complete, result count 0, preprocessing time 0.021500 seconds, query time 0.041212 seconds,
+pid: 0, count: 0
+ID 39, src 25066, dst 59411, status Complete, result count 0, preprocessing time 0.013023 seconds, query time 0.013613 seconds,
+pid: 0, count: 0
+ID 40, src 50197, dst 7053, status Complete, result count 0, preprocessing time 0.010097 seconds, query time 0.011589 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 41, src 24371, dst 27067, status Complete, result count 0, preprocessing time 0.008312 seconds, query time 0.011175 seconds,
+pid: 0, count: 0
+ID 42, src 63855, dst 15253, status Complete, result count 0, preprocessing time 0.007027 seconds, query time 0.008438 seconds,
+pid: 0, count: 0
+ID 43, src 68654, dst 24171, status Complete, result count 0, preprocessing time 0.001199 seconds, query time 0.001324 seconds,
+pid: 0, count: 0
+ID 44, src 23282, dst 26478, status Complete, result count 0, preprocessing time 0.009269 seconds, query time 0.028537 seconds,
+pid: 0, count: 0
+ID 45, src 32134, dst 57701, status Complete, result count 0, preprocessing time 0.009142 seconds, query time 0.009624 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 46, src 34303, dst 6912, status Complete, result count 0, preprocessing time 0.011242 seconds, query time 0.504916 seconds,
+pid: 0, count: 0
+ID 47, src 67179, dst 23581, status Complete, result count 0, preprocessing time 0.003530 seconds, query time 0.003707 seconds,
+pid: 0, count: 0
+ID 48, src 9757, dst 65734, status Complete, result count 0, preprocessing time 0.003645 seconds, query time 0.003892 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 49, src 10761, dst 48847, status Complete, result count 0, preprocessing time 0.017899 seconds, query time 0.028515 seconds,
+pid: 0, count: 0
+ID 50, src 71669, dst 15332, status Complete, result count 0, preprocessing time 0.008172 seconds, query time 0.008949 seconds,
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+ID 51, src 6928, dst 8064, status Complete, result count 0, preprocessing time 0.013776 seconds, query time 15.636420 seconds,
+pid: 0, count: 0
+ID 52, src 56859, dst 32052, status Complete, result count 0, preprocessing time 0.015441 seconds, query time 0.016731 seconds,
+pid: 0, count: 0
+ID 53, src 68627, dst 31613, status Complete, result count 0, preprocessing time 0.000035 seconds, query time 0.000142 seconds,
+hit!
+pid: 0, count: 1
+ID 54, src 67253, dst 45669, status Complete, result count 1, preprocessing time 0.000028 seconds, query time 0.000144 seconds,
+pid: 0, count: 0
+ID 55, src 69143, dst 21816, status Complete, result count 0, preprocessing time 0.007531 seconds, query time 0.007868 seconds,
+pid: 0, count: 0
+ID 56, src 48682, dst 7616, status Complete, result count 0, preprocessing time 0.006487 seconds, query time 0.006890 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 57, src 56904, dst 73779, status Complete, result count 0, preprocessing time 0.013824 seconds, query time 0.024661 seconds,
+pid: 0, count: 0
+ID 58, src 27875, dst 20900, status Complete, result count 0, preprocessing time 0.017963 seconds, query time 0.026067 seconds,
+pid: 0, count: 0
+ID 59, src 60779, dst 52622, status Complete, result count 0, preprocessing time 0.005864 seconds, query time 0.006155 seconds,
+pid: 0, count: 0
+ID 60, src 57506, dst 8246, status Complete, result count 0, preprocessing time 0.016287 seconds, query time 0.023940 seconds,
+pid: 0, count: 0
+ID 61, src 44747, dst 27968, status Complete, result count 0, preprocessing time 0.018371 seconds, query time 0.061006 seconds,
+pid: 0, count: 0
+ID 62, src 63850, dst 3680, status Complete, result count 0, preprocessing time 0.008357 seconds, query time 0.008929 seconds,
+hit!
+pid: 0, count: 1
+ID 63, src 36724, dst 64971, status Complete, result count 1, preprocessing time 0.000029 seconds, query time 0.000112 seconds,
+pid: 0, count: 0
+ID 64, src 49977, dst 27679, status Complete, result count 0, preprocessing time 0.013483 seconds, query time 0.014910 seconds,
+pid: 0, count: 0
+ID 65, src 29627, dst 7036, status Complete, result count 0, preprocessing time 0.014238 seconds, query time 0.031733 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 66, src 13193, dst 10934, status Complete, result count 0, preprocessing time 0.016787 seconds, query time 0.068613 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 67, src 15085, dst 1848, status Complete, result count 0, preprocessing time 0.022631 seconds, query time 2.446906 seconds,
+pid: 0, count: 0
+ID 68, src 54544, dst 13952, status Complete, result count 0, preprocessing time 0.016390 seconds, query time 0.019075 seconds,
+pid: 0, count: 0
+ID 69, src 32112, dst 72701, status Complete, result count 0, preprocessing time 0.012936 seconds, query time 0.019719 seconds,
+hit!
+pid: 0, count: 1
+ID 70, src 75809, dst 75787, status Complete, result count 1, preprocessing time 0.000036 seconds, query time 0.000148 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 71, src 52666, dst 4864, status Complete, result count 0, preprocessing time 0.012240 seconds, query time 0.013091 seconds,
+pid: 0, count: 0
+ID 72, src 18330, dst 72463, status Complete, result count 0, preprocessing time 0.012978 seconds, query time 0.055562 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 73, src 27139, dst 12673, status Complete, result count 0, preprocessing time 0.014345 seconds, query time 0.015940 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 74, src 17108, dst 56680, status Complete, result count 0, preprocessing time 0.008982 seconds, query time 0.020211 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 75, src 26633, dst 41838, status Complete, result count 0, preprocessing time 0.020030 seconds, query time 0.064001 seconds,
+pid: 0, count: 0
+ID 76, src 37335, dst 23594, status Complete, result count 0, preprocessing time 0.018153 seconds, query time 0.027321 seconds,
+hit!
+pid: 0, count: 1
+ID 77, src 67853, dst 48490, status Complete, result count 1, preprocessing time 0.000075 seconds, query time 0.000191 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 78, src 57704, dst 10360, status Complete, result count 0, preprocessing time 0.012323 seconds, query time 0.014264 seconds,
+pid: 0, count: 0
+ID 79, src 61633, dst 23979, status Complete, result count 0, preprocessing time 0.008030 seconds, query time 0.009289 seconds,
+hit!
+pid: 0, count: 1
+ID 80, src 55715, dst 18313, status Complete, result count 1, preprocessing time 0.000018 seconds, query time 0.000127 seconds,
+pid: 0, count: 0
+ID 81, src 39823, dst 74176, status Complete, result count 0, preprocessing time 0.009051 seconds, query time 0.012006 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 82, src 12473, dst 44248, status Complete, result count 0, preprocessing time 0.012299 seconds, query time 0.087950 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 83, src 2529, dst 13279, status Complete, result count 0, preprocessing time 0.020742 seconds, query time 0.643422 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 84, src 13108, dst 74351, status Complete, result count 0, preprocessing time 0.022344 seconds, query time 0.442575 seconds,
+pid: 0, count: 0
+ID 85, src 20455, dst 21276, status Complete, result count 0, preprocessing time 0.010420 seconds, query time 0.011300 seconds,
+pid: 0, count: 0
+ID 86, src 31155, dst 55513, status Complete, result count 0, preprocessing time 0.006831 seconds, query time 0.007322 seconds,
+pid: 0, count: 0
+ID 87, src 71671, dst 47722, status Complete, result count 0, preprocessing time 0.004015 seconds, query time 0.004468 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 88, src 34269, dst 62050, status Complete, result count 0, preprocessing time 0.003925 seconds, query time 0.004355 seconds,
+pid: 0, count: 0
+ID 89, src 60405, dst 14810, status Complete, result count 0, preprocessing time 0.014188 seconds, query time 0.015036 seconds,
+pid: 0, count: 0
+ID 90, src 23230, dst 54711, status Complete, result count 0, preprocessing time 0.003644 seconds, query time 0.003852 seconds,
+pid: 0, count: 0
+ID 91, src 5045, dst 12116, status Complete, result count 0, preprocessing time 0.017945 seconds, query time 0.068105 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 92, src 46669, dst 15680, status Complete, result count 0, preprocessing time 0.016959 seconds, query time 0.023373 seconds,
+pid: 0, count: 0
+ID 93, src 58392, dst 30111, status Complete, result count 0, preprocessing time 0.007114 seconds, query time 0.008020 seconds,
+pid: 0, count: 0
+ID 94, src 32083, dst 34389, status Complete, result count 0, preprocessing time 0.004910 seconds, query time 0.005801 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 95, src 17990, dst 41764, status Complete, result count 0, preprocessing time 0.011923 seconds, query time 0.023065 seconds,
+pid: 0, count: 0
+ID 96, src 44832, dst 46725, status Complete, result count 0, preprocessing time 0.010115 seconds, query time 0.011680 seconds,
+pid: 0, count: 0
+ID 97, src 29726, dst 38461, status Complete, result count 0, preprocessing time 0.011491 seconds, query time 0.055122 seconds,
+pid: 0, count: 0
+ID 98, src 39426, dst 19182, status Complete, result count 0, preprocessing time 0.015756 seconds, query time 0.020600 seconds,
+pid: 0, count: 0
+ID 99, src 54558, dst 26481, status Complete, result count 0, preprocessing time 0.011276 seconds, query time 0.014724 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 100, src 33034, dst 27580, status Complete, result count 0, preprocessing time 0.015601 seconds, query time 0.073001 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 101, src 18999, dst 26904, status Complete, result count 0, preprocessing time 0.015168 seconds, query time 0.023566 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 102, src 24183, dst 32676, status Complete, result count 0, preprocessing time 0.016438 seconds, query time 0.068587 seconds,
+pid: 0, count: 0
+ID 103, src 67940, dst 37898, status Complete, result count 0, preprocessing time 0.005827 seconds, query time 0.006117 seconds,
+pid: 0, count: 0
+ID 104, src 49161, dst 75147, status Complete, result count 0, preprocessing time 0.014601 seconds, query time 0.015347 seconds,
+pid: 0, count: 0
+ID 105, src 60399, dst 11666, status Complete, result count 0, preprocessing time 0.014769 seconds, query time 0.020349 seconds,
+pid: 0, count: 0
+ID 106, src 44263, dst 28542, status Complete, result count 0, preprocessing time 0.007237 seconds, query time 0.007926 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 107, src 37561, dst 74204, status Complete, result count 0, preprocessing time 0.009314 seconds, query time 0.089767 seconds,
+pid: 0, count: 0
+ID 108, src 35409, dst 27066, status Complete, result count 0, preprocessing time 0.015525 seconds, query time 0.020152 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 109, src 9459, dst 66341, status Complete, result count 0, preprocessing time 0.011533 seconds, query time 0.023128 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 110, src 37845, dst 42236, status Complete, result count 0, preprocessing time 0.011922 seconds, query time 0.017287 seconds,
+pid: 0, count: 0
+ID 111, src 27434, dst 27466, status Complete, result count 0, preprocessing time 0.012245 seconds, query time 0.083231 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 112, src 14829, dst 21461, status Complete, result count 0, preprocessing time 0.019605 seconds, query time 0.166451 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 113, src 5765, dst 73786, status Complete, result count 0, preprocessing time 0.022174 seconds, query time 2.502208 seconds,
+pid: 0, count: 0
+ID 114, src 42025, dst 46902, status Complete, result count 0, preprocessing time 0.015037 seconds, query time 0.015795 seconds,
+pid: 0, count: 0
+ID 115, src 57216, dst 16514, status Complete, result count 0, preprocessing time 0.007658 seconds, query time 0.008843 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 116, src 30972, dst 22427, status Complete, result count 0, preprocessing time 0.011998 seconds, query time 0.046002 seconds,
+pid: 0, count: 0
+ID 117, src 72286, dst 22314, status Complete, result count 0, preprocessing time 0.016555 seconds, query time 0.025154 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 118, src 13514, dst 23242, status Complete, result count 0, preprocessing time 0.012667 seconds, query time 0.042905 seconds,
+hit!
+pid: 0, count: 1
+ID 119, src 12065, dst 12060, status Complete, result count 1, preprocessing time 0.000018 seconds, query time 0.000124 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 120, src 53844, dst 22800, status Complete, result count 0, preprocessing time 0.022294 seconds, query time 0.089671 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 121, src 14349, dst 49437, status Complete, result count 0, preprocessing time 0.016799 seconds, query time 0.019089 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 122, src 23439, dst 54183, status Complete, result count 0, preprocessing time 0.018244 seconds, query time 0.035226 seconds,
+pid: 0, count: 0
+ID 123, src 54003, dst 38972, status Complete, result count 0, preprocessing time 0.017887 seconds, query time 0.043485 seconds,
+pid: 0, count: 0
+ID 124, src 75572, dst 64141, status Complete, result count 0, preprocessing time 0.005939 seconds, query time 0.006209 seconds,
+pid: 0, count: 0
+ID 125, src 22882, dst 39727, status Complete, result count 0, preprocessing time 0.007659 seconds, query time 0.008725 seconds,
+hit!
+pid: 0, count: 1
+ID 126, src 65243, dst 37684, status Complete, result count 1, preprocessing time 0.000036 seconds, query time 0.000128 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 127, src 43224, dst 30579, status Complete, result count 0, preprocessing time 0.016394 seconds, query time 0.026409 seconds,
+pid: 0, count: 0
+ID 128, src 21879, dst 20669, status Complete, result count 0, preprocessing time 0.009809 seconds, query time 0.011349 seconds,
+pid: 0, count: 0
+ID 129, src 40028, dst 62102, status Complete, result count 0, preprocessing time 0.017795 seconds, query time 0.020639 seconds,
+pid: 0, count: 0
+ID 130, src 12277, dst 72674, status Complete, result count 0, preprocessing time 0.015165 seconds, query time 0.044858 seconds,
+pid: 0, count: 0
+ID 131, src 72027, dst 8238, status Complete, result count 0, preprocessing time 0.022029 seconds, query time 0.554076 seconds,
+pid: 0, count: 0
+ID 132, src 47398, dst 72749, status Complete, result count 0, preprocessing time 0.011437 seconds, query time 0.012335 seconds,
+pid: 0, count: 0
+ID 133, src 32311, dst 31001, status Complete, result count 0, preprocessing time 0.005078 seconds, query time 0.005736 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 134, src 30175, dst 22803, status Complete, result count 0, preprocessing time 0.014240 seconds, query time 0.096057 seconds,
+pid: 0, count: 0
+ID 135, src 69651, dst 72762, status Complete, result count 0, preprocessing time 0.006292 seconds, query time 0.006521 seconds,
+hit!
+pid: 0, count: 1
+ID 136, src 70753, dst 67219, status Complete, result count 1, preprocessing time 0.000033 seconds, query time 0.000110 seconds,
+pid: 0, count: 0
+ID 137, src 60560, dst 16938, status Complete, result count 0, preprocessing time 0.013233 seconds, query time 0.014693 seconds,
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+ID 138, src 4631, dst 37106, status Complete, result count 0, preprocessing time 0.015874 seconds, query time 0.257644 seconds,
+pid: 0, count: 0
+ID 139, src 39932, dst 12088, status Complete, result count 0, preprocessing time 0.022644 seconds, query time 0.206435 seconds,
+pid: 0, count: 0
+ID 140, src 11679, dst 30520, status Complete, result count 0, preprocessing time 0.019202 seconds, query time 0.145164 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 141, src 47425, dst 75171, status Complete, result count 0, preprocessing time 0.019223 seconds, query time 0.037447 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 142, src 50298, dst 39018, status Complete, result count 0, preprocessing time 0.011081 seconds, query time 0.013365 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 143, src 35418, dst 10412, status Complete, result count 0, preprocessing time 0.012029 seconds, query time 0.021988 seconds,
+hit!
+pid: 0, count: 1
+ID 144, src 67789, dst 48238, status Complete, result count 1, preprocessing time 0.000012 seconds, query time 0.000103 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 145, src 35471, dst 73603, status Complete, result count 0, preprocessing time 0.012496 seconds, query time 0.013830 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 146, src 40765, dst 12040, status Complete, result count 0, preprocessing time 0.008092 seconds, query time 0.015476 seconds,
+pid: 0, count: 0
+ID 147, src 66006, dst 27166, status Complete, result count 0, preprocessing time 0.013003 seconds, query time 0.013786 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 148, src 58233, dst 42548, status Complete, result count 0, preprocessing time 0.005358 seconds, query time 0.006408 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 149, src 30969, dst 49086, status Complete, result count 0, preprocessing time 0.011314 seconds, query time 0.040301 seconds,
+hit!
+pid: 0, count: 1
+ID 150, src 71235, dst 70466, status Complete, result count 1, preprocessing time 0.000036 seconds, query time 0.000131 seconds,
+pid: 0, count: 0
+ID 151, src 12014, dst 6263, status Complete, result count 0, preprocessing time 0.017636 seconds, query time 0.073395 seconds,
+pid: 0, count: 0
+ID 152, src 68996, dst 17974, status Complete, result count 0, preprocessing time 0.001796 seconds, query time 0.001926 seconds,
+hit!
+pid: 0, count: 1
+ID 153, src 30538, dst 62800, status Complete, result count 1, preprocessing time 0.000019 seconds, query time 0.000128 seconds,
+pid: 0, count: 0
+ID 154, src 26494, dst 21151, status Complete, result count 0, preprocessing time 0.017062 seconds, query time 0.020875 seconds,
+pid: 0, count: 0
+ID 155, src 24260, dst 28577, status Complete, result count 0, preprocessing time 0.016869 seconds, query time 0.021097 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 156, src 10081, dst 74173, status Complete, result count 0, preprocessing time 0.019818 seconds, query time 0.583559 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 157, src 8318, dst 52902, status Complete, result count 0, preprocessing time 0.016570 seconds, query time 0.022021 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 158, src 51862, dst 57271, status Complete, result count 0, preprocessing time 0.011926 seconds, query time 0.019818 seconds,
+pid: 0, count: 0
+ID 159, src 37175, dst 31768, status Complete, result count 0, preprocessing time 0.008720 seconds, query time 0.010692 seconds,
+pid: 0, count: 0
+ID 160, src 31245, dst 11076, status Complete, result count 0, preprocessing time 0.009601 seconds, query time 0.019573 seconds,
+pid: 0, count: 0
+ID 161, src 28886, dst 6273, status Complete, result count 0, preprocessing time 0.013050 seconds, query time 0.059383 seconds,
+pid: 0, count: 0
+ID 162, src 44325, dst 38459, status Complete, result count 0, preprocessing time 0.013357 seconds, query time 0.014074 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 163, src 29451, dst 15202, status Complete, result count 0, preprocessing time 0.013317 seconds, query time 0.365106 seconds,
+hit!
+pid: 0, count: 1
+ID 164, src 53454, dst 15340, status Complete, result count 1, preprocessing time 0.000020 seconds, query time 0.000131 seconds,
+pid: 0, count: 0
+ID 165, src 74753, dst 74169, status Complete, result count 0, preprocessing time 0.019485 seconds, query time 0.083400 seconds,
+hit!
+pid: 0, count: 1
+ID 166, src 57493, dst 20288, status Complete, result count 1, preprocessing time 0.000068 seconds, query time 0.000142 seconds,
+pid: 0, count: 0
+ID 167, src 39034, dst 24075, status Complete, result count 0, preprocessing time 0.015687 seconds, query time 0.017297 seconds,
+pid: 0, count: 0
+ID 168, src 39404, dst 18442, status Complete, result count 0, preprocessing time 0.018787 seconds, query time 0.034458 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 169, src 613, dst 52405, status Complete, result count 0, preprocessing time 0.017604 seconds, query time 0.233986 seconds,
+pid: 0, count: 0
+ID 170, src 69602, dst 25516, status Complete, result count 0, preprocessing time 0.001965 seconds, query time 0.002094 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 171, src 6781, dst 176, status Complete, result count 0, preprocessing time 0.005920 seconds, query time 0.008942 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 172, src 29092, dst 16798, status Complete, result count 0, preprocessing time 0.018562 seconds, query time 0.090768 seconds,
+pid: 0, count: 0
+ID 173, src 59537, dst 45444, status Complete, result count 0, preprocessing time 0.011531 seconds, query time 0.012541 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 174, src 14075, dst 71539, status Complete, result count 0, preprocessing time 0.005267 seconds, query time 0.006200 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 175, src 7049, dst 46446, status Complete, result count 0, preprocessing time 0.010910 seconds, query time 0.046373 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 176, src 7440, dst 12529, status Complete, result count 0, preprocessing time 0.021180 seconds, query time 1.907966 seconds,
+pid: 0, count: 0
+ID 177, src 33186, dst 73549, status Complete, result count 0, preprocessing time 0.009212 seconds, query time 0.009618 seconds,
+pid: 0, count: 0
+ID 178, src 30309, dst 34973, status Complete, result count 0, preprocessing time 0.005583 seconds, query time 0.006686 seconds,
+pid: 0, count: 0
+ID 179, src 15477, dst 38347, status Complete, result count 0, preprocessing time 0.018180 seconds, query time 0.034344 seconds,
+pid: 0, count: 0
+ID 180, src 6453, dst 4882, status Complete, result count 0, preprocessing time 0.018631 seconds, query time 0.093525 seconds,
+pid: 0, count: 0
+ID 181, src 48578, dst 55318, status Complete, result count 0, preprocessing time 0.013136 seconds, query time 0.013844 seconds,
+pid: 0, count: 0
+ID 182, src 72574, dst 54849, status Complete, result count 0, preprocessing time 0.009979 seconds, query time 0.019954 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 183, src 9231, dst 23674, status Complete, result count 0, preprocessing time 0.015027 seconds, query time 0.468201 seconds,
+pid: 0, count: 0
+ID 184, src 21332, dst 40933, status Complete, result count 0, preprocessing time 0.013420 seconds, query time 0.014168 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 185, src 19767, dst 11355, status Complete, result count 0, preprocessing time 0.004275 seconds, query time 0.004524 seconds,
+pid: 0, count: 0
+ID 186, src 62575, dst 7416, status Complete, result count 0, preprocessing time 0.008242 seconds, query time 0.011925 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 187, src 21783, dst 44930, status Complete, result count 0, preprocessing time 0.010605 seconds, query time 0.012406 seconds,
+pid: 0, count: 0
+ID 188, src 51351, dst 17951, status Complete, result count 0, preprocessing time 0.008965 seconds, query time 0.011021 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 189, src 44132, dst 47241, status Complete, result count 0, preprocessing time 0.006101 seconds, query time 0.006944 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 190, src 22240, dst 31176, status Complete, result count 0, preprocessing time 0.010132 seconds, query time 0.045236 seconds,
+pid: 0, count: 0
+ID 191, src 59663, dst 54811, status Complete, result count 0, preprocessing time 0.002249 seconds, query time 0.002370 seconds,
+pid: 0, count: 0
+ID 192, src 14245, dst 13035, status Complete, result count 0, preprocessing time 0.007313 seconds, query time 0.010637 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 193, src 50019, dst 27227, status Complete, result count 0, preprocessing time 0.012286 seconds, query time 0.012771 seconds,
+pid: 0, count: 0
+ID 194, src 51078, dst 22807, status Complete, result count 0, preprocessing time 0.002867 seconds, query time 0.003026 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 195, src 50124, dst 39695, status Complete, result count 0, preprocessing time 0.016888 seconds, query time 0.033713 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 196, src 57865, dst 58536, status Complete, result count 0, preprocessing time 0.009538 seconds, query time 0.010265 seconds,
+pid: 0, count: 0
+ID 197, src 50454, dst 17610, status Complete, result count 0, preprocessing time 0.008376 seconds, query time 0.009283 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 198, src 13211, dst 15269, status Complete, result count 0, preprocessing time 0.017985 seconds, query time 0.906636 seconds,
+pid: 0, count: 0
+ID 199, src 60518, dst 30588, status Complete, result count 0, preprocessing time 0.007157 seconds, query time 0.007423 seconds,
+pid: 0, count: 0
+ID 200, src 46047, dst 24584, status Complete, result count 0, preprocessing time 0.003559 seconds, query time 0.003824 seconds,
+pid: 0, count: 0
+ID 201, src 44460, dst 42067, status Complete, result count 0, preprocessing time 0.003339 seconds, query time 0.003553 seconds,
+pid: 0, count: 0
+ID 202, src 39069, dst 51152, status Complete, result count 0, preprocessing time 0.013551 seconds, query time 0.015323 seconds,
+pid: 0, count: 0
+ID 203, src 6933, dst 47726, status Complete, result count 0, preprocessing time 0.011360 seconds, query time 0.020557 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 204, src 41747, dst 54001, status Complete, result count 0, preprocessing time 0.011909 seconds, query time 0.015634 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 205, src 23263, dst 18301, status Complete, result count 0, preprocessing time 0.010710 seconds, query time 0.028743 seconds,
+pid: 0, count: 0
+ID 206, src 26386, dst 56714, status Complete, result count 0, preprocessing time 0.008572 seconds, query time 0.009698 seconds,
+pid: 0, count: 0
+ID 207, src 47779, dst 22332, status Complete, result count 0, preprocessing time 0.008256 seconds, query time 0.011204 seconds,
+pid: 0, count: 0
+ID 208, src 11065, dst 15546, status Complete, result count 0, preprocessing time 0.010817 seconds, query time 0.013747 seconds,
+pid: 0, count: 0
+ID 209, src 24461, dst 43570, status Complete, result count 0, preprocessing time 0.006346 seconds, query time 0.006858 seconds,
+pid: 0, count: 0
+ID 210, src 74661, dst 9668, status Complete, result count 0, preprocessing time 0.010226 seconds, query time 0.066627 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 211, src 31294, dst 30492, status Complete, result count 0, preprocessing time 0.014134 seconds, query time 0.693382 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 212, src 10025, dst 19297, status Complete, result count 0, preprocessing time 0.019026 seconds, query time 0.133903 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 213, src 28780, dst 29230, status Complete, result count 0, preprocessing time 0.016429 seconds, query time 0.080720 seconds,
+hit!
+pid: 0, count: 1
+ID 214, src 19911, dst 23958, status Complete, result count 1, preprocessing time 0.000073 seconds, query time 0.000184 seconds,
+hit!
+pid: 0, count: 1
+ID 215, src 70135, dst 62647, status Complete, result count 1, preprocessing time 0.000017 seconds, query time 0.000128 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 216, src 46694, dst 40080, status Complete, result count 0, preprocessing time 0.017255 seconds, query time 0.028462 seconds,
+pid: 0, count: 0
+ID 217, src 28956, dst 13479, status Complete, result count 0, preprocessing time 0.012940 seconds, query time 0.017296 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 218, src 11564, dst 56188, status Complete, result count 0, preprocessing time 0.013340 seconds, query time 0.015991 seconds,
+pid: 0, count: 0
+ID 219, src 17711, dst 44820, status Complete, result count 0, preprocessing time 0.013188 seconds, query time 0.038120 seconds,
+pid: 0, count: 0
+ID 220, src 44190, dst 36611, status Complete, result count 0, preprocessing time 0.016467 seconds, query time 0.020666 seconds,
+hit!
+pid: 0, count: 1
+ID 221, src 43417, dst 66690, status Complete, result count 1, preprocessing time 0.000024 seconds, query time 0.000074 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 222, src 27094, dst 5478, status Complete, result count 0, preprocessing time 0.022108 seconds, query time 1.245796 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 223, src 6798, dst 13666, status Complete, result count 0, preprocessing time 0.019947 seconds, query time 0.044381 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 224, src 22829, dst 21733, status Complete, result count 0, preprocessing time 0.021035 seconds, query time 1.048695 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 225, src 18893, dst 28798, status Complete, result count 0, preprocessing time 0.019914 seconds, query time 0.282729 seconds,
+pid: 0, count: 0
+ID 226, src 60590, dst 72187, status Complete, result count 0, preprocessing time 0.008603 seconds, query time 0.009248 seconds,
+hit!
+pid: 0, count: 1
+ID 227, src 67711, dst 47906, status Complete, result count 1, preprocessing time 0.000013 seconds, query time 0.000054 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 228, src 17135, dst 32220, status Complete, result count 0, preprocessing time 0.017717 seconds, query time 0.031712 seconds,
+pid: 0, count: 0
+ID 229, src 11757, dst 15855, status Complete, result count 0, preprocessing time 0.017425 seconds, query time 0.069266 seconds,
+pid: 0, count: 0
+ID 230, src 55746, dst 30711, status Complete, result count 0, preprocessing time 0.016374 seconds, query time 0.019407 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 231, src 20636, dst 36409, status Complete, result count 0, preprocessing time 0.004544 seconds, query time 0.004998 seconds,
+pid: 0, count: 0
+ID 232, src 15362, dst 28307, status Complete, result count 0, preprocessing time 0.010444 seconds, query time 0.029669 seconds,
+pid: 0, count: 0
+ID 233, src 59882, dst 59880, status Complete, result count 0, preprocessing time 0.000040 seconds, query time 0.000098 seconds,
+pid: 0, count: 0
+ID 234, src 30440, dst 39213, status Complete, result count 0, preprocessing time 0.018494 seconds, query time 0.070415 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 235, src 27447, dst 10232, status Complete, result count 0, preprocessing time 0.017700 seconds, query time 0.076163 seconds,
+pid: 0, count: 0
+ID 236, src 41754, dst 59215, status Complete, result count 0, preprocessing time 0.013629 seconds, query time 0.015832 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 237, src 24280, dst 28476, status Complete, result count 0, preprocessing time 0.012856 seconds, query time 0.075598 seconds,
+pid: 0, count: 0
+ID 238, src 8546, dst 22612, status Complete, result count 0, preprocessing time 0.024102 seconds, query time 0.391314 seconds,
+pid: 0, count: 0
+ID 239, src 18324, dst 51562, status Complete, result count 0, preprocessing time 0.017149 seconds, query time 0.019200 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 240, src 29049, dst 65124, status Complete, result count 0, preprocessing time 0.013221 seconds, query time 0.014894 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 241, src 26421, dst 40845, status Complete, result count 0, preprocessing time 0.010971 seconds, query time 0.041649 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 242, src 13761, dst 57081, status Complete, result count 0, preprocessing time 0.013451 seconds, query time 0.016725 seconds,
+pid: 0, count: 0
+ID 243, src 29182, dst 8883, status Complete, result count 0, preprocessing time 0.011387 seconds, query time 0.016791 seconds,
+pid: 0, count: 0
+ID 244, src 40700, dst 27532, status Complete, result count 0, preprocessing time 0.006953 seconds, query time 0.008158 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 245, src 8180, dst 36165, status Complete, result count 0, preprocessing time 0.008852 seconds, query time 0.084128 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 246, src 7979, dst 49798, status Complete, result count 0, preprocessing time 0.017740 seconds, query time 0.042652 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 247, src 26908, dst 40239, status Complete, result count 0, preprocessing time 0.017745 seconds, query time 0.043364 seconds,
+pid: 0, count: 0
+ID 248, src 12835, dst 34147, status Complete, result count 0, preprocessing time 0.007300 seconds, query time 0.007638 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 249, src 29575, dst 58978, status Complete, result count 0, preprocessing time 0.012238 seconds, query time 0.049206 seconds,
+pid: 0, count: 0
+ID 250, src 18424, dst 26252, status Complete, result count 0, preprocessing time 0.011501 seconds, query time 0.078435 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 251, src 38392, dst 42978, status Complete, result count 0, preprocessing time 0.018857 seconds, query time 0.028846 seconds,
+pid: 0, count: 0
+ID 252, src 50012, dst 39645, status Complete, result count 0, preprocessing time 0.005672 seconds, query time 0.006102 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 253, src 27142, dst 30586, status Complete, result count 0, preprocessing time 0.014594 seconds, query time 0.096645 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 254, src 17214, dst 48972, status Complete, result count 0, preprocessing time 0.015471 seconds, query time 0.024836 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 255, src 23157, dst 10388, status Complete, result count 0, preprocessing time 0.010933 seconds, query time 0.020612 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 256, src 29774, dst 49819, status Complete, result count 0, preprocessing time 0.010945 seconds, query time 0.030713 seconds,
+pid: 0, count: 0
+ID 257, src 63987, dst 23385, status Complete, result count 0, preprocessing time 0.004495 seconds, query time 0.004756 seconds,
+pid: 0, count: 0
+ID 258, src 60198, dst 31907, status Complete, result count 0, preprocessing time 0.011454 seconds, query time 0.013398 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 259, src 20388, dst 52182, status Complete, result count 0, preprocessing time 0.008198 seconds, query time 0.010623 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 260, src 29050, dst 34952, status Complete, result count 0, preprocessing time 0.012640 seconds, query time 0.039952 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 261, src 32092, dst 60988, status Complete, result count 0, preprocessing time 0.014892 seconds, query time 0.065175 seconds,
+pid: 0, count: 0
+ID 262, src 41709, dst 38944, status Complete, result count 0, preprocessing time 0.012978 seconds, query time 0.019266 seconds,
+pid: 0, count: 0
+ID 263, src 28680, dst 48863, status Complete, result count 0, preprocessing time 0.008115 seconds, query time 0.011547 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 264, src 25081, dst 9704, status Complete, result count 0, preprocessing time 0.017070 seconds, query time 0.973284 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 265, src 24545, dst 74110, status Complete, result count 0, preprocessing time 0.019876 seconds, query time 0.101223 seconds,
+pid: 0, count: 0
+ID 266, src 72415, dst 73666, status Complete, result count 0, preprocessing time 0.019779 seconds, query time 0.116446 seconds,
+pid: 0, count: 0
+ID 267, src 52525, dst 9012, status Complete, result count 0, preprocessing time 0.018657 seconds, query time 0.027789 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 268, src 28974, dst 44711, status Complete, result count 0, preprocessing time 0.011038 seconds, query time 0.012486 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 269, src 43950, dst 48040, status Complete, result count 0, preprocessing time 0.009674 seconds, query time 0.022921 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 270, src 29181, dst 21937, status Complete, result count 0, preprocessing time 0.018686 seconds, query time 0.068692 seconds,
+pid: 0, count: 0
+ID 271, src 66573, dst 57880, status Complete, result count 0, preprocessing time 0.006398 seconds, query time 0.006604 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 272, src 19004, dst 12467, status Complete, result count 0, preprocessing time 0.021258 seconds, query time 0.481965 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 273, src 50871, dst 51203, status Complete, result count 0, preprocessing time 0.011355 seconds, query time 0.012044 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 274, src 30178, dst 35681, status Complete, result count 0, preprocessing time 0.021717 seconds, query time 0.156226 seconds,
+pid: 0, count: 0
+ID 275, src 38236, dst 12170, status Complete, result count 0, preprocessing time 0.007695 seconds, query time 0.009227 seconds,
+pid: 0, count: 0
+ID 276, src 42187, dst 41171, status Complete, result count 0, preprocessing time 0.006190 seconds, query time 0.007055 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 277, src 5285, dst 73709, status Complete, result count 0, preprocessing time 0.019732 seconds, query time 4.183588 seconds,
+pid: 0, count: 0
+ID 278, src 37117, dst 59821, status Complete, result count 0, preprocessing time 0.010299 seconds, query time 0.010524 seconds,
+pid: 0, count: 0
+ID 279, src 52743, dst 46617, status Complete, result count 0, preprocessing time 0.005750 seconds, query time 0.006558 seconds,
+pid: 0, count: 0
+ID 280, src 13073, dst 49846, status Complete, result count 0, preprocessing time 0.012545 seconds, query time 0.020043 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 281, src 44241, dst 17940, status Complete, result count 0, preprocessing time 0.017993 seconds, query time 0.041851 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 282, src 25893, dst 5190, status Complete, result count 0, preprocessing time 0.016994 seconds, query time 0.049194 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 283, src 61495, dst 32170, status Complete, result count 0, preprocessing time 0.013447 seconds, query time 0.017541 seconds,
+pid: 0, count: 0
+ID 284, src 65472, dst 65471, status Complete, result count 0, preprocessing time 0.000035 seconds, query time 0.000079 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 285, src 34482, dst 20447, status Complete, result count 0, preprocessing time 0.015792 seconds, query time 0.042919 seconds,
+pid: 0, count: 0
+ID 286, src 22658, dst 30582, status Complete, result count 0, preprocessing time 0.014440 seconds, query time 0.018674 seconds,
+pid: 0, count: 0
+ID 287, src 32045, dst 23500, status Complete, result count 0, preprocessing time 0.012663 seconds, query time 0.014439 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 288, src 24030, dst 60422, status Complete, result count 0, preprocessing time 0.009239 seconds, query time 0.012506 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 289, src 26332, dst 33113, status Complete, result count 0, preprocessing time 0.010216 seconds, query time 0.017298 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 290, src 22485, dst 36197, status Complete, result count 0, preprocessing time 0.013509 seconds, query time 0.076488 seconds,
+pid: 0, count: 0
+ID 291, src 20437, dst 16929, status Complete, result count 0, preprocessing time 0.021643 seconds, query time 0.253044 seconds,
+pid: 0, count: 0
+ID 292, src 48102, dst 23876, status Complete, result count 0, preprocessing time 0.019249 seconds, query time 0.024407 seconds,
+pid: 0, count: 0
+ID 293, src 63211, dst 33069, status Complete, result count 0, preprocessing time 0.008458 seconds, query time 0.009345 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 294, src 40122, dst 54238, status Complete, result count 0, preprocessing time 0.014274 seconds, query time 0.015663 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 295, src 33733, dst 22864, status Complete, result count 0, preprocessing time 0.020457 seconds, query time 0.170404 seconds,
+pid: 0, count: 0
+ID 296, src 53132, dst 40256, status Complete, result count 0, preprocessing time 0.011375 seconds, query time 0.012457 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 297, src 2358, dst 29849, status Complete, result count 0, preprocessing time 0.009414 seconds, query time 0.103605 seconds,
+pid: 0, count: 0
+ID 298, src 54835, dst 41348, status Complete, result count 0, preprocessing time 0.013284 seconds, query time 0.013911 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 299, src 6833, dst 40870, status Complete, result count 0, preprocessing time 0.008827 seconds, query time 0.024455 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 300, src 4499, dst 37237, status Complete, result count 0, preprocessing time 0.016355 seconds, query time 0.025996 seconds,
+pid: 0, count: 0
+ID 301, src 20677, dst 34714, status Complete, result count 0, preprocessing time 0.012152 seconds, query time 0.021013 seconds,
+pid: 0, count: 0
+ID 302, src 67349, dst 11966, status Complete, result count 0, preprocessing time 0.001124 seconds, query time 0.001230 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 303, src 16807, dst 18330, status Complete, result count 0, preprocessing time 0.021701 seconds, query time 1.144095 seconds,
+pid: 0, count: 0
+ID 304, src 25035, dst 31722, status Complete, result count 0, preprocessing time 0.019284 seconds, query time 0.027305 seconds,
+hit!
+pid: 0, count: 1
+ID 305, src 75522, dst 73574, status Complete, result count 1, preprocessing time 0.000024 seconds, query time 0.000135 seconds,
+pid: 0, count: 0
+ID 306, src 65163, dst 35744, status Complete, result count 0, preprocessing time 0.005975 seconds, query time 0.006267 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 307, src 48223, dst 73662, status Complete, result count 0, preprocessing time 0.012205 seconds, query time 0.107170 seconds,
+pid: 0, count: 0
+ID 308, src 50403, dst 52403, status Complete, result count 0, preprocessing time 0.006609 seconds, query time 0.006895 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 309, src 23278, dst 74293, status Complete, result count 0, preprocessing time 0.011487 seconds, query time 0.074580 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 310, src 42390, dst 24554, status Complete, result count 0, preprocessing time 0.020219 seconds, query time 0.071490 seconds,
+pid: 0, count: 0
+ID 311, src 21348, dst 73760, status Complete, result count 0, preprocessing time 0.017380 seconds, query time 0.023771 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 312, src 24804, dst 42505, status Complete, result count 0, preprocessing time 0.017940 seconds, query time 0.193714 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 313, src 5169, dst 4312, status Complete, result count 0, preprocessing time 0.021628 seconds, query time 2.163108 seconds,
+pid: 0, count: 0
+ID 314, src 36850, dst 36645, status Complete, result count 0, preprocessing time 0.016147 seconds, query time 0.020106 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 315, src 12371, dst 35631, status Complete, result count 0, preprocessing time 0.015296 seconds, query time 0.191253 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 316, src 21286, dst 24831, status Complete, result count 0, preprocessing time 0.012440 seconds, query time 0.045672 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 317, src 5526, dst 22560, status Complete, result count 0, preprocessing time 0.017581 seconds, query time 0.076198 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 318, src 12461, dst 53499, status Complete, result count 0, preprocessing time 0.018929 seconds, query time 0.252525 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 319, src 31242, dst 41446, status Complete, result count 0, preprocessing time 0.019767 seconds, query time 0.042031 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 320, src 42237, dst 33854, status Complete, result count 0, preprocessing time 0.018152 seconds, query time 0.055987 seconds,
+hit!
+pid: 0, count: 1
+ID 321, src 64487, dst 70395, status Complete, result count 1, preprocessing time 0.000049 seconds, query time 0.000161 seconds,
+pid: 0, count: 0
+ID 322, src 24937, dst 72924, status Complete, result count 0, preprocessing time 0.014799 seconds, query time 0.017013 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 323, src 31573, dst 12529, status Complete, result count 0, preprocessing time 0.022411 seconds, query time 0.697973 seconds,
+pid: 0, count: 0
+ID 324, src 72321, dst 7032, status Complete, result count 0, preprocessing time 0.013597 seconds, query time 0.021730 seconds,
+pid: 0, count: 0
+ID 325, src 52842, dst 36418, status Complete, result count 0, preprocessing time 0.011152 seconds, query time 0.015593 seconds,
+pid: 0, count: 0
+ID 326, src 67219, dst 8377, status Complete, result count 0, preprocessing time 0.000074 seconds, query time 0.000179 seconds,
+pid: 0, count: 0
+ID 327, src 72649, dst 14796, status Complete, result count 0, preprocessing time 0.021178 seconds, query time 0.416449 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 328, src 9000, dst 40870, status Complete, result count 0, preprocessing time 0.021131 seconds, query time 0.150613 seconds,
+hit!
+pid: 0, count: 1
+ID 329, src 60670, dst 69869, status Complete, result count 1, preprocessing time 0.000044 seconds, query time 0.000157 seconds,
+pid: 0, count: 0
+ID 330, src 41841, dst 42657, status Complete, result count 0, preprocessing time 0.013781 seconds, query time 0.014803 seconds,
+pid: 0, count: 0
+ID 331, src 64074, dst 40905, status Complete, result count 0, preprocessing time 0.005174 seconds, query time 0.005636 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 332, src 46219, dst 8853, status Complete, result count 0, preprocessing time 0.015150 seconds, query time 0.018593 seconds,
+pid: 0, count: 0
+ID 333, src 65572, dst 52263, status Complete, result count 0, preprocessing time 0.002183 seconds, query time 0.002280 seconds,
+pid: 0, count: 0
+ID 334, src 57079, dst 893, status Complete, result count 0, preprocessing time 0.016385 seconds, query time 0.035965 seconds,
+pid: 0, count: 0
+ID 335, src 59321, dst 16485, status Complete, result count 0, preprocessing time 0.013436 seconds, query time 0.014560 seconds,
+pid: 0, count: 0
+ID 336, src 58881, dst 16905, status Complete, result count 0, preprocessing time 0.013269 seconds, query time 0.014311 seconds,
+pid: 0, count: 0
+ID 337, src 30572, dst 44826, status Complete, result count 0, preprocessing time 0.006405 seconds, query time 0.007140 seconds,
+pid: 0, count: 0
+ID 338, src 26431, dst 50209, status Complete, result count 0, preprocessing time 0.007211 seconds, query time 0.008718 seconds,
+pid: 0, count: 0
+ID 339, src 31143, dst 44544, status Complete, result count 0, preprocessing time 0.007554 seconds, query time 0.009452 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 340, src 17756, dst 24165, status Complete, result count 0, preprocessing time 0.011435 seconds, query time 0.040265 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 341, src 15870, dst 25977, status Complete, result count 0, preprocessing time 0.018890 seconds, query time 0.184517 seconds,
+pid: 0, count: 0
+ID 342, src 66006, dst 46983, status Complete, result count 0, preprocessing time 0.010745 seconds, query time 0.011157 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 343, src 5147, dst 55759, status Complete, result count 0, preprocessing time 0.007284 seconds, query time 0.011650 seconds,
+pid: 0, count: 0
+ID 344, src 46196, dst 28617, status Complete, result count 0, preprocessing time 0.011822 seconds, query time 0.015294 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 345, src 65831, dst 16675, status Complete, result count 0, preprocessing time 0.009677 seconds, query time 0.016208 seconds,
+hit!
+pid: 0, count: 1
+ID 346, src 58277, dst 21307, status Complete, result count 1, preprocessing time 0.000020 seconds, query time 0.000103 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 347, src 22508, dst 43530, status Complete, result count 0, preprocessing time 0.017954 seconds, query time 0.025547 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 348, src 48995, dst 25886, status Complete, result count 0, preprocessing time 0.010411 seconds, query time 0.013422 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 349, src 28648, dst 10736, status Complete, result count 0, preprocessing time 0.019428 seconds, query time 0.234501 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 350, src 9632, dst 19186, status Complete, result count 0, preprocessing time 0.015679 seconds, query time 0.040358 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 351, src 13940, dst 37813, status Complete, result count 0, preprocessing time 0.018322 seconds, query time 0.126565 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 352, src 8121, dst 25181, status Complete, result count 0, preprocessing time 0.019405 seconds, query time 0.052265 seconds,
+pid: 0, count: 0
+ID 353, src 32471, dst 1422, status Complete, result count 0, preprocessing time 0.014388 seconds, query time 0.050196 seconds,
+pid: 0, count: 0
+ID 354, src 69020, dst 26633, status Complete, result count 0, preprocessing time 0.005314 seconds, query time 0.005600 seconds,
+pid: 0, count: 0
+ID 355, src 2945, dst 46319, status Complete, result count 0, preprocessing time 0.008238 seconds, query time 0.010592 seconds,
+pid: 0, count: 0
+ID 356, src 72606, dst 38162, status Complete, result count 0, preprocessing time 0.017745 seconds, query time 0.024645 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 357, src 54846, dst 27301, status Complete, result count 0, preprocessing time 0.010361 seconds, query time 0.011182 seconds,
+pid: 0, count: 0
+ID 358, src 36964, dst 36086, status Complete, result count 0, preprocessing time 0.011575 seconds, query time 0.032127 seconds,
+pid: 0, count: 0
+ID 359, src 65742, dst 14435, status Complete, result count 0, preprocessing time 0.008110 seconds, query time 0.008480 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 360, src 13810, dst 11848, status Complete, result count 0, preprocessing time 0.010331 seconds, query time 0.255833 seconds,
+pid: 0, count: 0
+ID 361, src 66647, dst 72704, status Complete, result count 0, preprocessing time 0.007197 seconds, query time 0.007497 seconds,
+pid: 0, count: 0
+ID 362, src 58759, dst 25579, status Complete, result count 0, preprocessing time 0.002083 seconds, query time 0.002235 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 363, src 31130, dst 30168, status Complete, result count 0, preprocessing time 0.019682 seconds, query time 0.161273 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 364, src 14874, dst 66396, status Complete, result count 0, preprocessing time 0.017267 seconds, query time 0.020610 seconds,
+pid: 0, count: 0
+ID 365, src 38010, dst 74393, status Complete, result count 0, preprocessing time 0.017951 seconds, query time 0.029282 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 366, src 53842, dst 9119, status Complete, result count 0, preprocessing time 0.015045 seconds, query time 0.035011 seconds,
+pid: 0, count: 0
+ID 367, src 66829, dst 31542, status Complete, result count 0, preprocessing time 0.008809 seconds, query time 0.009066 seconds,
+pid: 0, count: 0
+ID 368, src 61762, dst 18304, status Complete, result count 0, preprocessing time 0.010746 seconds, query time 0.011261 seconds,
+pid: 0, count: 0
+ID 369, src 27559, dst 15253, status Complete, result count 0, preprocessing time 0.016396 seconds, query time 0.027820 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 370, src 50156, dst 22729, status Complete, result count 0, preprocessing time 0.015841 seconds, query time 0.051906 seconds,
+pid: 0, count: 0
+ID 371, src 56664, dst 13284, status Complete, result count 0, preprocessing time 0.011794 seconds, query time 0.012634 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 372, src 28188, dst 39986, status Complete, result count 0, preprocessing time 0.011983 seconds, query time 0.044282 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 373, src 7501, dst 13448, status Complete, result count 0, preprocessing time 0.019752 seconds, query time 1.051392 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 374, src 5347, dst 33053, status Complete, result count 0, preprocessing time 0.020514 seconds, query time 0.149469 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 375, src 39529, dst 21077, status Complete, result count 0, preprocessing time 0.017222 seconds, query time 0.028130 seconds,
+pid: 0, count: 0
+ID 376, src 16550, dst 23125, status Complete, result count 0, preprocessing time 0.012900 seconds, query time 0.041466 seconds,
+pid: 0, count: 0
+ID 377, src 66197, dst 6838, status Complete, result count 0, preprocessing time 0.008307 seconds, query time 0.008644 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 378, src 45316, dst 37152, status Complete, result count 0, preprocessing time 0.012872 seconds, query time 0.234544 seconds,
+pid: 0, count: 0
+ID 379, src 60976, dst 44224, status Complete, result count 0, preprocessing time 0.011105 seconds, query time 0.011879 seconds,
+pid: 0, count: 0
+ID 380, src 24921, dst 43014, status Complete, result count 0, preprocessing time 0.004865 seconds, query time 0.005819 seconds,
+hit!
+pid: 0, count: 1
+ID 381, src 48467, dst 67846, status Complete, result count 1, preprocessing time 0.000011 seconds, query time 0.000042 seconds,
+pid: 0, count: 0
+ID 382, src 72049, dst 24935, status Complete, result count 0, preprocessing time 0.008642 seconds, query time 0.010836 seconds,
+pid: 0, count: 0
+ID 383, src 29054, dst 7948, status Complete, result count 0, preprocessing time 0.011690 seconds, query time 0.083361 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 384, src 35971, dst 31685, status Complete, result count 0, preprocessing time 0.014882 seconds, query time 0.016395 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 385, src 49113, dst 28594, status Complete, result count 0, preprocessing time 0.008879 seconds, query time 0.016407 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 386, src 11488, dst 73305, status Complete, result count 0, preprocessing time 0.014439 seconds, query time 0.090056 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 387, src 1045, dst 65888, status Complete, result count 0, preprocessing time 0.015416 seconds, query time 0.022890 seconds,
+pid: 0, count: 0
+ID 388, src 43997, dst 37418, status Complete, result count 0, preprocessing time 0.012557 seconds, query time 0.033274 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 389, src 8533, dst 18028, status Complete, result count 0, preprocessing time 0.016660 seconds, query time 0.040419 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 390, src 69740, dst 7368, status Complete, result count 0, preprocessing time 0.003662 seconds, query time 0.003903 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 391, src 1078, dst 72728, status Complete, result count 0, preprocessing time 0.014137 seconds, query time 0.633189 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 392, src 29568, dst 5088, status Complete, result count 0, preprocessing time 0.013812 seconds, query time 0.015928 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 393, src 34621, dst 48524, status Complete, result count 0, preprocessing time 0.007527 seconds, query time 0.011637 seconds,
+pid: 0, count: 0
+ID 394, src 47440, dst 39808, status Complete, result count 0, preprocessing time 0.008601 seconds, query time 0.020404 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+ID 395, src 22625, dst 30402, status Complete, result count 0, preprocessing time 0.011702 seconds, query time 0.042226 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 396, src 48069, dst 9206, status Complete, result count 0, preprocessing time 0.016523 seconds, query time 0.051634 seconds,
+pid: 0, count: 0
+ID 397, src 72578, dst 56807, status Complete, result count 0, preprocessing time 0.015366 seconds, query time 0.021772 seconds,
+pid: 0, count: 0
+ID 398, src 39338, dst 46518, status Complete, result count 0, preprocessing time 0.007226 seconds, query time 0.008212 seconds,
+hit!
+pid: 0, count: 1
+pid: 1, count: 0
+ID 399, src 43767, dst 7494, status Complete, result count 1, preprocessing time 0.000043 seconds, query time 0.000130 seconds,
+pid: 0, count: 0
+ID 400, src 46989, dst 18336, status Complete, result count 0, preprocessing time 0.021411 seconds, query time 0.129644 seconds,
+pid: 0, count: 0
+ID 401, src 66291, dst 66290, status Complete, result count 0, preprocessing time 0.000085 seconds, query time 0.000151 seconds,
+pid: 0, count: 0
+ID 402, src 24725, dst 73745, status Complete, result count 0, preprocessing time 0.016579 seconds, query time 0.089252 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 403, src 10150, dst 63860, status Complete, result count 0, preprocessing time 0.014376 seconds, query time 0.019579 seconds,
+pid: 0, count: 0
+ID 404, src 41341, dst 30522, status Complete, result count 0, preprocessing time 0.014283 seconds, query time 0.090527 seconds,
+hit!
+pid: 0, count: 1
+ID 405, src 66975, dst 44663, status Complete, result count 1, preprocessing time 0.000036 seconds, query time 0.000108 seconds,
+pid: 0, count: 0
+ID 406, src 23055, dst 7916, status Complete, result count 0, preprocessing time 0.016980 seconds, query time 0.179515 seconds,
+pid: 0, count: 0
+ID 407, src 63845, dst 26610, status Complete, result count 0, preprocessing time 0.003548 seconds, query time 0.003734 seconds,
+pid: 0, count: 0
+ID 408, src 52147, dst 21819, status Complete, result count 0, preprocessing time 0.009752 seconds, query time 0.011113 seconds,
+pid: 0, count: 0
+ID 409, src 44167, dst 17089, status Complete, result count 0, preprocessing time 0.007763 seconds, query time 0.008542 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 410, src 45703, dst 21301, status Complete, result count 0, preprocessing time 0.011524 seconds, query time 0.037545 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 411, src 20371, dst 24405, status Complete, result count 0, preprocessing time 0.014906 seconds, query time 0.081302 seconds,
+pid: 0, count: 0
+ID 412, src 28783, dst 11706, status Complete, result count 0, preprocessing time 0.013707 seconds, query time 0.063210 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 413, src 42247, dst 38019, status Complete, result count 0, preprocessing time 0.013811 seconds, query time 0.029343 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 414, src 19381, dst 24969, status Complete, result count 0, preprocessing time 0.007826 seconds, query time 0.016318 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 415, src 2611, dst 43598, status Complete, result count 0, preprocessing time 0.015806 seconds, query time 0.245619 seconds,
+pid: 0, count: 0
+ID 416, src 66347, dst 22302, status Complete, result count 0, preprocessing time 0.010361 seconds, query time 0.013343 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 417, src 4846, dst 18051, status Complete, result count 0, preprocessing time 0.010602 seconds, query time 0.046892 seconds,
+pid: 0, count: 0
+ID 418, src 34361, dst 45022, status Complete, result count 0, preprocessing time 0.011037 seconds, query time 0.015175 seconds,
+pid: 0, count: 0
+ID 419, src 46027, dst 35002, status Complete, result count 0, preprocessing time 0.005172 seconds, query time 0.005688 seconds,
+pid: 0, count: 0
+ID 420, src 70289, dst 3430, status Complete, result count 0, preprocessing time 0.003025 seconds, query time 0.003194 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 421, src 14121, dst 46580, status Complete, result count 0, preprocessing time 0.010310 seconds, query time 0.016952 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 422, src 34755, dst 74330, status Complete, result count 0, preprocessing time 0.012364 seconds, query time 0.077113 seconds,
+pid: 0, count: 0
+ID 423, src 24512, dst 9518, status Complete, result count 0, preprocessing time 0.013041 seconds, query time 0.100081 seconds,
+pid: 0, count: 0
+ID 424, src 52120, dst 21303, status Complete, result count 0, preprocessing time 0.006109 seconds, query time 0.006526 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 425, src 31127, dst 36611, status Complete, result count 0, preprocessing time 0.011563 seconds, query time 0.079380 seconds,
+hit!
+pid: 0, count: 1
+ID 426, src 69272, dst 56774, status Complete, result count 1, preprocessing time 0.000053 seconds, query time 0.000113 seconds,
+pid: 0, count: 0
+ID 427, src 72362, dst 72708, status Complete, result count 0, preprocessing time 0.012499 seconds, query time 0.055199 seconds,
+pid: 0, count: 0
+ID 428, src 21338, dst 35762, status Complete, result count 0, preprocessing time 0.012213 seconds, query time 0.030732 seconds,
+pid: 0, count: 0
+ID 429, src 43392, dst 9818, status Complete, result count 0, preprocessing time 0.005439 seconds, query time 0.005898 seconds,
+pid: 0, count: 0
+ID 430, src 60736, dst 3243, status Complete, result count 0, preprocessing time 0.005480 seconds, query time 0.005952 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 431, src 31879, dst 13766, status Complete, result count 0, preprocessing time 0.010249 seconds, query time 0.035009 seconds,
+pid: 0, count: 0
+ID 432, src 52441, dst 17272, status Complete, result count 0, preprocessing time 0.005778 seconds, query time 0.006135 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 433, src 54645, dst 38124, status Complete, result count 0, preprocessing time 0.007356 seconds, query time 0.009633 seconds,
+pid: 0, count: 0
+ID 434, src 61432, dst 39880, status Complete, result count 0, preprocessing time 0.008311 seconds, query time 0.008772 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 435, src 23115, dst 39177, status Complete, result count 0, preprocessing time 0.008846 seconds, query time 0.011858 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 436, src 4693, dst 63158, status Complete, result count 0, preprocessing time 0.012364 seconds, query time 0.047233 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 437, src 10950, dst 20839, status Complete, result count 0, preprocessing time 0.019051 seconds, query time 8.038225 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 438, src 43000, dst 31253, status Complete, result count 0, preprocessing time 0.019616 seconds, query time 0.107549 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 439, src 29119, dst 42236, status Complete, result count 0, preprocessing time 0.008455 seconds, query time 0.019841 seconds,
+pid: 0, count: 0
+ID 440, src 47544, dst 72629, status Complete, result count 0, preprocessing time 0.003171 seconds, query time 0.003492 seconds,
+pid: 0, count: 0
+ID 441, src 60629, dst 59024, status Complete, result count 0, preprocessing time 0.009517 seconds, query time 0.010294 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 442, src 17416, dst 34612, status Complete, result count 0, preprocessing time 0.006992 seconds, query time 0.007637 seconds,
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 443, src 20389, dst 6781, status Complete, result count 0, preprocessing time 0.013328 seconds, query time 0.016714 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 444, src 61192, dst 8107, status Complete, result count 0, preprocessing time 0.007326 seconds, query time 0.008873 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 445, src 22463, dst 55849, status Complete, result count 0, preprocessing time 0.006240 seconds, query time 0.009284 seconds,
+pid: 0, count: 0
+ID 446, src 17351, dst 62272, status Complete, result count 0, preprocessing time 0.004749 seconds, query time 0.005036 seconds,
+pid: 0, count: 0
+ID 447, src 17904, dst 34688, status Complete, result count 0, preprocessing time 0.015454 seconds, query time 0.030173 seconds,
+pid: 0, count: 0
+ID 448, src 47509, dst 25268, status Complete, result count 0, preprocessing time 0.017372 seconds, query time 0.036908 seconds,
+pid: 0, count: 0
+ID 449, src 21725, dst 40434, status Complete, result count 0, preprocessing time 0.017813 seconds, query time 0.025641 seconds,
+pid: 0, count: 0
+ID 450, src 58842, dst 25632, status Complete, result count 0, preprocessing time 0.010449 seconds, query time 0.011695 seconds,
+pid: 0, count: 0
+ID 451, src 48924, dst 21543, status Complete, result count 0, preprocessing time 0.005845 seconds, query time 0.006453 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 452, src 25195, dst 26870, status Complete, result count 0, preprocessing time 0.008947 seconds, query time 0.014974 seconds,
+pid: 0, count: 0
+ID 453, src 21146, dst 28179, status Complete, result count 0, preprocessing time 0.012662 seconds, query time 0.069986 seconds,
+pid: 0, count: 0
+ID 454, src 44344, dst 58410, status Complete, result count 0, preprocessing time 0.008792 seconds, query time 0.009222 seconds,
+pid: 0, count: 0
+ID 455, src 34023, dst 32267, status Complete, result count 0, preprocessing time 0.006465 seconds, query time 0.011829 seconds,
+pid: 0, count: 0
+ID 456, src 68840, dst 21636, status Complete, result count 0, preprocessing time 0.005796 seconds, query time 0.006303 seconds,
+hit!
+pid: 0, count: 1
+ID 457, src 47562, dst 67608, status Complete, result count 1, preprocessing time 0.000034 seconds, query time 0.000110 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 458, src 36920, dst 54790, status Complete, result count 0, preprocessing time 0.016637 seconds, query time 0.049509 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 459, src 27476, dst 61877, status Complete, result count 0, preprocessing time 0.016309 seconds, query time 0.026375 seconds,
+hit!
+pid: 0, count: 1
+ID 460, src 63501, dst 32339, status Complete, result count 1, preprocessing time 0.000036 seconds, query time 0.000148 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 461, src 10904, dst 49197, status Complete, result count 0, preprocessing time 0.007560 seconds, query time 0.050108 seconds,
+pid: 0, count: 0
+ID 462, src 35101, dst 11942, status Complete, result count 0, preprocessing time 0.018128 seconds, query time 0.023311 seconds,
+pid: 0, count: 0
+ID 463, src 42412, dst 46497, status Complete, result count 0, preprocessing time 0.009696 seconds, query time 0.011599 seconds,
+pid: 0, count: 0
+ID 464, src 73006, dst 58727, status Complete, result count 0, preprocessing time 0.012746 seconds, query time 0.013659 seconds,
+pid: 0, count: 0
+ID 465, src 72535, dst 57679, status Complete, result count 0, preprocessing time 0.019206 seconds, query time 0.215131 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 466, src 55374, dst 63873, status Complete, result count 0, preprocessing time 0.008971 seconds, query time 0.010289 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 467, src 45595, dst 12923, status Complete, result count 0, preprocessing time 0.008096 seconds, query time 0.009600 seconds,
+hit!
+pid: 0, count: 1
+ID 468, src 72959, dst 75447, status Complete, result count 1, preprocessing time 0.000041 seconds, query time 0.000156 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 469, src 43833, dst 12320, status Complete, result count 0, preprocessing time 0.023119 seconds, query time 0.499984 seconds,
+pid: 0, count: 0
+ID 470, src 42220, dst 10067, status Complete, result count 0, preprocessing time 0.010369 seconds, query time 0.010898 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 471, src 54464, dst 2628, status Complete, result count 0, preprocessing time 0.015317 seconds, query time 0.023659 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 472, src 35051, dst 52594, status Complete, result count 0, preprocessing time 0.013584 seconds, query time 0.021801 seconds,
+pid: 0, count: 0
+ID 473, src 2717, dst 71670, status Complete, result count 0, preprocessing time 0.005534 seconds, query time 0.006234 seconds,
+pid: 0, count: 0
+ID 474, src 27773, dst 47260, status Complete, result count 0, preprocessing time 0.010995 seconds, query time 0.012024 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 475, src 50840, dst 53941, status Complete, result count 0, preprocessing time 0.007020 seconds, query time 0.008979 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 476, src 14311, dst 31550, status Complete, result count 0, preprocessing time 0.015905 seconds, query time 0.028261 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 477, src 11512, dst 38511, status Complete, result count 0, preprocessing time 0.014990 seconds, query time 0.046783 seconds,
+pid: 0, count: 0
+ID 478, src 54266, dst 28323, status Complete, result count 0, preprocessing time 0.020965 seconds, query time 0.173631 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 479, src 16843, dst 34760, status Complete, result count 0, preprocessing time 0.015998 seconds, query time 0.030978 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 480, src 13226, dst 41704, status Complete, result count 0, preprocessing time 0.015520 seconds, query time 0.502188 seconds,
+pid: 0, count: 0
+ID 481, src 39548, dst 11606, status Complete, result count 0, preprocessing time 0.018152 seconds, query time 0.055621 seconds,
+pid: 0, count: 0
+ID 482, src 6921, dst 74255, status Complete, result count 0, preprocessing time 0.019344 seconds, query time 0.107042 seconds,
+pid: 0, count: 0
+ID 483, src 31037, dst 11325, status Complete, result count 0, preprocessing time 0.019728 seconds, query time 0.034323 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 484, src 25567, dst 58040, status Complete, result count 0, preprocessing time 0.017237 seconds, query time 0.450515 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 485, src 2887, dst 71113, status Complete, result count 0, preprocessing time 0.018855 seconds, query time 0.146402 seconds,
+pid: 0, count: 0
+ID 486, src 44176, dst 72823, status Complete, result count 0, preprocessing time 0.014071 seconds, query time 0.016359 seconds,
+pid: 0, count: 0
+ID 487, src 52313, dst 41780, status Complete, result count 0, preprocessing time 0.011183 seconds, query time 0.014355 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 488, src 16507, dst 37292, status Complete, result count 0, preprocessing time 0.019218 seconds, query time 0.411842 seconds,
+hit!
+pid: 0, count: 1
+pid: 1, count: 0
+ID 489, src 70194, dst 63118, status Complete, result count 1, preprocessing time 0.000057 seconds, query time 0.000201 seconds,
+pid: 0, count: 0
+ID 490, src 58934, dst 10818, status Complete, result count 0, preprocessing time 0.009756 seconds, query time 0.010253 seconds,
+pid: 0, count: 0
+ID 491, src 45618, dst 16642, status Complete, result count 0, preprocessing time 0.005785 seconds, query time 0.006041 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 492, src 30250, dst 48638, status Complete, result count 0, preprocessing time 0.013008 seconds, query time 0.021358 seconds,
+hit!
+pid: 0, count: 1
+ID 493, src 75513, dst 73530, status Complete, result count 1, preprocessing time 0.000093 seconds, query time 0.000158 seconds,
+pid: 0, count: 0
+ID 494, src 69565, dst 31408, status Complete, result count 0, preprocessing time 0.004352 seconds, query time 0.004579 seconds,
+pid: 0, count: 0
+ID 495, src 74582, dst 38246, status Complete, result count 0, preprocessing time 0.018271 seconds, query time 0.069631 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 496, src 4935, dst 13122, status Complete, result count 0, preprocessing time 0.020011 seconds, query time 0.379942 seconds,
+pid: 0, count: 0
+ID 497, src 6442, dst 33779, status Complete, result count 0, preprocessing time 0.013904 seconds, query time 0.016502 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 498, src 48376, dst 58868, status Complete, result count 0, preprocessing time 0.011216 seconds, query time 0.014880 seconds,
+pid: 0, count: 0
+ID 499, src 65040, dst 41206, status Complete, result count 0, preprocessing time 0.009242 seconds, query time 0.010588 seconds,
+hit!
+pid: 0, count: 1
+ID 500, src 64690, dst 70424, status Complete, result count 1, preprocessing time 0.000044 seconds, query time 0.000131 seconds,
+pid: 0, count: 0
+ID 501, src 74739, dst 47776, status Complete, result count 0, preprocessing time 0.016818 seconds, query time 0.029117 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 502, src 41507, dst 50427, status Complete, result count 0, preprocessing time 0.015235 seconds, query time 0.018891 seconds,
+hit!
+pid: 0, count: 1
+ID 503, src 69248, dst 56569, status Complete, result count 1, preprocessing time 0.000037 seconds, query time 0.000138 seconds,
+pid: 0, count: 0
+ID 504, src 65054, dst 44221, status Complete, result count 0, preprocessing time 0.011756 seconds, query time 0.013840 seconds,
+pid: 0, count: 0
+ID 505, src 46370, dst 46624, status Complete, result count 0, preprocessing time 0.010349 seconds, query time 0.019656 seconds,
+pid: 0, count: 0
+ID 506, src 51036, dst 23032, status Complete, result count 0, preprocessing time 0.017000 seconds, query time 0.019597 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 507, src 32739, dst 40358, status Complete, result count 0, preprocessing time 0.007103 seconds, query time 0.008820 seconds,
+pid: 0, count: 0
+ID 508, src 25544, dst 39528, status Complete, result count 0, preprocessing time 0.005006 seconds, query time 0.005986 seconds,
+pid: 0, count: 0
+ID 509, src 47768, dst 29957, status Complete, result count 0, preprocessing time 0.007346 seconds, query time 0.010105 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 510, src 46312, dst 36061, status Complete, result count 0, preprocessing time 0.010132 seconds, query time 0.018925 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 511, src 51504, dst 29229, status Complete, result count 0, preprocessing time 0.012184 seconds, query time 0.020679 seconds,
+pid: 0, count: 0
+ID 512, src 36573, dst 50167, status Complete, result count 0, preprocessing time 0.011335 seconds, query time 0.013958 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 513, src 6796, dst 35923, status Complete, result count 0, preprocessing time 0.016112 seconds, query time 0.026094 seconds,
+pid: 0, count: 0
+ID 514, src 70692, dst 70694, status Complete, result count 0, preprocessing time 0.000041 seconds, query time 0.000146 seconds,
+pid: 0, count: 0
+ID 515, src 17528, dst 39317, status Complete, result count 0, preprocessing time 0.014678 seconds, query time 0.017955 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 516, src 35092, dst 33817, status Complete, result count 0, preprocessing time 0.017294 seconds, query time 0.189384 seconds,
+pid: 0, count: 0
+ID 517, src 72181, dst 13665, status Complete, result count 0, preprocessing time 0.014460 seconds, query time 0.015895 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 518, src 65003, dst 53432, status Complete, result count 0, preprocessing time 0.003178 seconds, query time 0.003302 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 519, src 27727, dst 48649, status Complete, result count 0, preprocessing time 0.007455 seconds, query time 0.011680 seconds,
+pid: 0, count: 0
+ID 520, src 51845, dst 37401, status Complete, result count 0, preprocessing time 0.013094 seconds, query time 0.015251 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 521, src 53632, dst 43525, status Complete, result count 0, preprocessing time 0.006324 seconds, query time 0.010685 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+ID 522, src 35376, dst 45472, status Complete, result count 0, preprocessing time 0.009614 seconds, query time 0.035095 seconds,
+pid: 0, count: 0
+ID 523, src 27195, dst 18442, status Complete, result count 0, preprocessing time 0.017578 seconds, query time 0.049804 seconds,
+pid: 0, count: 0
+ID 524, src 71120, dst 58011, status Complete, result count 0, preprocessing time 0.000053 seconds, query time 0.000165 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 525, src 3093, dst 31889, status Complete, result count 0, preprocessing time 0.020606 seconds, query time 1.221937 seconds,
+hit!
+pid: 0, count: 1
+ID 526, src 53394, dst 17855, status Complete, result count 1, preprocessing time 0.000093 seconds, query time 0.000187 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 527, src 11365, dst 43607, status Complete, result count 0, preprocessing time 0.015516 seconds, query time 0.029076 seconds,
+pid: 0, count: 0
+ID 528, src 59866, dst 19214, status Complete, result count 0, preprocessing time 0.011830 seconds, query time 0.020507 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 529, src 13476, dst 26126, status Complete, result count 0, preprocessing time 0.017887 seconds, query time 0.043866 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 530, src 22914, dst 26540, status Complete, result count 0, preprocessing time 0.021660 seconds, query time 0.609586 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 531, src 15643, dst 27014, status Complete, result count 0, preprocessing time 0.020024 seconds, query time 0.162389 seconds,
+pid: 0, count: 0
+ID 532, src 73243, dst 49447, status Complete, result count 0, preprocessing time 0.009243 seconds, query time 0.010951 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 533, src 12813, dst 57047, status Complete, result count 0, preprocessing time 0.018072 seconds, query time 0.024534 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 534, src 5151, dst 58939, status Complete, result count 0, preprocessing time 0.015327 seconds, query time 0.034360 seconds,
+pid: 0, count: 0
+ID 535, src 14319, dst 6699, status Complete, result count 0, preprocessing time 0.014766 seconds, query time 0.038223 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 536, src 7864, dst 64843, status Complete, result count 0, preprocessing time 0.014129 seconds, query time 0.034869 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 537, src 15958, dst 21959, status Complete, result count 0, preprocessing time 0.027240 seconds, query time 0.207256 seconds,
+pid: 0, count: 0
+ID 538, src 53128, dst 3791, status Complete, result count 0, preprocessing time 0.015489 seconds, query time 0.016966 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 539, src 30397, dst 40899, status Complete, result count 0, preprocessing time 0.013451 seconds, query time 0.020914 seconds,
+pid: 0, count: 0
+ID 540, src 53063, dst 64111, status Complete, result count 0, preprocessing time 0.008655 seconds, query time 0.009696 seconds,
+pid: 0, count: 0
+ID 541, src 34338, dst 17158, status Complete, result count 0, preprocessing time 0.014763 seconds, query time 0.017765 seconds,
+pid: 0, count: 0
+ID 542, src 58424, dst 12004, status Complete, result count 0, preprocessing time 0.007301 seconds, query time 0.007791 seconds,
+pid: 0, count: 0
+ID 543, src 64617, dst 17502, status Complete, result count 0, preprocessing time 0.011451 seconds, query time 0.012231 seconds,
+pid: 0, count: 0
+ID 544, src 36811, dst 40258, status Complete, result count 0, preprocessing time 0.013112 seconds, query time 0.014805 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 545, src 14184, dst 47261, status Complete, result count 0, preprocessing time 0.005361 seconds, query time 0.005744 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 546, src 20080, dst 41206, status Complete, result count 0, preprocessing time 0.016504 seconds, query time 0.328869 seconds,
+pid: 0, count: 0
+ID 547, src 55877, dst 16700, status Complete, result count 0, preprocessing time 0.014758 seconds, query time 0.015870 seconds,
+pid: 0, count: 0
+ID 548, src 34797, dst 35419, status Complete, result count 0, preprocessing time 0.011682 seconds, query time 0.027714 seconds,
+pid: 0, count: 0
+ID 549, src 17497, dst 39647, status Complete, result count 0, preprocessing time 0.009461 seconds, query time 0.009861 seconds,
+pid: 0, count: 0
+ID 550, src 19276, dst 38777, status Complete, result count 0, preprocessing time 0.018495 seconds, query time 0.039638 seconds,
+pid: 0, count: 0
+ID 551, src 34410, dst 15698, status Complete, result count 0, preprocessing time 0.014118 seconds, query time 0.017782 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 552, src 21751, dst 10903, status Complete, result count 0, preprocessing time 0.013403 seconds, query time 0.029279 seconds,
+pid: 0, count: 0
+ID 553, src 51961, dst 33410, status Complete, result count 0, preprocessing time 0.014057 seconds, query time 0.016293 seconds,
+pid: 0, count: 0
+ID 554, src 72449, dst 4108, status Complete, result count 0, preprocessing time 0.013029 seconds, query time 0.188203 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 555, src 56921, dst 13279, status Complete, result count 0, preprocessing time 0.012745 seconds, query time 0.016257 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 556, src 63440, dst 21522, status Complete, result count 0, preprocessing time 0.018491 seconds, query time 0.114811 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 557, src 19354, dst 23225, status Complete, result count 0, preprocessing time 0.021369 seconds, query time 0.671860 seconds,
+pid: 0, count: 0
+ID 558, src 73329, dst 35641, status Complete, result count 0, preprocessing time 0.015116 seconds, query time 0.037239 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 559, src 6316, dst 31694, status Complete, result count 0, preprocessing time 0.018833 seconds, query time 0.187223 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 560, src 64318, dst 21190, status Complete, result count 0, preprocessing time 0.013250 seconds, query time 0.015513 seconds,
+pid: 0, count: 0
+ID 561, src 24853, dst 72082, status Complete, result count 0, preprocessing time 0.007678 seconds, query time 0.008950 seconds,
+pid: 0, count: 0
+ID 562, src 59372, dst 23959, status Complete, result count 0, preprocessing time 0.000035 seconds, query time 0.000121 seconds,
+pid: 0, count: 0
+ID 563, src 50015, dst 71580, status Complete, result count 0, preprocessing time 0.013297 seconds, query time 0.014345 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 564, src 39087, dst 38170, status Complete, result count 0, preprocessing time 0.008564 seconds, query time 0.017032 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 565, src 24772, dst 60658, status Complete, result count 0, preprocessing time 0.014732 seconds, query time 0.019593 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 566, src 28799, dst 74013, status Complete, result count 0, preprocessing time 0.014524 seconds, query time 0.037065 seconds,
+pid: 0, count: 0
+ID 567, src 29769, dst 54733, status Complete, result count 0, preprocessing time 0.017129 seconds, query time 0.025172 seconds,
+pid: 0, count: 0
+ID 568, src 54060, dst 57128, status Complete, result count 0, preprocessing time 0.005229 seconds, query time 0.005442 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 569, src 11570, dst 71211, status Complete, result count 0, preprocessing time 0.007021 seconds, query time 0.011372 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 570, src 36978, dst 9301, status Complete, result count 0, preprocessing time 0.017531 seconds, query time 0.143720 seconds,
+pid: 0, count: 0
+ID 571, src 58100, dst 58444, status Complete, result count 0, preprocessing time 0.009090 seconds, query time 0.009668 seconds,
+hit!
+pid: 0, count: 1
+ID 572, src 71179, dst 69962, status Complete, result count 1, preprocessing time 0.000049 seconds, query time 0.000155 seconds,
+pid: 0, count: 0
+ID 573, src 26220, dst 39988, status Complete, result count 0, preprocessing time 0.017959 seconds, query time 0.032645 seconds,
+pid: 0, count: 0
+ID 574, src 66372, dst 4754, status Complete, result count 0, preprocessing time 0.016251 seconds, query time 0.017905 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 575, src 45217, dst 40971, status Complete, result count 0, preprocessing time 0.013960 seconds, query time 0.016641 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 576, src 60533, dst 32259, status Complete, result count 0, preprocessing time 0.010250 seconds, query time 0.014290 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 577, src 64141, dst 33818, status Complete, result count 0, preprocessing time 0.005647 seconds, query time 0.006339 seconds,
+pid: 0, count: 0
+ID 578, src 74677, dst 11680, status Complete, result count 0, preprocessing time 0.008633 seconds, query time 0.032009 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 579, src 42526, dst 10133, status Complete, result count 0, preprocessing time 0.008146 seconds, query time 0.008976 seconds,
+pid: 0, count: 0
+ID 580, src 45696, dst 39828, status Complete, result count 0, preprocessing time 0.006835 seconds, query time 0.007661 seconds,
+pid: 0, count: 0
+ID 581, src 59100, dst 68984, status Complete, result count 0, preprocessing time 0.013259 seconds, query time 0.021111 seconds,
+pid: 0, count: 0
+ID 582, src 46989, dst 57856, status Complete, result count 0, preprocessing time 0.013167 seconds, query time 0.016707 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 583, src 5804, dst 36653, status Complete, result count 0, preprocessing time 0.012881 seconds, query time 0.037405 seconds,
+pid: 0, count: 0
+ID 584, src 39884, dst 50890, status Complete, result count 0, preprocessing time 0.010052 seconds, query time 0.011215 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 585, src 17480, dst 35748, status Complete, result count 0, preprocessing time 0.010485 seconds, query time 0.064464 seconds,
+hit!
+pid: 0, count: 1
+ID 586, src 25017, dst 60663, status Complete, result count 1, preprocessing time 0.000031 seconds, query time 0.000140 seconds,
+pid: 0, count: 0
+ID 587, src 60010, dst 5620, status Complete, result count 0, preprocessing time 0.016481 seconds, query time 0.022481 seconds,
+pid: 0, count: 0
+ID 588, src 75371, dst 8225, status Complete, result count 0, preprocessing time 0.014707 seconds, query time 0.017173 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 589, src 42538, dst 61009, status Complete, result count 0, preprocessing time 0.011569 seconds, query time 0.012049 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 590, src 12638, dst 31963, status Complete, result count 0, preprocessing time 0.013924 seconds, query time 0.454150 seconds,
+pid: 0, count: 0
+ID 591, src 1226, dst 56790, status Complete, result count 0, preprocessing time 0.013384 seconds, query time 0.016482 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 592, src 33911, dst 50187, status Complete, result count 0, preprocessing time 0.007463 seconds, query time 0.008683 seconds,
+pid: 0, count: 0
+ID 593, src 37191, dst 52570, status Complete, result count 0, preprocessing time 0.013861 seconds, query time 0.016898 seconds,
+pid: 0, count: 0
+ID 594, src 58649, dst 41448, status Complete, result count 0, preprocessing time 0.003087 seconds, query time 0.003229 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 595, src 34640, dst 59930, status Complete, result count 0, preprocessing time 0.008857 seconds, query time 0.010218 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 596, src 34257, dst 54259, status Complete, result count 0, preprocessing time 0.014416 seconds, query time 0.019187 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 597, src 25953, dst 47581, status Complete, result count 0, preprocessing time 0.015472 seconds, query time 0.112465 seconds,
+pid: 0, count: 0
+ID 598, src 41240, dst 32019, status Complete, result count 0, preprocessing time 0.018308 seconds, query time 0.040812 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 599, src 29574, dst 17354, status Complete, result count 0, preprocessing time 0.020326 seconds, query time 3.247518 seconds,
+pid: 0, count: 0
+ID 600, src 73641, dst 52503, status Complete, result count 0, preprocessing time 0.018332 seconds, query time 0.100136 seconds,
+pid: 0, count: 0
+ID 601, src 67283, dst 11558, status Complete, result count 0, preprocessing time 0.005117 seconds, query time 0.005428 seconds,
+pid: 0, count: 0
+ID 602, src 32133, dst 51137, status Complete, result count 0, preprocessing time 0.005979 seconds, query time 0.006858 seconds,
+pid: 0, count: 0
+ID 603, src 35961, dst 34231, status Complete, result count 0, preprocessing time 0.013159 seconds, query time 0.014874 seconds,
+pid: 0, count: 0
+ID 604, src 57894, dst 12848, status Complete, result count 0, preprocessing time 0.007962 seconds, query time 0.008849 seconds,
+pid: 0, count: 0
+ID 605, src 75634, dst 72249, status Complete, result count 0, preprocessing time 0.006116 seconds, query time 0.007241 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 606, src 23671, dst 17280, status Complete, result count 0, preprocessing time 0.014427 seconds, query time 4.282933 seconds,
+pid: 0, count: 0
+ID 607, src 44578, dst 16792, status Complete, result count 0, preprocessing time 0.011208 seconds, query time 0.017617 seconds,
+pid: 0, count: 0
+ID 608, src 65472, dst 65471, status Complete, result count 0, preprocessing time 0.000060 seconds, query time 0.000193 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 609, src 5461, dst 12182, status Complete, result count 0, preprocessing time 0.014457 seconds, query time 0.239490 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 610, src 11073, dst 44277, status Complete, result count 0, preprocessing time 0.022905 seconds, query time 1.229020 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 611, src 35070, dst 48111, status Complete, result count 0, preprocessing time 0.020469 seconds, query time 0.059255 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 612, src 60847, dst 63658, status Complete, result count 0, preprocessing time 0.017777 seconds, query time 0.019735 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 613, src 29920, dst 40431, status Complete, result count 0, preprocessing time 0.011948 seconds, query time 0.087338 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 614, src 25567, dst 54358, status Complete, result count 0, preprocessing time 0.012428 seconds, query time 0.015353 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 615, src 56687, dst 12699, status Complete, result count 0, preprocessing time 0.014110 seconds, query time 0.042240 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 616, src 51894, dst 72663, status Complete, result count 0, preprocessing time 0.015665 seconds, query time 0.021925 seconds,
+pid: 0, count: 0
+ID 617, src 41934, dst 16794, status Complete, result count 0, preprocessing time 0.014701 seconds, query time 0.029398 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 618, src 8006, dst 23923, status Complete, result count 0, preprocessing time 0.020390 seconds, query time 0.133663 seconds,
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+ID 619, src 30750, dst 32894, status Complete, result count 0, preprocessing time 0.022300 seconds, query time 0.162528 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 620, src 23412, dst 22240, status Complete, result count 0, preprocessing time 0.023077 seconds, query time 0.124827 seconds,
+pid: 0, count: 0
+ID 621, src 61106, dst 49292, status Complete, result count 0, preprocessing time 0.008776 seconds, query time 0.010012 seconds,
+pid: 0, count: 0
+ID 622, src 35059, dst 53621, status Complete, result count 0, preprocessing time 0.008354 seconds, query time 0.009656 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 623, src 32988, dst 54324, status Complete, result count 0, preprocessing time 0.013523 seconds, query time 0.026695 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 624, src 16732, dst 24254, status Complete, result count 0, preprocessing time 0.019302 seconds, query time 0.056854 seconds,
+pid: 0, count: 0
+ID 625, src 32579, dst 43640, status Complete, result count 0, preprocessing time 0.017607 seconds, query time 0.024046 seconds,
+pid: 0, count: 0
+ID 626, src 73819, dst 38692, status Complete, result count 0, preprocessing time 0.016220 seconds, query time 0.290123 seconds,
+pid: 0, count: 0
+ID 627, src 15032, dst 44894, status Complete, result count 0, preprocessing time 0.017550 seconds, query time 0.037902 seconds,
+pid: 0, count: 0
+ID 628, src 52277, dst 72097, status Complete, result count 0, preprocessing time 0.016845 seconds, query time 0.020678 seconds,
+pid: 0, count: 0
+ID 629, src 59602, dst 21636, status Complete, result count 0, preprocessing time 0.010222 seconds, query time 0.013096 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 630, src 44999, dst 17816, status Complete, result count 0, preprocessing time 0.006412 seconds, query time 0.007608 seconds,
+pid: 0, count: 0
+ID 631, src 68328, dst 17922, status Complete, result count 0, preprocessing time 0.002014 seconds, query time 0.002169 seconds,
+pid: 0, count: 0
+ID 632, src 61716, dst 60046, status Complete, result count 0, preprocessing time 0.011625 seconds, query time 0.012124 seconds,
+pid: 0, count: 0
+ID 633, src 58452, dst 14265, status Complete, result count 0, preprocessing time 0.011108 seconds, query time 0.019311 seconds,
+pid: 0, count: 0
+ID 634, src 31355, dst 30475, status Complete, result count 0, preprocessing time 0.018984 seconds, query time 0.032987 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 635, src 20374, dst 15067, status Complete, result count 0, preprocessing time 0.020207 seconds, query time 0.322495 seconds,
+pid: 0, count: 0
+ID 636, src 17250, dst 14053, status Complete, result count 0, preprocessing time 0.020043 seconds, query time 0.090330 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 637, src 171, dst 28426, status Complete, result count 0, preprocessing time 0.019283 seconds, query time 0.950641 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 638, src 31063, dst 46544, status Complete, result count 0, preprocessing time 0.006729 seconds, query time 0.007529 seconds,
+pid: 0, count: 0
+ID 639, src 27796, dst 43040, status Complete, result count 0, preprocessing time 0.007002 seconds, query time 0.008652 seconds,
+pid: 0, count: 0
+ID 640, src 69390, dst 22704, status Complete, result count 0, preprocessing time 0.004200 seconds, query time 0.004378 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 641, src 20488, dst 14749, status Complete, result count 0, preprocessing time 0.013664 seconds, query time 0.436698 seconds,
+pid: 0, count: 0
+ID 642, src 67596, dst 18573, status Complete, result count 0, preprocessing time 0.006573 seconds, query time 0.006974 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 643, src 28869, dst 22681, status Complete, result count 0, preprocessing time 0.011659 seconds, query time 0.477591 seconds,
+pid: 0, count: 0
+ID 644, src 47050, dst 40790, status Complete, result count 0, preprocessing time 0.008752 seconds, query time 0.009190 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 645, src 47436, dst 42621, status Complete, result count 0, preprocessing time 0.006663 seconds, query time 0.013987 seconds,
+pid: 0, count: 0
+ID 646, src 46167, dst 8812, status Complete, result count 0, preprocessing time 0.015242 seconds, query time 0.031944 seconds,
+pid: 0, count: 0
+ID 647, src 47077, dst 8092, status Complete, result count 0, preprocessing time 0.014671 seconds, query time 0.031998 seconds,
+hit!
+pid: 0, count: 1
+ID 648, src 67917, dst 48749, status Complete, result count 1, preprocessing time 0.000034 seconds, query time 0.000133 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 649, src 22021, dst 12686, status Complete, result count 0, preprocessing time 0.020459 seconds, query time 2.752887 seconds,
+pid: 0, count: 0
+ID 650, src 25865, dst 21876, status Complete, result count 0, preprocessing time 0.011170 seconds, query time 0.011418 seconds,
+pid: 0, count: 0
+ID 651, src 29441, dst 60450, status Complete, result count 0, preprocessing time 0.010742 seconds, query time 0.011226 seconds,
+pid: 0, count: 0
+ID 652, src 59736, dst 42475, status Complete, result count 0, preprocessing time 0.005418 seconds, query time 0.005821 seconds,
+pid: 0, count: 0
+ID 653, src 61105, dst 15330, status Complete, result count 0, preprocessing time 0.012524 seconds, query time 0.013831 seconds,
+pid: 0, count: 0
+ID 654, src 55234, dst 32443, status Complete, result count 0, preprocessing time 0.007674 seconds, query time 0.008332 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 655, src 3209, dst 10211, status Complete, result count 0, preprocessing time 0.012892 seconds, query time 4.997312 seconds,
+pid: 0, count: 0
+ID 656, src 47144, dst 16798, status Complete, result count 0, preprocessing time 0.021009 seconds, query time 0.057136 seconds,
+pid: 0, count: 0
+ID 657, src 74810, dst 27260, status Complete, result count 0, preprocessing time 0.016937 seconds, query time 0.028367 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 658, src 9683, dst 5191, status Complete, result count 0, preprocessing time 0.013090 seconds, query time 0.068266 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 659, src 27931, dst 35433, status Complete, result count 0, preprocessing time 0.010587 seconds, query time 0.040553 seconds,
+pid: 0, count: 0
+ID 660, src 62007, dst 10052, status Complete, result count 0, preprocessing time 0.013974 seconds, query time 0.015428 seconds,
+hit!
+pid: 0, count: 1
+ID 661, src 63239, dst 31619, status Complete, result count 1, preprocessing time 0.000059 seconds, query time 0.000149 seconds,
+pid: 0, count: 0
+ID 662, src 65023, dst 2347, status Complete, result count 0, preprocessing time 0.004314 seconds, query time 0.004533 seconds,
+pid: 0, count: 0
+ID 663, src 43931, dst 45504, status Complete, result count 0, preprocessing time 0.006795 seconds, query time 0.007165 seconds,
+pid: 0, count: 0
+ID 664, src 14011, dst 59751, status Complete, result count 0, preprocessing time 0.004356 seconds, query time 0.004611 seconds,
+pid: 0, count: 0
+ID 665, src 58551, dst 30598, status Complete, result count 0, preprocessing time 0.005962 seconds, query time 0.006542 seconds,
+pid: 0, count: 0
+ID 666, src 16514, dst 52415, status Complete, result count 0, preprocessing time 0.016358 seconds, query time 0.025555 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 667, src 25803, dst 62080, status Complete, result count 0, preprocessing time 0.005329 seconds, query time 0.005683 seconds,
+pid: 0, count: 0
+ID 668, src 29326, dst 6453, status Complete, result count 0, preprocessing time 0.015698 seconds, query time 0.032244 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 669, src 51458, dst 15149, status Complete, result count 0, preprocessing time 0.015735 seconds, query time 0.024589 seconds,
+hit!
+pid: 0, count: 1
+ID 670, src 69504, dst 58137, status Complete, result count 1, preprocessing time 0.000032 seconds, query time 0.000094 seconds,
+pid: 0, count: 0
+ID 671, src 63301, dst 58572, status Complete, result count 0, preprocessing time 0.005498 seconds, query time 0.005713 seconds,
+pid: 0, count: 0
+ID 672, src 66573, dst 27045, status Complete, result count 0, preprocessing time 0.005222 seconds, query time 0.005806 seconds,
+pid: 0, count: 0
+ID 673, src 56268, dst 13539, status Complete, result count 0, preprocessing time 0.008848 seconds, query time 0.009450 seconds,
+pid: 0, count: 0
+ID 674, src 45642, dst 25489, status Complete, result count 0, preprocessing time 0.008308 seconds, query time 0.012627 seconds,
+pid: 0, count: 0
+ID 675, src 61087, dst 15248, status Complete, result count 0, preprocessing time 0.007837 seconds, query time 0.008367 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 676, src 25772, dst 47687, status Complete, result count 0, preprocessing time 0.009879 seconds, query time 0.012342 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 677, src 38462, dst 74104, status Complete, result count 0, preprocessing time 0.017528 seconds, query time 0.035166 seconds,
+hit!
+pid: 0, count: 1
+ID 678, src 52067, dst 13669, status Complete, result count 1, preprocessing time 0.000026 seconds, query time 0.000120 seconds,
+pid: 0, count: 0
+ID 679, src 62778, dst 8847, status Complete, result count 0, preprocessing time 0.013113 seconds, query time 0.013797 seconds,
+pid: 0, count: 0
+ID 680, src 36847, dst 12210, status Complete, result count 0, preprocessing time 0.018108 seconds, query time 0.028862 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 681, src 54799, dst 37023, status Complete, result count 0, preprocessing time 0.017146 seconds, query time 0.024500 seconds,
+hit!
+pid: 0, count: 1
+ID 682, src 54232, dst 68867, status Complete, result count 1, preprocessing time 0.000025 seconds, query time 0.000116 seconds,
+pid: 0, count: 0
+ID 683, src 16587, dst 16057, status Complete, result count 0, preprocessing time 0.019911 seconds, query time 0.047343 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 684, src 16337, dst 55747, status Complete, result count 0, preprocessing time 0.021540 seconds, query time 0.231533 seconds,
+pid: 0, count: 0
+ID 685, src 60262, dst 31130, status Complete, result count 0, preprocessing time 0.011410 seconds, query time 0.012299 seconds,
+pid: 0, count: 0
+ID 686, src 40658, dst 37496, status Complete, result count 0, preprocessing time 0.009832 seconds, query time 0.030095 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 687, src 26533, dst 15935, status Complete, result count 0, preprocessing time 0.020158 seconds, query time 0.249639 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 688, src 64376, dst 19341, status Complete, result count 0, preprocessing time 0.014515 seconds, query time 0.016378 seconds,
+pid: 0, count: 0
+ID 689, src 57992, dst 55803, status Complete, result count 0, preprocessing time 0.004450 seconds, query time 0.004835 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 690, src 56085, dst 32173, status Complete, result count 0, preprocessing time 0.007646 seconds, query time 0.022749 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 691, src 1856, dst 51500, status Complete, result count 0, preprocessing time 0.005981 seconds, query time 0.006505 seconds,
+pid: 0, count: 0
+ID 692, src 37577, dst 53872, status Complete, result count 0, preprocessing time 0.006690 seconds, query time 0.008456 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 693, src 20116, dst 46662, status Complete, result count 0, preprocessing time 0.012532 seconds, query time 0.104112 seconds,
+pid: 0, count: 0
+ID 694, src 33598, dst 7343, status Complete, result count 0, preprocessing time 0.019336 seconds, query time 0.140161 seconds,
+pid: 0, count: 0
+ID 695, src 49408, dst 28842, status Complete, result count 0, preprocessing time 0.012132 seconds, query time 0.014139 seconds,
+pid: 0, count: 0
+ID 696, src 40675, dst 26428, status Complete, result count 0, preprocessing time 0.011900 seconds, query time 0.057560 seconds,
+pid: 0, count: 0
+ID 697, src 10527, dst 54686, status Complete, result count 0, preprocessing time 0.016783 seconds, query time 0.029275 seconds,
+pid: 0, count: 0
+ID 698, src 37165, dst 25211, status Complete, result count 0, preprocessing time 0.008214 seconds, query time 0.008990 seconds,
+pid: 0, count: 0
+ID 699, src 13194, dst 74126, status Complete, result count 0, preprocessing time 0.009530 seconds, query time 0.036601 seconds,
+pid: 0, count: 0
+ID 700, src 38630, dst 37581, status Complete, result count 0, preprocessing time 0.017053 seconds, query time 0.020799 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 701, src 18779, dst 57971, status Complete, result count 0, preprocessing time 0.011062 seconds, query time 0.083650 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 702, src 46822, dst 3845, status Complete, result count 0, preprocessing time 0.018217 seconds, query time 0.044565 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 703, src 45754, dst 42127, status Complete, result count 0, preprocessing time 0.012774 seconds, query time 0.014102 seconds,
+pid: 0, count: 0
+ID 704, src 15911, dst 74876, status Complete, result count 0, preprocessing time 0.015137 seconds, query time 0.101381 seconds,
+pid: 0, count: 0
+ID 705, src 70049, dst 42641, status Complete, result count 0, preprocessing time 0.002444 seconds, query time 0.002598 seconds,
+pid: 0, count: 0
+ID 706, src 48717, dst 45608, status Complete, result count 0, preprocessing time 0.010270 seconds, query time 0.010570 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 707, src 14126, dst 56278, status Complete, result count 0, preprocessing time 0.014195 seconds, query time 0.088295 seconds,
+pid: 0, count: 0
+ID 708, src 24528, dst 32719, status Complete, result count 0, preprocessing time 0.019471 seconds, query time 0.042867 seconds,
+pid: 0, count: 0
+ID 709, src 13899, dst 11872, status Complete, result count 0, preprocessing time 0.018275 seconds, query time 0.064107 seconds,
+hit!
+pid: 0, count: 1
+ID 710, src 70429, dst 71229, status Complete, result count 1, preprocessing time 0.000057 seconds, query time 0.000173 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 711, src 31877, dst 72673, status Complete, result count 0, preprocessing time 0.021878 seconds, query time 0.104864 seconds,
+pid: 0, count: 0
+ID 712, src 23624, dst 21559, status Complete, result count 0, preprocessing time 0.014419 seconds, query time 0.018322 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 713, src 47750, dst 72642, status Complete, result count 0, preprocessing time 0.015430 seconds, query time 0.017360 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 714, src 68649, dst 22152, status Complete, result count 0, preprocessing time 0.005658 seconds, query time 0.006402 seconds,
+pid: 0, count: 0
+ID 715, src 11494, dst 6300, status Complete, result count 0, preprocessing time 0.011017 seconds, query time 0.124761 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 716, src 25940, dst 24263, status Complete, result count 0, preprocessing time 0.019418 seconds, query time 0.036680 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 717, src 42283, dst 41886, status Complete, result count 0, preprocessing time 0.003914 seconds, query time 0.004069 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 718, src 34783, dst 22938, status Complete, result count 0, preprocessing time 0.011060 seconds, query time 0.103512 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 719, src 7004, dst 32149, status Complete, result count 0, preprocessing time 0.016125 seconds, query time 0.174413 seconds,
+pid: 0, count: 0
+ID 720, src 25554, dst 53394, status Complete, result count 0, preprocessing time 0.009105 seconds, query time 0.009651 seconds,
+pid: 0, count: 0
+ID 721, src 61105, dst 35422, status Complete, result count 0, preprocessing time 0.002977 seconds, query time 0.003200 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 722, src 41761, dst 25452, status Complete, result count 0, preprocessing time 0.016823 seconds, query time 0.196286 seconds,
+pid: 0, count: 0
+ID 723, src 49434, dst 40448, status Complete, result count 0, preprocessing time 0.017114 seconds, query time 0.025273 seconds,
+pid: 0, count: 0
+ID 724, src 75495, dst 39320, status Complete, result count 0, preprocessing time 0.004461 seconds, query time 0.004853 seconds,
+pid: 0, count: 0
+ID 725, src 63055, dst 74325, status Complete, result count 0, preprocessing time 0.004841 seconds, query time 0.005494 seconds,
+pid: 0, count: 0
+ID 726, src 49517, dst 21401, status Complete, result count 0, preprocessing time 0.013044 seconds, query time 0.013729 seconds,
+pid: 0, count: 0
+ID 727, src 40967, dst 30926, status Complete, result count 0, preprocessing time 0.009342 seconds, query time 0.009731 seconds,
+pid: 0, count: 0
+ID 728, src 53555, dst 51113, status Complete, result count 0, preprocessing time 0.006586 seconds, query time 0.007350 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 729, src 45644, dst 10496, status Complete, result count 0, preprocessing time 0.007619 seconds, query time 0.009434 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 730, src 4677, dst 74133, status Complete, result count 0, preprocessing time 0.013147 seconds, query time 0.601116 seconds,
+pid: 0, count: 0
+ID 731, src 46473, dst 36624, status Complete, result count 0, preprocessing time 0.004916 seconds, query time 0.005468 seconds,
+pid: 0, count: 0
+ID 732, src 33878, dst 40343, status Complete, result count 0, preprocessing time 0.018683 seconds, query time 0.024869 seconds,
+pid: 0, count: 0
+ID 733, src 70271, dst 14356, status Complete, result count 0, preprocessing time 0.014207 seconds, query time 0.015804 seconds,
+hit!
+pid: 0, count: 1
+ID 734, src 23072, dst 59467, status Complete, result count 1, preprocessing time 0.000040 seconds, query time 0.000123 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 735, src 13560, dst 32767, status Complete, result count 0, preprocessing time 0.020156 seconds, query time 0.223585 seconds,
+pid: 0, count: 0
+ID 736, src 72392, dst 62878, status Complete, result count 0, preprocessing time 0.011992 seconds, query time 0.013020 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 737, src 54716, dst 32443, status Complete, result count 0, preprocessing time 0.014173 seconds, query time 0.015344 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 738, src 37387, dst 54775, status Complete, result count 0, preprocessing time 0.011324 seconds, query time 0.018082 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 739, src 27795, dst 37580, status Complete, result count 0, preprocessing time 0.012302 seconds, query time 0.159597 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 740, src 31633, dst 54567, status Complete, result count 0, preprocessing time 0.012743 seconds, query time 0.014114 seconds,
+pid: 0, count: 0
+ID 741, src 54403, dst 8443, status Complete, result count 0, preprocessing time 0.016701 seconds, query time 0.022192 seconds,
+pid: 0, count: 0
+ID 742, src 16624, dst 21640, status Complete, result count 0, preprocessing time 0.014566 seconds, query time 0.045398 seconds,
+pid: 0, count: 0
+ID 743, src 66049, dst 33073, status Complete, result count 0, preprocessing time 0.013628 seconds, query time 0.017313 seconds,
+pid: 0, count: 0
+ID 744, src 71168, dst 25914, status Complete, result count 0, preprocessing time 0.000055 seconds, query time 0.000104 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 745, src 11961, dst 51111, status Complete, result count 0, preprocessing time 0.015510 seconds, query time 0.042883 seconds,
+pid: 0, count: 0
+ID 746, src 57992, dst 35517, status Complete, result count 0, preprocessing time 0.008526 seconds, query time 0.008958 seconds,
+pid: 0, count: 0
+ID 747, src 39968, dst 19658, status Complete, result count 0, preprocessing time 0.015775 seconds, query time 0.020036 seconds,
+pid: 0, count: 0
+ID 748, src 24588, dst 18755, status Complete, result count 0, preprocessing time 0.019780 seconds, query time 0.110121 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 749, src 62793, dst 22879, status Complete, result count 0, preprocessing time 0.013502 seconds, query time 0.019454 seconds,
+pid: 0, count: 0
+ID 750, src 50377, dst 14390, status Complete, result count 0, preprocessing time 0.007660 seconds, query time 0.008173 seconds,
+hit!
+pid: 0, count: 1
+ID 751, src 67012, dst 44811, status Complete, result count 1, preprocessing time 0.000040 seconds, query time 0.000125 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 752, src 25146, dst 25315, status Complete, result count 0, preprocessing time 0.021063 seconds, query time 0.285344 seconds,
+pid: 0, count: 0
+ID 753, src 3671, dst 21607, status Complete, result count 0, preprocessing time 0.019118 seconds, query time 0.048031 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 754, src 26626, dst 25777, status Complete, result count 0, preprocessing time 0.023352 seconds, query time 2.503977 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 755, src 10353, dst 31015, status Complete, result count 0, preprocessing time 0.015669 seconds, query time 0.073001 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 756, src 8961, dst 14422, status Complete, result count 0, preprocessing time 0.018490 seconds, query time 0.642972 seconds,
+hit!
+pid: 0, count: 1
+ID 757, src 43593, dst 38340, status Complete, result count 1, preprocessing time 0.000139 seconds, query time 0.000261 seconds,
+pid: 0, count: 0
+ID 758, src 31870, dst 19465, status Complete, result count 0, preprocessing time 0.019850 seconds, query time 0.128795 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 759, src 32548, dst 13215, status Complete, result count 0, preprocessing time 0.021434 seconds, query time 0.154542 seconds,
+pid: 0, count: 0
+ID 760, src 33688, dst 4369, status Complete, result count 0, preprocessing time 0.014953 seconds, query time 0.043500 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 761, src 21199, dst 34114, status Complete, result count 0, preprocessing time 0.022684 seconds, query time 0.577491 seconds,
+pid: 0, count: 0
+ID 762, src 23354, dst 56583, status Complete, result count 0, preprocessing time 0.015949 seconds, query time 0.018720 seconds,
+pid: 0, count: 0
+ID 763, src 61955, dst 9585, status Complete, result count 0, preprocessing time 0.011170 seconds, query time 0.012507 seconds,
+hit!
+pid: 0, count: 1
+ID 764, src 47530, dst 67598, status Complete, result count 1, preprocessing time 0.000039 seconds, query time 0.000126 seconds,
+pid: 0, count: 0
+ID 765, src 51635, dst 54012, status Complete, result count 0, preprocessing time 0.008854 seconds, query time 0.009405 seconds,
+pid: 0, count: 0
+ID 766, src 50887, dst 33580, status Complete, result count 0, preprocessing time 0.010005 seconds, query time 0.155388 seconds,
+pid: 0, count: 0
+ID 767, src 49781, dst 5110, status Complete, result count 0, preprocessing time 0.014758 seconds, query time 0.016500 seconds,
+pid: 0, count: 0
+ID 768, src 43896, dst 12332, status Complete, result count 0, preprocessing time 0.011595 seconds, query time 0.064093 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 769, src 18861, dst 9877, status Complete, result count 0, preprocessing time 0.019412 seconds, query time 0.215787 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 770, src 23418, dst 27164, status Complete, result count 0, preprocessing time 0.018748 seconds, query time 0.081862 seconds,
+pid: 0, count: 0
+ID 771, src 50640, dst 48406, status Complete, result count 0, preprocessing time 0.017228 seconds, query time 0.019663 seconds,
+pid: 0, count: 0
+ID 772, src 51068, dst 13351, status Complete, result count 0, preprocessing time 0.011881 seconds, query time 0.026761 seconds,
+pid: 0, count: 0
+ID 773, src 26340, dst 63341, status Complete, result count 0, preprocessing time 0.010485 seconds, query time 0.011797 seconds,
+pid: 0, count: 0
+ID 774, src 67826, dst 13197, status Complete, result count 0, preprocessing time 0.003704 seconds, query time 0.003884 seconds,
+hit!
+pid: 0, count: 1
+ID 775, src 41596, dst 66259, status Complete, result count 1, preprocessing time 0.000034 seconds, query time 0.000116 seconds,
+pid: 0, count: 0
+ID 776, src 55708, dst 49461, status Complete, result count 0, preprocessing time 0.016089 seconds, query time 0.018743 seconds,
+pid: 0, count: 0
+ID 777, src 64192, dst 56924, status Complete, result count 0, preprocessing time 0.014991 seconds, query time 0.018140 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 778, src 67124, dst 20900, status Complete, result count 0, preprocessing time 0.009914 seconds, query time 0.010642 seconds,
+pid: 0, count: 0
+ID 779, src 71694, dst 6180, status Complete, result count 0, preprocessing time 0.003446 seconds, query time 0.003630 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 780, src 21909, dst 64922, status Complete, result count 0, preprocessing time 0.013864 seconds, query time 0.015933 seconds,
+pid: 0, count: 0
+ID 781, src 54947, dst 24356, status Complete, result count 0, preprocessing time 0.006561 seconds, query time 0.007095 seconds,
+pid: 0, count: 0
+ID 782, src 9524, dst 42996, status Complete, result count 0, preprocessing time 0.007045 seconds, query time 0.015835 seconds,
+pid: 0, count: 0
+ID 783, src 43769, dst 54012, status Complete, result count 0, preprocessing time 0.007658 seconds, query time 0.008076 seconds,
+pid: 0, count: 0
+ID 784, src 59475, dst 25409, status Complete, result count 0, preprocessing time 0.007531 seconds, query time 0.010787 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 785, src 27707, dst 64614, status Complete, result count 0, preprocessing time 0.010198 seconds, query time 0.011901 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 786, src 50885, dst 12095, status Complete, result count 0, preprocessing time 0.010497 seconds, query time 0.056394 seconds,
+pid: 0, count: 0
+ID 787, src 65151, dst 39432, status Complete, result count 0, preprocessing time 0.015495 seconds, query time 0.016275 seconds,
+pid: 0, count: 0
+ID 788, src 49432, dst 25269, status Complete, result count 0, preprocessing time 0.009786 seconds, query time 0.021681 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 789, src 6781, dst 56500, status Complete, result count 0, preprocessing time 0.009502 seconds, query time 0.012015 seconds,
+hit!
+pid: 0, count: 1
+ID 790, src 68515, dst 52181, status Complete, result count 1, preprocessing time 0.000025 seconds, query time 0.000062 seconds,
+pid: 0, count: 0
+ID 791, src 68845, dst 53538, status Complete, result count 0, preprocessing time 0.003129 seconds, query time 0.003297 seconds,
+pid: 0, count: 0
+ID 792, src 53437, dst 19228, status Complete, result count 0, preprocessing time 0.015263 seconds, query time 0.017781 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 793, src 6825, dst 266, status Complete, result count 0, preprocessing time 0.007184 seconds, query time 0.011043 seconds,
+pid: 0, count: 0
+ID 794, src 74626, dst 3487, status Complete, result count 0, preprocessing time 0.017471 seconds, query time 0.039846 seconds,
+pid: 0, count: 0
+ID 795, src 30852, dst 56309, status Complete, result count 0, preprocessing time 0.015636 seconds, query time 0.020493 seconds,
+pid: 0, count: 0
+ID 796, src 17102, dst 46873, status Complete, result count 0, preprocessing time 0.012069 seconds, query time 0.014824 seconds,
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+ID 797, src 4012, dst 22240, status Complete, result count 0, preprocessing time 0.014050 seconds, query time 1.940674 seconds,
+pid: 0, count: 0
+ID 798, src 53569, dst 2838, status Complete, result count 0, preprocessing time 0.018658 seconds, query time 0.037350 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 799, src 40337, dst 45672, status Complete, result count 0, preprocessing time 0.014974 seconds, query time 0.019256 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 800, src 30574, dst 74307, status Complete, result count 0, preprocessing time 0.011237 seconds, query time 0.013434 seconds,
+pid: 0, count: 0
+ID 801, src 42494, dst 7464, status Complete, result count 0, preprocessing time 0.006930 seconds, query time 0.007644 seconds,
+pid: 0, count: 0
+ID 802, src 53883, dst 21389, status Complete, result count 0, preprocessing time 0.009950 seconds, query time 0.013708 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 803, src 8831, dst 38446, status Complete, result count 0, preprocessing time 0.011837 seconds, query time 0.182550 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 804, src 7027, dst 16830, status Complete, result count 0, preprocessing time 0.023626 seconds, query time 6.139652 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 805, src 30610, dst 36485, status Complete, result count 0, preprocessing time 0.021645 seconds, query time 0.065086 seconds,
+pid: 0, count: 0
+ID 806, src 22998, dst 51261, status Complete, result count 0, preprocessing time 0.012374 seconds, query time 0.014053 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 807, src 43634, dst 1569, status Complete, result count 0, preprocessing time 0.015087 seconds, query time 0.115018 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 808, src 47945, dst 5031, status Complete, result count 0, preprocessing time 0.019517 seconds, query time 0.042013 seconds,
+pid: 0, count: 0
+ID 809, src 61224, dst 29705, status Complete, result count 0, preprocessing time 0.012403 seconds, query time 0.013300 seconds,
+pid: 0, count: 0
+ID 810, src 46770, dst 22533, status Complete, result count 0, preprocessing time 0.006481 seconds, query time 0.007265 seconds,
+pid: 0, count: 0
+ID 811, src 46387, dst 1962, status Complete, result count 0, preprocessing time 0.008755 seconds, query time 0.020812 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 812, src 45152, dst 35728, status Complete, result count 0, preprocessing time 0.011782 seconds, query time 0.015043 seconds,
+pid: 0, count: 0
+ID 813, src 46135, dst 27080, status Complete, result count 0, preprocessing time 0.013650 seconds, query time 0.024455 seconds,
+pid: 0, count: 0
+ID 814, src 40825, dst 43230, status Complete, result count 0, preprocessing time 0.011382 seconds, query time 0.012232 seconds,
+pid: 0, count: 0
+ID 815, src 38740, dst 30499, status Complete, result count 0, preprocessing time 0.006996 seconds, query time 0.008080 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 816, src 11085, dst 73134, status Complete, result count 0, preprocessing time 0.010166 seconds, query time 0.126729 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 817, src 3568, dst 74347, status Complete, result count 0, preprocessing time 0.021465 seconds, query time 1.171404 seconds,
+pid: 0, count: 0
+ID 818, src 58519, dst 43560, status Complete, result count 0, preprocessing time 0.016730 seconds, query time 0.018132 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 819, src 30270, dst 13444, status Complete, result count 0, preprocessing time 0.016566 seconds, query time 0.792664 seconds,
+pid: 0, count: 0
+ID 820, src 37202, dst 20775, status Complete, result count 0, preprocessing time 0.013529 seconds, query time 0.014836 seconds,
+pid: 0, count: 0
+ID 821, src 68137, dst 22027, status Complete, result count 0, preprocessing time 0.001158 seconds, query time 0.001265 seconds,
+pid: 0, count: 0
+ID 822, src 34543, dst 12777, status Complete, result count 0, preprocessing time 0.015110 seconds, query time 0.016305 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 823, src 53095, dst 63340, status Complete, result count 0, preprocessing time 0.014349 seconds, query time 0.016332 seconds,
+pid: 0, count: 0
+ID 824, src 68399, dst 31509, status Complete, result count 0, preprocessing time 0.004703 seconds, query time 0.004836 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 825, src 19317, dst 71587, status Complete, result count 0, preprocessing time 0.007744 seconds, query time 0.012489 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 826, src 33503, dst 33171, status Complete, result count 0, preprocessing time 0.020541 seconds, query time 0.298445 seconds,
+pid: 0, count: 0
+ID 827, src 60922, dst 15894, status Complete, result count 0, preprocessing time 0.016102 seconds, query time 0.017558 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 828, src 34506, dst 19709, status Complete, result count 0, preprocessing time 0.019769 seconds, query time 0.055555 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 829, src 50890, dst 75868, status Complete, result count 0, preprocessing time 0.015880 seconds, query time 0.025773 seconds,
+pid: 0, count: 0
+ID 830, src 64408, dst 27586, status Complete, result count 0, preprocessing time 0.010514 seconds, query time 0.010939 seconds,
+pid: 0, count: 0
+ID 831, src 47645, dst 29030, status Complete, result count 0, preprocessing time 0.009425 seconds, query time 0.011896 seconds,
+pid: 0, count: 0
+ID 832, src 37566, dst 62251, status Complete, result count 0, preprocessing time 0.014934 seconds, query time 0.015735 seconds,
+pid: 0, count: 0
+ID 833, src 14605, dst 8582, status Complete, result count 0, preprocessing time 0.016173 seconds, query time 0.043868 seconds,
+pid: 0, count: 0
+ID 834, src 16447, dst 19132, status Complete, result count 0, preprocessing time 0.015992 seconds, query time 0.020323 seconds,
+pid: 0, count: 0
+ID 835, src 33902, dst 17148, status Complete, result count 0, preprocessing time 0.009780 seconds, query time 0.011755 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 836, src 19850, dst 13857, status Complete, result count 0, preprocessing time 0.014197 seconds, query time 1.136888 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 837, src 35363, dst 44728, status Complete, result count 0, preprocessing time 0.015615 seconds, query time 0.018762 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 838, src 8600, dst 36320, status Complete, result count 0, preprocessing time 0.023186 seconds, query time 0.740548 seconds,
+pid: 0, count: 0
+ID 839, src 71562, dst 23602, status Complete, result count 0, preprocessing time 0.016060 seconds, query time 0.081218 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 840, src 1452, dst 36492, status Complete, result count 0, preprocessing time 0.025262 seconds, query time 0.859489 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 841, src 26377, dst 30230, status Complete, result count 0, preprocessing time 0.020438 seconds, query time 0.100467 seconds,
+pid: 0, count: 0
+ID 842, src 51298, dst 10225, status Complete, result count 0, preprocessing time 0.015900 seconds, query time 0.021766 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 843, src 17716, dst 52006, status Complete, result count 0, preprocessing time 0.016812 seconds, query time 0.047739 seconds,
+pid: 0, count: 0
+ID 844, src 55643, dst 8405, status Complete, result count 0, preprocessing time 0.015015 seconds, query time 0.020911 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 845, src 61371, dst 44353, status Complete, result count 0, preprocessing time 0.012821 seconds, query time 0.021229 seconds,
+pid: 0, count: 0
+ID 846, src 63878, dst 7094, status Complete, result count 0, preprocessing time 0.010407 seconds, query time 0.011788 seconds,
+pid: 0, count: 0
+ID 847, src 46394, dst 74517, status Complete, result count 0, preprocessing time 0.006067 seconds, query time 0.006677 seconds,
+pid: 0, count: 0
+ID 848, src 66523, dst 31559, status Complete, result count 0, preprocessing time 0.002880 seconds, query time 0.003040 seconds,
+pid: 0, count: 0
+ID 849, src 29795, dst 41569, status Complete, result count 0, preprocessing time 0.009551 seconds, query time 0.067540 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 850, src 28300, dst 16348, status Complete, result count 0, preprocessing time 0.017266 seconds, query time 0.051750 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 851, src 62472, dst 12177, status Complete, result count 0, preprocessing time 0.010163 seconds, query time 0.010547 seconds,
+hit!
+pid: 0, count: 1
+ID 852, src 69178, dst 56118, status Complete, result count 1, preprocessing time 0.000038 seconds, query time 0.000115 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 853, src 18075, dst 49922, status Complete, result count 0, preprocessing time 0.016989 seconds, query time 0.030678 seconds,
+pid: 0, count: 0
+ID 854, src 67181, dst 72226, status Complete, result count 0, preprocessing time 0.004211 seconds, query time 0.004452 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 855, src 22095, dst 23500, status Complete, result count 0, preprocessing time 0.010290 seconds, query time 0.030551 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 856, src 20672, dst 40326, status Complete, result count 0, preprocessing time 0.011889 seconds, query time 0.013291 seconds,
+pid: 0, count: 0
+ID 857, src 24898, dst 47297, status Complete, result count 0, preprocessing time 0.009143 seconds, query time 0.010373 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 858, src 5279, dst 39222, status Complete, result count 0, preprocessing time 0.010597 seconds, query time 0.024598 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 859, src 22895, dst 18539, status Complete, result count 0, preprocessing time 0.019568 seconds, query time 0.049227 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 860, src 22878, dst 72321, status Complete, result count 0, preprocessing time 0.018374 seconds, query time 0.027275 seconds,
+pid: 0, count: 0
+ID 861, src 61913, dst 21074, status Complete, result count 0, preprocessing time 0.016813 seconds, query time 0.021407 seconds,
+pid: 0, count: 0
+ID 862, src 34300, dst 30748, status Complete, result count 0, preprocessing time 0.013430 seconds, query time 0.039513 seconds,
+pid: 0, count: 0
+ID 863, src 12396, dst 74090, status Complete, result count 0, preprocessing time 0.017118 seconds, query time 0.093386 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 864, src 20708, dst 33501, status Complete, result count 0, preprocessing time 0.015372 seconds, query time 0.022259 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 865, src 58314, dst 49905, status Complete, result count 0, preprocessing time 0.012882 seconds, query time 0.038014 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 866, src 31279, dst 51454, status Complete, result count 0, preprocessing time 0.017132 seconds, query time 0.025800 seconds,
+pid: 0, count: 0
+ID 867, src 56542, dst 72361, status Complete, result count 0, preprocessing time 0.010661 seconds, query time 0.011442 seconds,
+pid: 0, count: 0
+ID 868, src 61084, dst 73101, status Complete, result count 0, preprocessing time 0.007709 seconds, query time 0.009386 seconds,
+pid: 0, count: 0
+ID 869, src 43459, dst 59544, status Complete, result count 0, preprocessing time 0.006978 seconds, query time 0.007790 seconds,
+pid: 0, count: 0
+ID 870, src 64951, dst 13018, status Complete, result count 0, preprocessing time 0.006342 seconds, query time 0.006942 seconds,
+pid: 0, count: 0
+ID 871, src 38857, dst 44334, status Complete, result count 0, preprocessing time 0.014939 seconds, query time 0.022273 seconds,
+hit!
+pid: 0, count: 1
+ID 872, src 59720, dst 23528, status Complete, result count 1, preprocessing time 0.000055 seconds, query time 0.000159 seconds,
+pid: 0, count: 0
+ID 873, src 73895, dst 12671, status Complete, result count 0, preprocessing time 0.019322 seconds, query time 0.143930 seconds,
+pid: 0, count: 0
+ID 874, src 75852, dst 10500, status Complete, result count 0, preprocessing time 0.022597 seconds, query time 0.754929 seconds,
+pid: 0, count: 0
+ID 875, src 33659, dst 42257, status Complete, result count 0, preprocessing time 0.015749 seconds, query time 0.019652 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 876, src 10572, dst 20179, status Complete, result count 0, preprocessing time 0.012406 seconds, query time 0.144029 seconds,
+pid: 0, count: 0
+ID 877, src 67270, dst 37985, status Complete, result count 0, preprocessing time 0.012517 seconds, query time 0.013464 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 878, src 36186, dst 48051, status Complete, result count 0, preprocessing time 0.010949 seconds, query time 0.029073 seconds,
+hit!
+pid: 0, count: 1
+ID 879, src 74217, dst 75596, status Complete, result count 1, preprocessing time 0.000033 seconds, query time 0.000215 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 880, src 12184, dst 8214, status Complete, result count 0, preprocessing time 0.010606 seconds, query time 0.234873 seconds,
+pid: 0, count: 0
+ID 881, src 40768, dst 13693, status Complete, result count 0, preprocessing time 0.018489 seconds, query time 0.054544 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 882, src 49118, dst 32558, status Complete, result count 0, preprocessing time 0.016450 seconds, query time 0.038230 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 883, src 45442, dst 17703, status Complete, result count 0, preprocessing time 0.022907 seconds, query time 0.097845 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 884, src 37362, dst 32663, status Complete, result count 0, preprocessing time 0.019657 seconds, query time 0.158566 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 885, src 38684, dst 38996, status Complete, result count 0, preprocessing time 0.017321 seconds, query time 0.040428 seconds,
+pid: 0, count: 0
+ID 886, src 62425, dst 27624, status Complete, result count 0, preprocessing time 0.006369 seconds, query time 0.007436 seconds,
+pid: 0, count: 0
+ID 887, src 18037, dst 58647, status Complete, result count 0, preprocessing time 0.000645 seconds, query time 0.000685 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 888, src 10861, dst 11990, status Complete, result count 0, preprocessing time 0.018623 seconds, query time 0.346281 seconds,
+hit!
+pid: 0, count: 1
+ID 889, src 68879, dst 54317, status Complete, result count 1, preprocessing time 0.000050 seconds, query time 0.000162 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 890, src 8536, dst 48589, status Complete, result count 0, preprocessing time 0.021038 seconds, query time 2.106754 seconds,
+pid: 0, count: 0
+ID 891, src 13632, dst 34322, status Complete, result count 0, preprocessing time 0.018089 seconds, query time 0.024164 seconds,
+pid: 0, count: 0
+ID 892, src 60525, dst 19946, status Complete, result count 0, preprocessing time 0.013911 seconds, query time 0.015190 seconds,
+pid: 0, count: 0
+ID 893, src 44647, dst 14391, status Complete, result count 0, preprocessing time 0.012788 seconds, query time 0.033502 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 894, src 36078, dst 30093, status Complete, result count 0, preprocessing time 0.015058 seconds, query time 0.041038 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 895, src 43624, dst 36464, status Complete, result count 0, preprocessing time 0.014187 seconds, query time 0.019407 seconds,
+pid: 0, count: 0
+ID 896, src 60102, dst 6821, status Complete, result count 0, preprocessing time 0.010623 seconds, query time 0.011602 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 897, src 32857, dst 48748, status Complete, result count 0, preprocessing time 0.007689 seconds, query time 0.008858 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 898, src 11172, dst 18812, status Complete, result count 0, preprocessing time 0.012933 seconds, query time 0.764863 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 899, src 29252, dst 13022, status Complete, result count 0, preprocessing time 0.017531 seconds, query time 0.026855 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 900, src 34086, dst 11456, status Complete, result count 0, preprocessing time 0.015402 seconds, query time 0.033429 seconds,
+pid: 0, count: 0
+ID 901, src 33883, dst 54317, status Complete, result count 0, preprocessing time 0.010457 seconds, query time 0.011428 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 902, src 36234, dst 57235, status Complete, result count 0, preprocessing time 0.008450 seconds, query time 0.017692 seconds,
+pid: 0, count: 0
+ID 903, src 60523, dst 56464, status Complete, result count 0, preprocessing time 0.006880 seconds, query time 0.007362 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 904, src 43275, dst 74230, status Complete, result count 0, preprocessing time 0.010800 seconds, query time 0.024309 seconds,
+pid: 0, count: 0
+ID 905, src 32107, dst 10388, status Complete, result count 0, preprocessing time 0.012175 seconds, query time 0.018130 seconds,
+pid: 0, count: 0
+ID 906, src 9601, dst 38744, status Complete, result count 0, preprocessing time 0.011745 seconds, query time 0.072957 seconds,
+hit!
+pid: 0, count: 1
+ID 907, src 70701, dst 66751, status Complete, result count 1, preprocessing time 0.000086 seconds, query time 0.000194 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 908, src 27750, dst 27929, status Complete, result count 0, preprocessing time 0.008562 seconds, query time 0.013156 seconds,
+pid: 0, count: 0
+ID 909, src 44143, dst 53397, status Complete, result count 0, preprocessing time 0.012721 seconds, query time 0.013406 seconds,
+pid: 0, count: 0
+ID 910, src 61257, dst 41944, status Complete, result count 0, preprocessing time 0.004561 seconds, query time 0.004897 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 911, src 41597, dst 63884, status Complete, result count 0, preprocessing time 0.003861 seconds, query time 0.007117 seconds,
+pid: 0, count: 0
+ID 912, src 11219, dst 14047, status Complete, result count 0, preprocessing time 0.005201 seconds, query time 0.005518 seconds,
+pid: 0, count: 0
+ID 913, src 63142, dst 74407, status Complete, result count 0, preprocessing time 0.008565 seconds, query time 0.015984 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 914, src 38095, dst 30928, status Complete, result count 0, preprocessing time 0.015923 seconds, query time 0.094507 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 915, src 27693, dst 58167, status Complete, result count 0, preprocessing time 0.011862 seconds, query time 0.012524 seconds,
+pid: 0, count: 0
+ID 916, src 16883, dst 46851, status Complete, result count 0, preprocessing time 0.009069 seconds, query time 0.019713 seconds,
+pid: 0, count: 0
+ID 917, src 55334, dst 59521, status Complete, result count 0, preprocessing time 0.004589 seconds, query time 0.004828 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 918, src 40116, dst 12536, status Complete, result count 0, preprocessing time 0.011098 seconds, query time 0.102154 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 919, src 6816, dst 35574, status Complete, result count 0, preprocessing time 0.020487 seconds, query time 0.161504 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 920, src 15643, dst 47696, status Complete, result count 0, preprocessing time 0.016729 seconds, query time 0.041529 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 921, src 44587, dst 42123, status Complete, result count 0, preprocessing time 0.012967 seconds, query time 0.014875 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 922, src 8877, dst 45163, status Complete, result count 0, preprocessing time 0.016193 seconds, query time 0.186789 seconds,
+pid: 0, count: 0
+ID 923, src 65558, dst 54000, status Complete, result count 0, preprocessing time 0.001101 seconds, query time 0.001218 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 924, src 8193, dst 21997, status Complete, result count 0, preprocessing time 0.019056 seconds, query time 0.104982 seconds,
+pid: 0, count: 0
+ID 925, src 61618, dst 45154, status Complete, result count 0, preprocessing time 0.004420 seconds, query time 0.004583 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 926, src 33949, dst 49981, status Complete, result count 0, preprocessing time 0.017980 seconds, query time 0.044561 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 927, src 14372, dst 73428, status Complete, result count 0, preprocessing time 0.022386 seconds, query time 0.262352 seconds,
+pid: 0, count: 0
+ID 928, src 37011, dst 38867, status Complete, result count 0, preprocessing time 0.009911 seconds, query time 0.010610 seconds,
+pid: 0, count: 0
+ID 929, src 73927, dst 13717, status Complete, result count 0, preprocessing time 0.012079 seconds, query time 0.051571 seconds,
+pid: 0, count: 0
+ID 930, src 47227, dst 50130, status Complete, result count 0, preprocessing time 0.006032 seconds, query time 0.006237 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 931, src 5529, dst 56456, status Complete, result count 0, preprocessing time 0.008075 seconds, query time 0.020189 seconds,
+pid: 0, count: 0
+ID 932, src 44209, dst 19878, status Complete, result count 0, preprocessing time 0.017299 seconds, query time 0.021553 seconds,
+pid: 0, count: 0
+ID 933, src 12018, dst 28032, status Complete, result count 0, preprocessing time 0.015528 seconds, query time 0.108814 seconds,
+pid: 0, count: 0
+ID 934, src 41866, dst 29682, status Complete, result count 0, preprocessing time 0.016376 seconds, query time 0.018443 seconds,
+pid: 0, count: 0
+ID 935, src 46996, dst 24186, status Complete, result count 0, preprocessing time 0.013638 seconds, query time 0.055958 seconds,
+hit!
+pid: 0, count: 1
+ID 936, src 48206, dst 67780, status Complete, result count 1, preprocessing time 0.000044 seconds, query time 0.000156 seconds,
+pid: 0, count: 0
+ID 937, src 64678, dst 41787, status Complete, result count 0, preprocessing time 0.010325 seconds, query time 0.010668 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 938, src 30471, dst 30907, status Complete, result count 0, preprocessing time 0.009620 seconds, query time 0.017012 seconds,
+pid: 0, count: 0
+ID 939, src 39522, dst 57444, status Complete, result count 0, preprocessing time 0.015287 seconds, query time 0.017340 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 940, src 25954, dst 7594, status Complete, result count 0, preprocessing time 0.016840 seconds, query time 0.686819 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 941, src 7005, dst 59711, status Complete, result count 0, preprocessing time 0.013311 seconds, query time 0.016746 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 942, src 55692, dst 12848, status Complete, result count 0, preprocessing time 0.011544 seconds, query time 0.022103 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 943, src 5159, dst 58122, status Complete, result count 0, preprocessing time 0.016967 seconds, query time 0.030614 seconds,
+pid: 0, count: 0
+ID 944, src 29248, dst 14949, status Complete, result count 0, preprocessing time 0.016689 seconds, query time 0.126312 seconds,
+pid: 0, count: 0
+ID 945, src 56878, dst 73615, status Complete, result count 0, preprocessing time 0.006688 seconds, query time 0.008781 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 946, src 2822, dst 39069, status Complete, result count 0, preprocessing time 0.015105 seconds, query time 0.025254 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 947, src 15273, dst 74408, status Complete, result count 0, preprocessing time 0.007832 seconds, query time 0.008533 seconds,
+pid: 0, count: 0
+ID 948, src 57061, dst 39104, status Complete, result count 0, preprocessing time 0.006861 seconds, query time 0.009485 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 949, src 32087, dst 45696, status Complete, result count 0, preprocessing time 0.011243 seconds, query time 0.019480 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 950, src 5185, dst 40356, status Complete, result count 0, preprocessing time 0.013999 seconds, query time 0.083356 seconds,
+pid: 0, count: 0
+ID 951, src 34666, dst 51687, status Complete, result count 0, preprocessing time 0.016775 seconds, query time 0.027176 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 952, src 35334, dst 73810, status Complete, result count 0, preprocessing time 0.017543 seconds, query time 0.087173 seconds,
+pid: 0, count: 0
+ID 953, src 33773, dst 47792, status Complete, result count 0, preprocessing time 0.015149 seconds, query time 0.021246 seconds,
+pid: 0, count: 0
+ID 954, src 74988, dst 24141, status Complete, result count 0, preprocessing time 0.012042 seconds, query time 0.044611 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 955, src 45615, dst 38362, status Complete, result count 0, preprocessing time 0.012661 seconds, query time 0.016023 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+ID 956, src 35560, dst 15896, status Complete, result count 0, preprocessing time 0.011798 seconds, query time 0.367487 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 957, src 6107, dst 68456, status Complete, result count 0, preprocessing time 0.010410 seconds, query time 0.014209 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 958, src 22014, dst 38133, status Complete, result count 0, preprocessing time 0.023959 seconds, query time 0.081737 seconds,
+pid: 0, count: 0
+ID 959, src 70086, dst 11788, status Complete, result count 0, preprocessing time 0.002396 seconds, query time 0.002477 seconds,
+pid: 0, count: 0
+ID 960, src 11254, dst 37570, status Complete, result count 0, preprocessing time 0.011330 seconds, query time 0.014393 seconds,
+pid: 0, count: 0
+ID 961, src 32634, dst 58388, status Complete, result count 0, preprocessing time 0.012446 seconds, query time 0.047623 seconds,
+pid: 0, count: 0
+ID 962, src 61884, dst 36796, status Complete, result count 0, preprocessing time 0.007539 seconds, query time 0.007861 seconds,
+pid: 0, count: 0
+ID 963, src 55234, dst 15094, status Complete, result count 0, preprocessing time 0.010301 seconds, query time 0.014430 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 964, src 14387, dst 18622, status Complete, result count 0, preprocessing time 0.022170 seconds, query time 0.835785 seconds,
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 965, src 171, dst 40323, status Complete, result count 0, preprocessing time 0.019415 seconds, query time 0.213873 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 966, src 21812, dst 18677, status Complete, result count 0, preprocessing time 0.023540 seconds, query time 0.122362 seconds,
+pid: 0, count: 0
+ID 967, src 26055, dst 72495, status Complete, result count 0, preprocessing time 0.020254 seconds, query time 0.054099 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 968, src 17245, dst 11384, status Complete, result count 0, preprocessing time 0.023867 seconds, query time 0.815626 seconds,
+pid: 0, count: 0
+ID 969, src 55925, dst 73101, status Complete, result count 0, preprocessing time 0.012876 seconds, query time 0.015336 seconds,
+pid: 0, count: 0
+ID 970, src 56626, dst 18788, status Complete, result count 0, preprocessing time 0.012830 seconds, query time 0.013720 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 971, src 31757, dst 32767, status Complete, result count 0, preprocessing time 0.015816 seconds, query time 0.412734 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 972, src 75238, dst 24631, status Complete, result count 0, preprocessing time 0.009194 seconds, query time 0.010825 seconds,
+pid: 0, count: 0
+ID 973, src 29161, dst 38475, status Complete, result count 0, preprocessing time 0.009905 seconds, query time 0.017485 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 974, src 34844, dst 8339, status Complete, result count 0, preprocessing time 0.006708 seconds, query time 0.007846 seconds,
+pid: 0, count: 0
+ID 975, src 53401, dst 60222, status Complete, result count 0, preprocessing time 0.002808 seconds, query time 0.002939 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 976, src 19091, dst 17342, status Complete, result count 0, preprocessing time 0.014014 seconds, query time 0.172298 seconds,
+pid: 0, count: 0
+ID 977, src 55612, dst 24580, status Complete, result count 0, preprocessing time 0.008803 seconds, query time 0.009372 seconds,
+pid: 0, count: 0
+ID 978, src 57892, dst 12010, status Complete, result count 0, preprocessing time 0.006675 seconds, query time 0.007568 seconds,
+pid: 0, count: 0
+ID 979, src 50785, dst 18127, status Complete, result count 0, preprocessing time 0.011861 seconds, query time 0.012585 seconds,
+pid: 0, count: 0
+ID 980, src 55706, dst 27746, status Complete, result count 0, preprocessing time 0.010961 seconds, query time 0.017886 seconds,
+pid: 0, count: 0
+ID 981, src 74923, dst 30192, status Complete, result count 0, preprocessing time 0.013099 seconds, query time 0.041948 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 982, src 5772, dst 41514, status Complete, result count 0, preprocessing time 0.021231 seconds, query time 0.047399 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 983, src 16348, dst 52345, status Complete, result count 0, preprocessing time 0.020697 seconds, query time 0.040171 seconds,
+pid: 0, count: 0
+ID 984, src 31867, dst 24284, status Complete, result count 0, preprocessing time 0.019933 seconds, query time 0.061513 seconds,
+pid: 0, count: 0
+ID 985, src 39849, dst 28731, status Complete, result count 0, preprocessing time 0.014455 seconds, query time 0.019212 seconds,
+pid: 0, count: 0
+ID 986, src 32250, dst 33337, status Complete, result count 0, preprocessing time 0.012969 seconds, query time 0.047802 seconds,
+pid: 0, count: 0
+ID 987, src 40509, dst 12199, status Complete, result count 0, preprocessing time 0.011841 seconds, query time 0.012322 seconds,
+pid: 0, count: 0
+ID 988, src 20299, dst 73673, status Complete, result count 0, preprocessing time 0.019447 seconds, query time 0.182666 seconds,
+pid: 0, count: 0
+ID 989, src 17858, dst 51208, status Complete, result count 0, preprocessing time 0.009199 seconds, query time 0.009738 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 990, src 13823, dst 13303, status Complete, result count 0, preprocessing time 0.011924 seconds, query time 1.226425 seconds,
+pid: 1, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 991, src 26927, dst 45179, status Complete, result count 0, preprocessing time 0.017529 seconds, query time 0.022629 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+ID 992, src 59207, dst 32662, status Complete, result count 0, preprocessing time 0.002546 seconds, query time 0.002802 seconds,
+pid: 0, count: 0
+ID 993, src 61653, dst 43644, status Complete, result count 0, preprocessing time 0.005241 seconds, query time 0.005816 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 1, count: 0
+pid: 0, count: 0
+ID 994, src 12847, dst 36696, status Complete, result count 0, preprocessing time 0.016446 seconds, query time 0.101593 seconds,
+pid: 0, count: 0
+ID 995, src 42084, dst 70640, status Complete, result count 0, preprocessing time 0.000072 seconds, query time 0.000181 seconds,
+pid: 0, count: 0
+ID 996, src 13556, dst 18464, status Complete, result count 0, preprocessing time 0.018846 seconds, query time 0.044272 seconds,
+pid: 1, count: 0
+pid: 0, count: 0
+pid: 0, count: 0
+ID 997, src 5456, dst 58324, status Complete, result count 0, preprocessing time 0.017334 seconds, query time 0.047407 seconds,
+pid: 0, count: 0
+ID 998, src 8997, dst 44144, status Complete, result count 0, preprocessing time 0.014849 seconds, query time 0.016242 seconds,
+pid: 0, count: 0
+ID 999, src 49807, dst 37988, status Complete, result count 0, preprocessing time 0.007906 seconds, query time 0.008687 seconds,

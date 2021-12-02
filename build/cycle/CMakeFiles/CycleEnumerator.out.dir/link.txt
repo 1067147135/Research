@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -O3  -fopenmp -march=native -fopenmp    -rdynamic CMakeFiles/CycleEnumerator.out.dir/main.cpp.o CMakeFiles/CycleEnumerator.out.dir/cycle_enumerator.cpp.o  -o CycleEnumerator.out  -Wl,-rpath,/home/shiwenlan/test/parallel3/build/util ../util/libgraph.so ../util/liblog.so ../util/libio.so 

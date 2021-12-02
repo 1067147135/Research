@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++17 -O3  -fopenmp -march=native  -shared -Wl,-soname,libio.so -o libio.so CMakeFiles/io.dir/io/io.cpp.o 
