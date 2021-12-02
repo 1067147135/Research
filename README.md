@@ -1,4 +1,4 @@
-#For my learning purpose
+It is for my learning purpose, the following README is from original auther.
 
 # PathEnum
 ## Introduction
