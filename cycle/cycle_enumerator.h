@@ -13,7 +13,7 @@ extern bool g_exit;
 
 #define LISTING_RESULTS
 #define OUTPUT_BUFFER_RATIO (128 * 1024 * 1024)
-#define NumThreads 2
+#define NumThreads 1
 
 class CycleEnumerator {
 public:

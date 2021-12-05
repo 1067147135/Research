@@ -1061,6 +1061,7 @@ inline void CycleEnumerator::dfs_on_bigraph(uint32_t u, uint32_t k) {
         else {
             conflict_count[id] += 1;
         }
+        // printf("loop: pid: %d, count: %d\n", int(id), int(count[id]));      
     }
 
     EXIT:
@@ -1069,7 +1070,7 @@ inline void CycleEnumerator::dfs_on_bigraph(uint32_t u, uint32_t k) {
     if (temp_count == count[id]) {
         invalid_partial_result_count[id] += 1;
     }
-    // printf("sub-count till now: %d", int(count[id]));
+    // printf("dfs: pid: %d, sub-count till now: %d\n",int(id), int(count[id]));
 }
 
 void
@@ -1081,10 +1082,6 @@ void
 
 
     uint64_t temp_count = count_;   // count_ should start at 0
-    uint64_t count[NumThreads];
-    uint64_t partial_result_count[NumThreads];
-    uint64_t conflict_count[NumThreads];
-    uint64_t invalid_partial_result_count[NumThreads];
 
     for (int i = 0; i < NumThreads; i++){
         count[i] = 0;
@@ -1104,7 +1101,7 @@ void
     {
         long id = omp_get_thread_num();
         // std::cout << "id: " << id << std::endl;
-    #pragma omp for firstprivate(stack_, visited_)
+    #pragma omp for firstprivate(stack_, visited_) 
 
         for (uint32_t i = start; i < end; ++i){
             if (g_exit || count_ >= target_number_results_) ;
@@ -1113,25 +1110,26 @@ void
                 if (v == dst_) {
                     // Emit the result.
                     stack_[k + 1] = dst_;
-                    printf("hit!\n");
+                    // printf("hit!\n");
                     count[id] += 1;                  
                 }
                 else if (k == length_constraint_ - 2 && !visited_[v]) {
                     // Emit the result.
                     stack_[k + 1] = v;
                     stack_[k + 2] = dst_;
-                    printf("hit!\n");
+                    // printf("hit!\n");
                     count[id] += 1;
                     partial_result_count[id] += 1;
                 }
                 else if (!visited_[v]) {
                     dfs_on_bigraph(v, k + 1);
+                    // printf("get out of dfs: pid: %d, count: %d\n", int(id), int(count[id]));
                 }
                 else {
                     conflict_count[id] += 1;
                 }
             } 
-            printf("pid: %d, count: %d\n", int(id), int(count[id]));       
+            // printf("parrellel: pid: %d, count: %d\n", int(id), int(count[id]));       
         }
     }
     EXIT:
