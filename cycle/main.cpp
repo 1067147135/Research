@@ -111,7 +111,7 @@ int main(int argc, char *argv[]) {
     uint32_t num_queries = queries.size();
     printf("num of queries: %u\n", num_queries);
 
-    for (uint32_t i = 2; i < 10; ++i) {
+    for (uint32_t i = 0; i < num_queries; ++i) {
         auto query = queries[i];
 
         std::string query_status = "Complete";

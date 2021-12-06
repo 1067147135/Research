@@ -1,32 +1,32 @@
-2021-11-30 20:40:02 [32mINFO  (et: 0.000118 s)[0m[36m (func: load_csr) [0m [90mdirected_graph.cpp:20:[0m load graph in CSR from ../../dataset/soc-Epinions1/for_demo/
-2021-11-30 20:40:02 [32mINFO  (et: 0.000718 s)[0m[36m (func: load_csr_degree_file) [0m [90mdirected_graph.cpp:98:[0m read degree file time: 0.000 seconds
-2021-11-30 20:40:02 [32mINFO  (et: 0.001222 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:121:[0m malloc and sequential-scan time: 0.000 seconds
-2021-11-30 20:40:02 [32mINFO  (et: 0.006172 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:134:[0m read adj file time: 0.004 seconds
-2021-11-30 20:40:02 [32mINFO  (et: 0.006606 s)[0m[36m (func: load_csr_degree_file) [0m [90mdirected_graph.cpp:98:[0m read degree file time: 0.000 seconds
-2021-11-30 20:40:02 [32mINFO  (et: 0.007049 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:121:[0m malloc and sequential-scan time: 0.000 seconds
-2021-11-30 20:40:02 [32mINFO  (et: 0.010199 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:134:[0m read adj file time: 0.003 seconds
-2021-11-30 20:40:02 [32mINFO  (et: 0.010224 s)[0m[36m (func: load_csr) [0m [90mdirected_graph.cpp:34:[0m load graph time: 0.009 seconds
-2021-11-30 20:40:02 [32mINFO  (et: 0.012112 s)[0m[36m (func: print_metadata) [0m [90mdirected_graph.cpp:281:[0m graph metadata: num of vertices = 75888, num of edges = 508837, average degree = 13.41, max out degree = 1801, max in degree = 3035
-2021-11-30 20:40:02 [32mINFO  (et: 0.012151 s)[0m[36m (func: print_metadata) [0m [90mdirected_graph.cpp:299:[0m out degree distribution: {[0,2), num = 44739}, {[2,4), num = 13175}, {[4,8), num = 7385}, {[8,16), num = 4186}, {[16,32), num = 2739}, {[32,64), num = 1981}, {[64,128), num = 1162}, {[128,256), num = 416}, {[256,512), num = 86}, {[512,1024), num = 15}, {[1024,2048), num = 4}, 
-2021-11-30 20:40:02 [32mINFO  (et: 0.012165 s)[0m[36m (func: print_metadata) [0m [90mdirected_graph.cpp:316:[0m in degree distribution: {[0,2), num = 44739}, {[2,4), num = 13175}, {[4,8), num = 7385}, {[8,16), num = 4186}, {[16,32), num = 2739}, {[32,64), num = 1981}, {[64,128), num = 1162}, {[128,256), num = 416}, {[256,512), num = 86}, {[512,1024), num = 15}, {[1024,2048), num = 4}, {[0,2), num = 47960}, {[2,4), num = 13175}, {[4,8), num = 7385}, {[8,16), num = 4186}, {[16,32), num = 2739}, {[32,64), num = 1981}, {[64,128), num = 1162}, {[128,256), num = 416}, {[256,512), num = 86}, {[512,1024), num = 15}, {[1024,2048), num = 4}, {[2048,4096), num = 0}, 
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049585 s)[0m[36m (func: main) [0m [90mmain.cpp:151:[0m num of out of time queries: 20
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049705 s)[0m[36m (func: main) [0m [90mmain.cpp:152:[0m average distance check time: 0.000149 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049739 s)[0m[36m (func: main) [0m [90mmain.cpp:153:[0m average query time: 2.026105 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049767 s)[0m[36m (func: main) [0m [90mmain.cpp:154:[0m average preprocess time: 0.020042 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049796 s)[0m[36m (func: main) [0m [90mmain.cpp:155:[0m average forward bfs time: 0.005223 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049822 s)[0m[36m (func: main) [0m [90mmain.cpp:156:[0m average backward bfs time: 0.003948 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049850 s)[0m[36m (func: main) [0m [90mmain.cpp:157:[0m average construct bigraph time: 0.010871 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049877 s)[0m[36m (func: main) [0m [90mmain.cpp:158:[0m average full fledged estimation time: 0.000000 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049905 s)[0m[36m (func: main) [0m [90mmain.cpp:159:[0m average left dfs time: 0.000000 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049931 s)[0m[36m (func: main) [0m [90mmain.cpp:160:[0m average right dfs time time: 0.000000 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.049959 s)[0m[36m (func: main) [0m [90mmain.cpp:161:[0m average join time: 0.000000 seconds
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050005 s)[0m[36m (func: main) [0m [90mmain.cpp:162:[0m average result count: 0.00
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050031 s)[0m[36m (func: main) [0m [90mmain.cpp:163:[0m average partial result count: 1.00
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050056 s)[0m[36m (func: main) [0m [90mmain.cpp:164:[0m average invalid partial result count: 0.99
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050082 s)[0m[36m (func: main) [0m [90mmain.cpp:165:[0m average neighbors access count: 98306526.67
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050108 s)[0m[36m (func: main) [0m [90mmain.cpp:166:[0m average conflict count: 0.00
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050133 s)[0m[36m (func: main) [0m [90mmain.cpp:167:[0m average estimate accuracy: 0.0000
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050157 s)[0m[36m (func: main) [0m [90mmain.cpp:168:[0m average vertices met while building X: 792804.36
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050184 s)[0m[36m (func: main) [0m [90mmain.cpp:169:[0m average vertices met while building H: 685782.40
-2021-11-30 21:13:59 [32mINFO  (et: 2037.050209 s)[0m[36m (func: main) [0m [90mmain.cpp:173:[0m dump results into file...
-2021-11-30 21:13:59 [32mINFO  (et: 2037.087806 s)[0m[36m (func: main) [0m [90mmain.cpp:266:[0m done.
+2021-12-06 02:41:26 [32mINFO  (et: 0.000129 s)[0m[36m (func: load_csr) [0m [90mdirected_graph.cpp:20:[0m load graph in CSR from ../../dataset/soc-Epinions1/for_demo/
+2021-12-06 02:41:26 [32mINFO  (et: 0.000756 s)[0m[36m (func: load_csr_degree_file) [0m [90mdirected_graph.cpp:98:[0m read degree file time: 0.000 seconds
+2021-12-06 02:41:26 [32mINFO  (et: 0.001242 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:121:[0m malloc and sequential-scan time: 0.000 seconds
+2021-12-06 02:41:26 [32mINFO  (et: 0.006165 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:134:[0m read adj file time: 0.004 seconds
+2021-12-06 02:41:26 [32mINFO  (et: 0.006605 s)[0m[36m (func: load_csr_degree_file) [0m [90mdirected_graph.cpp:98:[0m read degree file time: 0.000 seconds
+2021-12-06 02:41:26 [32mINFO  (et: 0.007055 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:121:[0m malloc and sequential-scan time: 0.000 seconds
+2021-12-06 02:41:26 [32mINFO  (et: 0.010237 s)[0m[36m (func: load_csr_adj_file) [0m [90mdirected_graph.cpp:134:[0m read adj file time: 0.003 seconds
+2021-12-06 02:41:26 [32mINFO  (et: 0.010260 s)[0m[36m (func: load_csr) [0m [90mdirected_graph.cpp:34:[0m load graph time: 0.009 seconds
+2021-12-06 02:41:26 [32mINFO  (et: 0.012128 s)[0m[36m (func: print_metadata) [0m [90mdirected_graph.cpp:281:[0m graph metadata: num of vertices = 75888, num of edges = 508837, average degree = 13.41, max out degree = 1801, max in degree = 3035
+2021-12-06 02:41:26 [32mINFO  (et: 0.012161 s)[0m[36m (func: print_metadata) [0m [90mdirected_graph.cpp:299:[0m out degree distribution: {[0,2), num = 44739}, {[2,4), num = 13175}, {[4,8), num = 7385}, {[8,16), num = 4186}, {[16,32), num = 2739}, {[32,64), num = 1981}, {[64,128), num = 1162}, {[128,256), num = 416}, {[256,512), num = 86}, {[512,1024), num = 15}, {[1024,2048), num = 4}, 
+2021-12-06 02:41:26 [32mINFO  (et: 0.012175 s)[0m[36m (func: print_metadata) [0m [90mdirected_graph.cpp:316:[0m in degree distribution: {[0,2), num = 44739}, {[2,4), num = 13175}, {[4,8), num = 7385}, {[8,16), num = 4186}, {[16,32), num = 2739}, {[32,64), num = 1981}, {[64,128), num = 1162}, {[128,256), num = 416}, {[256,512), num = 86}, {[512,1024), num = 15}, {[1024,2048), num = 4}, {[0,2), num = 47960}, {[2,4), num = 13175}, {[4,8), num = 7385}, {[8,16), num = 4186}, {[16,32), num = 2739}, {[32,64), num = 1981}, {[64,128), num = 1162}, {[128,256), num = 416}, {[256,512), num = 86}, {[512,1024), num = 15}, {[1024,2048), num = 4}, {[2048,4096), num = 0}, 
+2021-12-06 02:41:42 [32mINFO  (et: 16.090853 s)[0m[36m (func: main) [0m [90mmain.cpp:151:[0m num of out of time queries: 0
+2021-12-06 02:41:42 [32mINFO  (et: 16.090966 s)[0m[36m (func: main) [0m [90mmain.cpp:152:[0m average distance check time: 0.000002 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.090998 s)[0m[36m (func: main) [0m [90mmain.cpp:153:[0m average query time: 0.005679 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091023 s)[0m[36m (func: main) [0m [90mmain.cpp:154:[0m average preprocess time: 0.000153 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091049 s)[0m[36m (func: main) [0m [90mmain.cpp:155:[0m average forward bfs time: 0.000037 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091074 s)[0m[36m (func: main) [0m [90mmain.cpp:156:[0m average backward bfs time: 0.000033 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091099 s)[0m[36m (func: main) [0m [90mmain.cpp:157:[0m average construct bigraph time: 0.000083 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091123 s)[0m[36m (func: main) [0m [90mmain.cpp:158:[0m average full fledged estimation time: 0.000000 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091147 s)[0m[36m (func: main) [0m [90mmain.cpp:159:[0m average left dfs time: 0.000000 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091172 s)[0m[36m (func: main) [0m [90mmain.cpp:160:[0m average right dfs time time: 0.000000 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091199 s)[0m[36m (func: main) [0m [90mmain.cpp:161:[0m average join time: 0.000000 seconds
+2021-12-06 02:41:42 [32mINFO  (et: 16.091240 s)[0m[36m (func: main) [0m [90mmain.cpp:162:[0m average result count: 57514.73
+2021-12-06 02:41:42 [32mINFO  (et: 16.091267 s)[0m[36m (func: main) [0m [90mmain.cpp:163:[0m average partial result count: 102815.65
+2021-12-06 02:41:42 [32mINFO  (et: 16.091293 s)[0m[36m (func: main) [0m [90mmain.cpp:164:[0m average invalid partial result count: 649.27
+2021-12-06 02:41:42 [32mINFO  (et: 16.091319 s)[0m[36m (func: main) [0m [90mmain.cpp:165:[0m average neighbors access count: 64300.16
+2021-12-06 02:41:42 [32mINFO  (et: 16.091343 s)[0m[36m (func: main) [0m [90mmain.cpp:166:[0m average conflict count: 2075.47
+2021-12-06 02:41:42 [32mINFO  (et: 16.091369 s)[0m[36m (func: main) [0m [90mmain.cpp:167:[0m average estimate accuracy: 0.0000
+2021-12-06 02:41:42 [32mINFO  (et: 16.091393 s)[0m[36m (func: main) [0m [90mmain.cpp:168:[0m average vertices met while building X: 6064.59
+2021-12-06 02:41:42 [32mINFO  (et: 16.091419 s)[0m[36m (func: main) [0m [90mmain.cpp:169:[0m average vertices met while building H: 5339.81
+2021-12-06 02:41:42 [32mINFO  (et: 16.091443 s)[0m[36m (func: main) [0m [90mmain.cpp:173:[0m dump results into file...
+2021-12-06 02:41:42 [32mINFO  (et: 16.124770 s)[0m[36m (func: main) [0m [90mmain.cpp:266:[0m done.

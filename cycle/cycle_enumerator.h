@@ -13,7 +13,7 @@ extern bool g_exit;
 
 #define LISTING_RESULTS
 #define OUTPUT_BUFFER_RATIO (128 * 1024 * 1024)
-#define NumThreads 1
+#define NumThreads 2
 
 class CycleEnumerator {
 public:
@@ -224,7 +224,7 @@ private:
      * DFS on the bipartite graph index.
      */
     void fast_build_bigraph();
-    void dfs_on_bigraph(uint32_t u, uint32_t k);
+    void dfs_on_bigraph(uint32_t u, uint32_t k, long id);
     void parallel_dfs(uint32_t u, uint32_t k);
     void clear_bigraph();
     int QueryDistance(int v, int w);

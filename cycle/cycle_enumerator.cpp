@@ -115,7 +115,7 @@ uint64_t CycleEnumerator::execute(uint32_t src, uint32_t dst, query_method metho
     src_ = src;
     dst_ = dst;
     method_ = method;
-    
+
     if (method_ == query_method::IDX_DFS) {
         fast_build_bigraph();
         preprocess_time_ = forward_bfs_time_ + backward_bfs_time_ + construct_bigraph_time_;
@@ -706,6 +706,7 @@ void CycleEnumerator::fast_build_bigraph() {
 
     auto k = static_cast<uint8_t>(length_constraint_);
     std::queue<uint32_t> q;
+
     visited_[src_] = true;
     visited_[dst_] = true;
 
@@ -1020,11 +1021,11 @@ CycleEnumerator::dfs_on_bigraph(uint32_t depth, const uint32_t *order, uint32_t 
 }
 
 
-inline void CycleEnumerator::dfs_on_bigraph(uint32_t u, uint32_t k) {
+inline void CycleEnumerator::dfs_on_bigraph(uint32_t u, uint32_t k, long id) {
     stack_[k] = u;
     visited_[u] = true;
 
-    long id = omp_get_thread_num();
+    // long id = omp_get_thread_num();
     // std::cout << "id: " << id << " id_check: " << id_check << std::endl;
 
     uint64_t temp_count = count[id];
@@ -1056,7 +1057,7 @@ inline void CycleEnumerator::dfs_on_bigraph(uint32_t u, uint32_t k) {
             partial_result_count[id] += 1;
         }
         else if (!visited_[v]) {
-            dfs_on_bigraph(v, k + 1);
+            dfs_on_bigraph(v, k + 1, id);
         }
         else {
             conflict_count[id] += 1;
@@ -1097,11 +1098,11 @@ void
     uint32_t end = single_bigraph_offset_[neighbor_offset + budget + 1];
 
     neighbors_access_count_ += (end - start);
-    #pragma omp parallel 
+    #pragma omp parallel firstprivate(stack_, visited_) 
     {
         long id = omp_get_thread_num();
         // std::cout << "id: " << id << std::endl;
-    #pragma omp for firstprivate(stack_, visited_) 
+    #pragma omp for 
 
         for (uint32_t i = start; i < end; ++i){
             if (g_exit || count_ >= target_number_results_) ;
@@ -1122,7 +1123,7 @@ void
                     partial_result_count[id] += 1;
                 }
                 else if (!visited_[v]) {
-                    dfs_on_bigraph(v, k + 1);
+                    dfs_on_bigraph(v, k + 1, id);
                     // printf("get out of dfs: pid: %d, count: %d\n", int(id), int(count[id]));
                 }
                 else {

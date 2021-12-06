@@ -1,3 +1,13 @@
+NumThreads 1
+ID 2, src 4795, dst 1623, status Time Out, result count 4941599540, preprocessing time 0.035129 seconds, query time 30.000436 seconds,
+ID 3, src 14517, dst 6457, status Complete, result count 567904759, preprocessing time 0.030844 seconds, query time 10.845445 seconds,
+ID 4, src 1902, dst 2606, status Complete, result count 287899127, preprocessing time 0.028617 seconds, query time 6.658090 seconds,
+ID 5, src 12352, dst 6483, status Complete, result count 148524521, preprocessing time 0.030085 seconds, query time 3.767309 seconds,
+ID 6, src 827, dst 5580, status Time Out, result count 1464405223, preprocessing time 0.034565 seconds, query time 30.000738 seconds,
+ID 7, src 50958, dst 4024, status Complete, result count 1327287, preprocessing time 0.021800 seconds, query time 0.053242 seconds,
+ID 8, src 13352, dst 10663, status Complete, result count 205661719, preprocessing time 0.022810 seconds, query time 4.464439 seconds,
+ID 9, src 383, dst 4342, status Time Out, result count 2795192593, preprocessing time 0.039429 seconds, query time 30.000602 seconds,
+
 NumThreads 2
 ID 2, src 4795, dst 1623, status Time Out, result count 626595813, preprocessing time 0.035166 seconds, query time 30.000713 seconds,
 ID 3, src 14517, dst 6457, status Time Out, result count 190823886, preprocessing time 0.030106 seconds, query time 30.000623 seconds,
@@ -7,3 +17,15 @@ ID 6, src 827, dst 5580, status Time Out, result count 193882177, preprocessing 
 ID 7, src 50958, dst 4024, status Complete, result count 1301951, preprocessing time 0.022909 seconds, query time 0.058817 seconds,
 ID 8, src 13352, dst 10663, status Complete, result count 200984944, preprocessing time 0.013166 seconds, query time 22.245606 seconds,
 ID 9, src 383, dst 4342, status Time Out, result count 400477404, preprocessing time 0.040367 seconds, query time 30.000701 seconds,
+
+NumThreads 3
+ID 2, src 4795, dst 1623, status Time Out, result count 291020354, preprocessing time 0.034870 seconds, query time 30.000686 seconds,
+ID 3, src 14517, dst 6457, status Time Out, result count 251872675, preprocessing time 0.033097 seconds, query time 30.000577 seconds,
+ID 4, src 1902, dst 2606, status Time Out, result count 144011116, preprocessing time 0.026767 seconds, query time 30.000381 seconds,
+ID 5, src 12352, dst 6483, status Complete, result count 141112365, preprocessing time 0.032938 seconds, query time 18.762680 seconds,
+ID 6, src 827, dst 5580, status Time Out, result count 188008110, preprocessing time 0.031777 seconds, query time 30.000704 seconds,
+ID 7, src 50958, dst 4024, status Complete, result count 1265269, preprocessing time 0.021453 seconds, query time 0.062867 seconds,
+ID 8, src 13352, dst 10663, status Complete, result count 198431816, preprocessing time 0.022467 seconds, query time 15.100507 seconds,
+ID 9, src 383, dst 4342, status Time Out, result count 316405515, preprocessing time 0.039088 seconds, query time 30.000760 seconds,
+
+
