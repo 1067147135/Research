@@ -215,7 +215,7 @@ public:
     ~CycleEnumerator();
 
     void initialize(DirectedGraph* digraph, uint32_t length_constraint);
-    uint64_t execute(uint32_t src, uint32_t dst, query_method method);
+    uint64_t execute(DirectedGraph *digraph, uint32_t src, uint32_t dst, query_method method);
     void clear();
     void labeling();
 
@@ -225,7 +225,7 @@ private:
      */
     void fast_build_bigraph();
     void dfs_on_bigraph(uint32_t u, uint32_t k, long id);
-    void parallel_dfs(uint32_t u, uint32_t k);
+    void parallel_dfs(DirectedGraph *digraph, uint32_t u, uint32_t k);
     void clear_bigraph();
     int QueryDistance(int v, int w);
 

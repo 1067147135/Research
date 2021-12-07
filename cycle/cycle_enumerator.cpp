@@ -108,7 +108,7 @@ void CycleEnumerator::clear() {
     clear_performance_counter();
 }
 
-uint64_t CycleEnumerator::execute(uint32_t src, uint32_t dst, query_method method) {
+uint64_t CycleEnumerator::execute(DirectedGraph *digraph, uint32_t src, uint32_t dst, query_method method) {
     assert(length_constraint_ > 0);
     auto start = std::chrono::high_resolution_clock::now();
 
@@ -120,7 +120,7 @@ uint64_t CycleEnumerator::execute(uint32_t src, uint32_t dst, query_method metho
         fast_build_bigraph();
         preprocess_time_ = forward_bfs_time_ + backward_bfs_time_ + construct_bigraph_time_;
         
-        parallel_dfs(src_, 0);
+        parallel_dfs(digraph, src_, 0);
         clear_bigraph();
     }
     else if (method_ == query_method::IDX_JOIN) {
@@ -1075,7 +1075,7 @@ inline void CycleEnumerator::dfs_on_bigraph(uint32_t u, uint32_t k, long id) {
 }
 
 void
- CycleEnumerator::parallel_dfs(uint32_t u, uint32_t k) {
+ CycleEnumerator::parallel_dfs(DirectedGraph *digraph, uint32_t u, uint32_t k) {
     
     stack_[k] = u;
     visited_[u] = true;
@@ -1098,16 +1098,26 @@ void
     uint32_t end = single_bigraph_offset_[neighbor_offset + budget + 1];
 
     neighbors_access_count_ += (end - start);
-    #pragma omp parallel firstprivate(stack_, visited_) 
+    #pragma omp parallel private(stack_, visited_) 
     {
+        free(stack_);
+        free(visited_);
+        uint64_t size = sizeof(uint32_t) * (length_constraint_ + 1);
+        stack_ = (uint32_t*)malloc(size);
+        memset(stack_, 0, size);
+
+        size = sizeof(bool) * digraph->num_vertices();
+        visited_ = (bool*)malloc(size);
+        memset(visited_, 0, size);
         long id = omp_get_thread_num();
         // std::cout << "id: " << id << std::endl;
     #pragma omp for 
 
-        for (uint32_t i = start; i < end; ++i){
-            if (g_exit || count_ >= target_number_results_) ;
+        for (int i = start; i < end; ++i){
+            uint64_t c1 = count[id];
+            uint32_t v = single_bigraph_adj_[i];
+            if (g_exit || count_ >= target_number_results_);
             else {
-                uint32_t v = single_bigraph_adj_[i];
                 if (v == dst_) {
                     // Emit the result.
                     stack_[k + 1] = dst_;
@@ -1130,6 +1140,8 @@ void
                     conflict_count[id] += 1;
                 }
             } 
+            uint64_t c2 = count[id];
+            std::cout << "thread id: " << id << ", branch " << u << "->" << v << " has count: " << c2 - c1 << std::endl;
             // printf("parrellel: pid: %d, count: %d\n", int(id), int(count[id]));       
         }
     }

@@ -5,408 +5,46 @@ Input query file: ../../dataset/soc-Epinions1/for_demo/hot2hot_pairs.bin
 Input result folder: ./
 Input method: IDX_DFS
 Input length constraint: 7
-Input per query time limit: 30 seconds
+Input per query time limit: 120 seconds
 Input target number of results: 18446744073709551615
 ---------------------------------------------------------------------------
-2-hop-labeling finished, using time: 12759539237
+2-hop-labeling finished, using time: 135053199761
 num of queries: 200
-thread: 0, count: 30251166
-ID 0, src 14543, dst 6683, status Complete, result count 30251166, preprocessing time 0.025559 seconds, query time 0.762437 seconds,
-thread: 0, count: 1419180987
-ID 1, src 137, dst 9622, status Time Out, result count 1419180987, preprocessing time 0.031827 seconds, query time 30.000730 seconds,
-thread: 0, count: 1384636086
-ID 2, src 2226, dst 13861, status Time Out, result count 1384636086, preprocessing time 0.032124 seconds, query time 30.000730 seconds,
-thread: 0, count: 274911617
-ID 3, src 3688, dst 6704, status Complete, result count 274911617, preprocessing time 0.028141 seconds, query time 5.473624 seconds,
-thread: 0, count: 1813227981
-ID 4, src 11586, dst 8217, status Time Out, result count 1813227981, preprocessing time 0.033650 seconds, query time 30.000862 seconds,
-thread: 0, count: 206051664
-ID 5, src 4190, dst 15607, status Complete, result count 206051664, preprocessing time 0.024782 seconds, query time 5.306491 seconds,
-thread: 0, count: 120227905
-ID 6, src 3389, dst 14727, status Complete, result count 120227905, preprocessing time 0.024920 seconds, query time 2.268167 seconds,
-thread: 0, count: 31025723
-ID 7, src 5047, dst 8755, status Complete, result count 31025723, preprocessing time 0.025798 seconds, query time 0.904304 seconds,
-thread: 0, count: 26237332
-ID 8, src 13055, dst 2676, status Complete, result count 26237332, preprocessing time 0.027124 seconds, query time 0.682153 seconds,
-thread: 0, count: 1427438275
-ID 9, src 916, dst 5228, status Time Out, result count 1427438275, preprocessing time 0.029120 seconds, query time 30.000358 seconds,
-thread: 0, count: 17317822
-ID 10, src 623, dst 10649, status Complete, result count 17317822, preprocessing time 0.024832 seconds, query time 0.576511 seconds,
-thread: 0, count: 3657498
-ID 11, src 21089, dst 15638, status Complete, result count 3657498, preprocessing time 0.022936 seconds, query time 0.137229 seconds,
-thread: 0, count: 37119474
-ID 12, src 5947, dst 292, status Complete, result count 37119474, preprocessing time 0.024345 seconds, query time 1.177121 seconds,
-thread: 0, count: 1552499422
-ID 13, src 2157, dst 9997, status Time Out, result count 1552499422, preprocessing time 0.040991 seconds, query time 30.000839 seconds,
-thread: 0, count: 809784210
-ID 14, src 3256, dst 18360, status Complete, result count 809784210, preprocessing time 0.031984 seconds, query time 17.055764 seconds,
-thread: 0, count: -1889943108
-ID 15, src 6849, dst 955, status Time Out, result count 2405024188, preprocessing time 0.037600 seconds, query time 30.000461 seconds,
-thread: 0, count: 19883219
-ID 16, src 6342, dst 20798, status Complete, result count 19883219, preprocessing time 0.024778 seconds, query time 0.550964 seconds,
-thread: 0, count: -2125183953
-ID 17, src 3841, dst 2341, status Time Out, result count 2169783343, preprocessing time 0.032318 seconds, query time 30.000362 seconds,
-thread: 0, count: 12664929
-ID 18, src 13085, dst 10252, status Complete, result count 12664929, preprocessing time 0.025154 seconds, query time 0.285882 seconds,
-thread: 0, count: 130979828
-ID 19, src 19355, dst 4512, status Complete, result count 130979828, preprocessing time 0.025773 seconds, query time 3.596512 seconds,
-thread: 0, count: -178555217
-ID 20, src 9406, dst 1315, status Time Out, result count 4116412079, preprocessing time 0.033147 seconds, query time 30.000825 seconds,
-thread: 0, count: 519527879
-ID 21, src 3144, dst 7688, status Complete, result count 519527879, preprocessing time 0.029921 seconds, query time 11.672011 seconds,
-thread: 0, count: 1336417837
-ID 22, src 154, dst 16739, status Time Out, result count 1336417837, preprocessing time 0.037230 seconds, query time 30.000458 seconds,
-thread: 0, count: -1646955737
-ID 23, src 6123, dst 1011, status Time Out, result count 2648011559, preprocessing time 0.029225 seconds, query time 30.000445 seconds,
-thread: 0, count: 629115304
-ID 24, src 1350, dst 4810, status Complete, result count 629115304, preprocessing time 0.026514 seconds, query time 12.751148 seconds,
-thread: 0, count: -1311641477
-ID 25, src 3109, dst 1218, status Time Out, result count 2983325819, preprocessing time 0.033668 seconds, query time 30.000504 seconds,
-thread: 0, count: 121720010
-ID 26, src 9496, dst 16334, status Complete, result count 121720010, preprocessing time 0.028266 seconds, query time 2.766617 seconds,
-thread: 0, count: 129978914
-ID 27, src 2163, dst 5545, status Complete, result count 129978914, preprocessing time 0.025554 seconds, query time 2.860355 seconds,
-thread: 0, count: 120738764
-ID 28, src 19130, dst 6719, status Complete, result count 120738764, preprocessing time 0.025659 seconds, query time 2.605310 seconds,
-thread: 0, count: 1390554897
-ID 29, src 4054, dst 71405, status Time Out, result count 1390554897, preprocessing time 0.029497 seconds, query time 30.000798 seconds,
-thread: 0, count: 1237243501
-ID 30, src 3162, dst 1537, status Complete, result count 1237243501, preprocessing time 0.031478 seconds, query time 25.390470 seconds,
-thread: 0, count: 135750854
-ID 31, src 17429, dst 2883, status Complete, result count 135750854, preprocessing time 0.025808 seconds, query time 2.838239 seconds,
-thread: 0, count: 293804167
-ID 32, src 13566, dst 452, status Time Out, result count 4588771463, preprocessing time 0.031041 seconds, query time 30.000417 seconds,
-thread: 0, count: 742765485
-ID 33, src 11195, dst 79, status Time Out, result count 5037732781, preprocessing time 0.032706 seconds, query time 30.000608 seconds,
-thread: 0, count: 1718775444
-ID 34, src 421, dst 8287, status Time Out, result count 1718775444, preprocessing time 0.032473 seconds, query time 30.000421 seconds,
-thread: 0, count: 1404192968
-ID 35, src 2373, dst 10212, status Time Out, result count 1404192968, preprocessing time 0.031852 seconds, query time 30.000750 seconds,
-thread: 0, count: 260377560
-ID 36, src 4555, dst 6002, status Complete, result count 260377560, preprocessing time 0.026550 seconds, query time 5.675907 seconds,
-thread: 0, count: 252221311
-ID 37, src 6469, dst 2096, status Complete, result count 252221311, preprocessing time 0.025857 seconds, query time 4.706643 seconds,
-thread: 0, count: -1818380242
-ID 38, src 2509, dst 339, status Time Out, result count 2476587054, preprocessing time 0.036128 seconds, query time 30.000458 seconds,
-thread: 0, count: 384262891
-ID 39, src 11198, dst 4785, status Complete, result count 384262891, preprocessing time 0.028612 seconds, query time 7.028172 seconds,
-thread: 0, count: -1076532098
-ID 40, src 863, dst 653, status Time Out, result count 3218435198, preprocessing time 0.032526 seconds, query time 30.000468 seconds,
-thread: 0, count: 76807287
-ID 41, src 2802, dst 19569, status Complete, result count 76807287, preprocessing time 0.029922 seconds, query time 2.259444 seconds,
-thread: 0, count: 1250216181
-ID 42, src 5759, dst 5750, status Complete, result count 1250216181, preprocessing time 0.028550 seconds, query time 25.715613 seconds,
-thread: 0, count: 384831833
-ID 43, src 23451, dst 313, status Complete, result count 384831833, preprocessing time 0.029514 seconds, query time 8.232807 seconds,
-thread: 0, count: 82692672
-ID 44, src 1800, dst 814, status Complete, result count 82692672, preprocessing time 0.025147 seconds, query time 1.642661 seconds,
-thread: 0, count: 14142732
-ID 45, src 3014, dst 21374, status Complete, result count 14142732, preprocessing time 0.022611 seconds, query time 0.371672 seconds,
-thread: 0, count: 341875066
-ID 46, src 2623, dst 15803, status Complete, result count 341875066, preprocessing time 0.029809 seconds, query time 6.776226 seconds,
-thread: 0, count: 1040493192
-ID 47, src 2995, dst 19360, status Complete, result count 1040493192, preprocessing time 0.030882 seconds, query time 23.951668 seconds,
-thread: 0, count: 12946118
-ID 48, src 8725, dst 8954, status Complete, result count 12946118, preprocessing time 0.023481 seconds, query time 0.387004 seconds,
-thread: 0, count: 17940051
-ID 49, src 71396, dst 28205, status Complete, result count 17940051, preprocessing time 0.021583 seconds, query time 0.497240 seconds,
-thread: 0, count: 152449231
-ID 50, src 7517, dst 5050, status Complete, result count 152449231, preprocessing time 0.023564 seconds, query time 3.166390 seconds,
-thread: 0, count: 220312713
-ID 51, src 1435, dst 8806, status Complete, result count 220312713, preprocessing time 0.029656 seconds, query time 5.024042 seconds,
-thread: 0, count: 98050174
-ID 52, src 10438, dst 6527, status Complete, result count 98050174, preprocessing time 0.025460 seconds, query time 2.098770 seconds,
-thread: 0, count: -948378367
-ID 53, src 6400, dst 5250, status Time Out, result count 3346588929, preprocessing time 0.031502 seconds, query time 30.000432 seconds,
-thread: 0, count: 96398998
-ID 54, src 1315, dst 14682, status Complete, result count 96398998, preprocessing time 0.027891 seconds, query time 3.123795 seconds,
-thread: 0, count: 1902940975
-ID 55, src 3953, dst 1204, status Time Out, result count 1902940975, preprocessing time 0.029955 seconds, query time 30.000507 seconds,
-thread: 0, count: 1891251027
-ID 56, src 1435, dst 5036, status Time Out, result count 1891251027, preprocessing time 0.034445 seconds, query time 30.000405 seconds,
-thread: 0, count: 1466494685
-ID 57, src 3856, dst 3458, status Time Out, result count 1466494685, preprocessing time 0.030427 seconds, query time 30.000414 seconds,
-thread: 0, count: 1976243190
-ID 58, src 4123, dst 425, status Time Out, result count 1976243190, preprocessing time 0.029123 seconds, query time 30.000457 seconds,
-thread: 0, count: 62326251
-ID 59, src 5243, dst 25841, status Complete, result count 62326251, preprocessing time 0.025923 seconds, query time 1.673322 seconds,
-thread: 0, count: 741692
-ID 60, src 18955, dst 10530, status Complete, result count 741692, preprocessing time 0.020799 seconds, query time 0.042908 seconds,
-thread: 0, count: 266258042
-ID 61, src 15577, dst 2421, status Complete, result count 266258042, preprocessing time 0.023494 seconds, query time 5.125886 seconds,
-thread: 0, count: 290924884
-ID 62, src 21375, dst 3160, status Complete, result count 290924884, preprocessing time 0.025681 seconds, query time 5.467557 seconds,
-thread: 0, count: 37423976
-ID 63, src 3898, dst 14790, status Complete, result count 37423976, preprocessing time 0.027861 seconds, query time 1.101563 seconds,
-thread: 0, count: 82411316
-ID 64, src 363, dst 9573, status Complete, result count 82411316, preprocessing time 0.025019 seconds, query time 2.468640 seconds,
-thread: 0, count: 922089760
-ID 65, src 24286, dst 6563, status Complete, result count 922089760, preprocessing time 0.030263 seconds, query time 16.824074 seconds,
-thread: 0, count: 3492702
-ID 66, src 9364, dst 5575, status Complete, result count 3492702, preprocessing time 0.023128 seconds, query time 0.103273 seconds,
-thread: 0, count: 129055161
-ID 67, src 13056, dst 867, status Complete, result count 129055161, preprocessing time 0.024666 seconds, query time 2.579144 seconds,
-thread: 0, count: 370135988
-ID 68, src 14778, dst 7963, status Complete, result count 370135988, preprocessing time 0.027150 seconds, query time 8.139183 seconds,
-thread: 0, count: 31101022
-ID 69, src 5811, dst 15808, status Complete, result count 31101022, preprocessing time 0.027177 seconds, query time 0.887932 seconds,
-thread: 0, count: 58516
-ID 70, src 58504, dst 7153, status Complete, result count 58516, preprocessing time 0.016205 seconds, query time 0.018632 seconds,
-thread: 0, count: 55671535
-ID 71, src 2179, dst 12350, status Complete, result count 55671535, preprocessing time 0.017890 seconds, query time 1.114443 seconds,
-thread: 0, count: 1891628377
-ID 72, src 9102, dst 1665, status Time Out, result count 1891628377, preprocessing time 0.035316 seconds, query time 30.000871 seconds,
-thread: 0, count: 846506299
-ID 73, src 9504, dst 18955, status Complete, result count 846506299, preprocessing time 0.034066 seconds, query time 15.856057 seconds,
-thread: 0, count: 810326629
-ID 74, src 32, dst 16651, status Complete, result count 810326629, preprocessing time 0.028589 seconds, query time 19.273840 seconds,
-thread: 0, count: 29695430
-ID 75, src 10427, dst 18827, status Complete, result count 29695430, preprocessing time 0.025622 seconds, query time 0.834991 seconds,
-thread: 0, count: 82769592
-ID 76, src 6342, dst 10636, status Complete, result count 82769592, preprocessing time 0.022486 seconds, query time 1.678560 seconds,
-thread: 0, count: 1581864869
-ID 77, src 1359, dst 4005, status Time Out, result count 1581864869, preprocessing time 0.030992 seconds, query time 30.000492 seconds,
-thread: 0, count: 14526795
-ID 78, src 33312, dst 276, status Complete, result count 14526795, preprocessing time 0.026475 seconds, query time 0.363825 seconds,
-thread: 0, count: -1730129847
-ID 79, src 591, dst 2023, status Time Out, result count 2564837449, preprocessing time 0.028766 seconds, query time 30.000706 seconds,
-thread: 0, count: 1173009
-ID 80, src 7837, dst 19549, status Complete, result count 1173009, preprocessing time 0.022652 seconds, query time 0.059110 seconds,
-thread: 0, count: 258168273
-ID 81, src 1830, dst 9087, status Complete, result count 258168273, preprocessing time 0.026772 seconds, query time 4.725125 seconds,
-thread: 0, count: 1590721115
-ID 82, src 3848, dst 691, status Time Out, result count 1590721115, preprocessing time 0.029718 seconds, query time 30.000519 seconds,
-thread: 0, count: 1755674199
-ID 83, src 532, dst 2423, status Time Out, result count 1755674199, preprocessing time 0.030018 seconds, query time 30.000672 seconds,
-thread: 0, count: 1523267262
-ID 84, src 10065, dst 77, status Time Out, result count 5818234558, preprocessing time 0.035599 seconds, query time 30.000775 seconds,
-thread: 0, count: 1445759799
-ID 85, src 508, dst 4337, status Time Out, result count 1445759799, preprocessing time 0.033846 seconds, query time 30.000575 seconds,
-thread: 0, count: 1030104581
-ID 86, src 6011, dst 4031, status Complete, result count 1030104581, preprocessing time 0.032671 seconds, query time 20.617367 seconds,
-thread: 0, count: 1610178992
-ID 87, src 1378, dst 679, status Time Out, result count 1610178992, preprocessing time 0.033418 seconds, query time 30.000998 seconds,
-thread: 0, count: 113383580
-ID 88, src 15492, dst 20869, status Complete, result count 113383580, preprocessing time 0.026204 seconds, query time 2.352168 seconds,
-thread: 0, count: 783345142
-ID 89, src 3264, dst 5310, status Complete, result count 783345142, preprocessing time 0.029572 seconds, query time 13.700247 seconds,
-thread: 0, count: -1957305192
-ID 90, src 16595, dst 2511, status Complete, result count 2337662104, preprocessing time 0.029105 seconds, query time 19.270254 seconds,
-thread: 0, count: 36469333
-ID 91, src 5834, dst 22347, status Complete, result count 36469333, preprocessing time 0.024999 seconds, query time 0.923809 seconds,
-thread: 0, count: 1835913646
-ID 92, src 385, dst 2577, status Time Out, result count 1835913646, preprocessing time 0.037578 seconds, query time 30.000449 seconds,
-thread: 0, count: 1490718893
-ID 93, src 1274, dst 5302, status Complete, result count 1490718893, preprocessing time 0.030029 seconds, query time 29.338440 seconds,
-thread: 0, count: 1735352077
-ID 94, src 12577, dst 1635, status Complete, result count 1735352077, preprocessing time 0.030834 seconds, query time 12.104838 seconds,
-thread: 0, count: 509164719
-ID 95, src 1312, dst 16127, status Complete, result count 509164719, preprocessing time 0.030739 seconds, query time 13.520852 seconds,
-thread: 0, count: -1659557905
-ID 96, src 2287, dst 387, status Time Out, result count 2635409391, preprocessing time 0.034331 seconds, query time 30.000414 seconds,
-thread: 0, count: 254984966
-ID 97, src 2186, dst 20833, status Complete, result count 254984966, preprocessing time 0.027031 seconds, query time 5.244457 seconds,
-thread: 0, count: -1678441844
-ID 98, src 1472, dst 581, status Time Out, result count 2616525452, preprocessing time 0.032641 seconds, query time 30.000560 seconds,
-thread: 0, count: 8977941
-ID 99, src 42940, dst 4018, status Complete, result count 8977941, preprocessing time 0.020939 seconds, query time 0.229268 seconds,
-thread: 0, count: 174972362
-ID 100, src 3993, dst 10365, status Complete, result count 174972362, preprocessing time 0.025514 seconds, query time 3.367025 seconds,
-thread: 0, count: 76034109
-ID 101, src 3058, dst 6661, status Complete, result count 76034109, preprocessing time 0.023837 seconds, query time 1.866336 seconds,
-thread: 0, count: 64266741
-ID 102, src 803, dst 14532, status Complete, result count 64266741, preprocessing time 0.024696 seconds, query time 1.394882 seconds,
-thread: 0, count: -2063347588
-ID 103, src 15205, dst 4955, status Time Out, result count 2231619708, preprocessing time 0.029582 seconds, query time 30.000405 seconds,
-thread: 0, count: 33830362
-ID 104, src 4006, dst 20275, status Complete, result count 33830362, preprocessing time 0.027255 seconds, query time 1.006309 seconds,
-thread: 0, count: 32789761
-ID 105, src 8296, dst 1549, status Complete, result count 32789761, preprocessing time 0.025089 seconds, query time 0.803362 seconds,
-thread: 0, count: 150261348
-ID 106, src 13057, dst 10663, status Complete, result count 150261348, preprocessing time 0.021674 seconds, query time 3.030502 seconds,
-thread: 0, count: 69871335
-ID 107, src 1024, dst 26769, status Complete, result count 69871335, preprocessing time 0.027955 seconds, query time 2.292104 seconds,
-thread: 0, count: 1865949794
-ID 108, src 10445, dst 344, status Complete, result count 1865949794, preprocessing time 0.028697 seconds, query time 23.051074 seconds,
-thread: 0, count: -866804352
-ID 109, src 5726, dst 2265, status Time Out, result count 3428162944, preprocessing time 0.030291 seconds, query time 30.000536 seconds,
-thread: 0, count: 777866041
-ID 110, src 6183, dst 2190, status Complete, result count 777866041, preprocessing time 0.030129 seconds, query time 16.451326 seconds,
-thread: 0, count: 1772220217
-ID 111, src 3371, dst 1322, status Time Out, result count 1772220217, preprocessing time 0.031896 seconds, query time 30.000640 seconds,
-thread: 0, count: 153362799
-ID 112, src 2208, dst 6663, status Complete, result count 153362799, preprocessing time 0.026801 seconds, query time 3.315953 seconds,
-thread: 0, count: 523902535
-ID 113, src 39216, dst 703, status Complete, result count 523902535, preprocessing time 0.028495 seconds, query time 9.989823 seconds,
-thread: 0, count: -430318341
-ID 114, src 75, dst 1642, status Time Out, result count 3864648955, preprocessing time 0.039332 seconds, query time 30.000509 seconds,
-thread: 0, count: 1150985731
-ID 115, src 4180, dst 3809, status Complete, result count 1150985731, preprocessing time 0.028945 seconds, query time 23.952464 seconds,
-thread: 0, count: 223647946
-ID 116, src 2243, dst 2130, status Complete, result count 223647946, preprocessing time 0.028092 seconds, query time 6.307962 seconds,
-thread: 0, count: 321827675
-ID 117, src 5311, dst 11669, status Complete, result count 321827675, preprocessing time 0.026014 seconds, query time 6.555382 seconds,
-thread: 0, count: 93910268
-ID 118, src 2120, dst 24846, status Complete, result count 93910268, preprocessing time 0.030855 seconds, query time 2.839907 seconds,
-thread: 0, count: 1924238565
-ID 119, src 592, dst 466, status Time Out, result count 1924238565, preprocessing time 0.033615 seconds, query time 30.000549 seconds,
-thread: 0, count: 1451520796
-ID 120, src 8062, dst 2820, status Time Out, result count 1451520796, preprocessing time 0.030895 seconds, query time 30.000550 seconds,
-thread: 0, count: 45215711
-ID 121, src 4122, dst 21215, status Complete, result count 45215711, preprocessing time 0.028276 seconds, query time 1.367317 seconds,
-thread: 0, count: 12079143
-ID 122, src 1774, dst 18509, status Complete, result count 12079143, preprocessing time 0.021911 seconds, query time 0.334855 seconds,
-thread: 0, count: 653365501
-ID 123, src 3138, dst 17649, status Complete, result count 653365501, preprocessing time 0.033027 seconds, query time 16.253165 seconds,
-thread: 0, count: 1923792677
-ID 124, src 17543, dst 529, status Time Out, result count 1923792677, preprocessing time 0.030602 seconds, query time 30.000375 seconds,
-thread: 0, count: -834231536
-ID 125, src 3880, dst 1185, status Time Out, result count 3460735760, preprocessing time 0.035156 seconds, query time 30.000599 seconds,
-thread: 0, count: 254461424
-ID 126, src 2848, dst 18682, status Complete, result count 254461424, preprocessing time 0.027335 seconds, query time 5.235910 seconds,
-thread: 0, count: 16564252
-ID 127, src 8163, dst 17796, status Complete, result count 16564252, preprocessing time 0.024779 seconds, query time 0.516962 seconds,
-thread: 0, count: -576654611
-ID 128, src 1301, dst 2063, status Time Out, result count 3718312685, preprocessing time 0.029985 seconds, query time 30.000422 seconds,
-thread: 0, count: 64924798
-ID 129, src 12622, dst 20558, status Complete, result count 64924798, preprocessing time 0.027037 seconds, query time 1.274730 seconds,
-thread: 0, count: 131693074
-ID 130, src 14537, dst 5519, status Complete, result count 131693074, preprocessing time 0.023630 seconds, query time 2.650221 seconds,
-thread: 0, count: 2895066
-ID 131, src 27134, dst 11775, status Complete, result count 2895066, preprocessing time 0.021588 seconds, query time 0.104548 seconds,
-thread: 0, count: 19073533
-ID 132, src 50955, dst 3527, status Complete, result count 19073533, preprocessing time 0.022910 seconds, query time 0.428914 seconds,
-thread: 0, count: -1305425532
-ID 133, src 2960, dst 4115, status Time Out, result count 2989541764, preprocessing time 0.030915 seconds, query time 30.000763 seconds,
-thread: 0, count: 302229
-ID 134, src 31262, dst 12774, status Complete, result count 302229, preprocessing time 0.022312 seconds, query time 0.030853 seconds,
-thread: 0, count: 47687505
-ID 135, src 23296, dst 19504, status Complete, result count 47687505, preprocessing time 0.021927 seconds, query time 1.010269 seconds,
-thread: 0, count: 236452869
-ID 136, src 602, dst 8275, status Complete, result count 236452869, preprocessing time 0.026134 seconds, query time 5.896816 seconds,
-thread: 0, count: 1464776669
-ID 137, src 4022, dst 3673, status Complete, result count 1464776669, preprocessing time 0.027449 seconds, query time 27.626621 seconds,
-thread: 0, count: 47053098
-ID 138, src 27334, dst 24229, status Complete, result count 47053098, preprocessing time 0.024083 seconds, query time 0.813748 seconds,
-thread: 0, count: 730473641
-ID 139, src 6732, dst 1822, status Complete, result count 730473641, preprocessing time 0.029289 seconds, query time 15.452722 seconds,
-thread: 0, count: 1504161177
-ID 140, src 11600, dst 4685, status Time Out, result count 1504161177, preprocessing time 0.030762 seconds, query time 30.000541 seconds,
-thread: 0, count: 279233479
-ID 141, src 12810, dst 22833, status Complete, result count 279233479, preprocessing time 0.031592 seconds, query time 6.348136 seconds,
-thread: 0, count: 123638497
-ID 142, src 8272, dst 8572, status Complete, result count 123638497, preprocessing time 0.025629 seconds, query time 2.868048 seconds,
-thread: 0, count: 347960280
-ID 143, src 19204, dst 158, status Complete, result count 347960280, preprocessing time 0.027386 seconds, query time 6.655561 seconds,
-thread: 0, count: 12805976
-ID 144, src 24832, dst 21384, status Complete, result count 12805976, preprocessing time 0.025095 seconds, query time 0.310308 seconds,
-thread: 0, count: 1418747699
-ID 145, src 844, dst 10446, status Time Out, result count 1418747699, preprocessing time 0.030430 seconds, query time 30.000429 seconds,
-thread: 0, count: 464499023
-ID 146, src 2496, dst 6704, status Complete, result count 464499023, preprocessing time 0.028749 seconds, query time 9.072331 seconds,
-thread: 0, count: 1386026581
-ID 147, src 2735, dst 7371, status Time Out, result count 1386026581, preprocessing time 0.029987 seconds, query time 30.000916 seconds,
-thread: 0, count: 344708140
-ID 148, src 14109, dst 5511, status Complete, result count 344708140, preprocessing time 0.028536 seconds, query time 7.610057 seconds,
-thread: 0, count: -27235085
-ID 149, src 3850, dst 54, status Time Out, result count 4267732211, preprocessing time 0.050500 seconds, query time 30.000532 seconds,
-thread: 0, count: 1397038369
-ID 150, src 1249, dst 13907, status Time Out, result count 1397038369, preprocessing time 0.032198 seconds, query time 30.000726 seconds,
-thread: 0, count: 1161511393
-ID 151, src 6012, dst 12698, status Complete, result count 1161511393, preprocessing time 0.031467 seconds, query time 25.463060 seconds,
-thread: 0, count: -278725190
-ID 152, src 19849, dst 1763, status Complete, result count 4016242106, preprocessing time 0.032792 seconds, query time 27.227165 seconds,
-thread: 0, count: 14758456
-ID 153, src 25826, dst 4742, status Complete, result count 14758456, preprocessing time 0.022146 seconds, query time 0.327018 seconds,
-thread: 0, count: 990943193
-ID 154, src 3686, dst 17007, status Complete, result count 990943193, preprocessing time 0.026578 seconds, query time 20.447416 seconds,
-thread: 0, count: 196375189
-ID 155, src 8171, dst 14600, status Complete, result count 196375189, preprocessing time 0.028633 seconds, query time 4.369433 seconds,
-thread: 0, count: 1161664126
-ID 156, src 3302, dst 3131, status Complete, result count 1161664126, preprocessing time 0.027645 seconds, query time 23.811170 seconds,
-thread: 0, count: 440107198
-ID 157, src 26161, dst 58, status Time Out, result count 4735074494, preprocessing time 0.030789 seconds, query time 30.000506 seconds,
-thread: 0, count: 876868084
-ID 158, src 1310, dst 10983, status Complete, result count 876868084, preprocessing time 0.028550 seconds, query time 18.279133 seconds,
-thread: 0, count: 9667110
-ID 159, src 5963, dst 23007, status Complete, result count 9667110, preprocessing time 0.023727 seconds, query time 0.282547 seconds,
-thread: 0, count: 214024215
-ID 160, src 20224, dst 13013, status Complete, result count 214024215, preprocessing time 0.024085 seconds, query time 4.793009 seconds,
-thread: 0, count: 215937000
-ID 161, src 13569, dst 24875, status Complete, result count 215937000, preprocessing time 0.033487 seconds, query time 5.432761 seconds,
-thread: 0, count: -1757132548
-ID 162, src 4908, dst 2495, status Time Out, result count 2537834748, preprocessing time 0.030024 seconds, query time 30.000659 seconds,
-thread: 0, count: 1104054309
-ID 163, src 530, dst 2167, status Complete, result count 1104054309, preprocessing time 0.032165 seconds, query time 24.220150 seconds,
-thread: 0, count: 879601231
-ID 164, src 5103, dst 1014, status Time Out, result count 5174568527, preprocessing time 0.034117 seconds, query time 30.000578 seconds,
-thread: 0, count: 32615548
-ID 165, src 3374, dst 29989, status Complete, result count 32615548, preprocessing time 0.025249 seconds, query time 1.048660 seconds,
-thread: 0, count: 1465157518
-ID 166, src 233, dst 6390, status Time Out, result count 1465157518, preprocessing time 0.022543 seconds, query time 30.000918 seconds,
-thread: 0, count: 719288798
-ID 167, src 3897, dst 4675, status Complete, result count 719288798, preprocessing time 0.032448 seconds, query time 15.904948 seconds,
-thread: 0, count: 338147192
-ID 168, src 1524, dst 12908, status Complete, result count 338147192, preprocessing time 0.030505 seconds, query time 6.612040 seconds,
-thread: 0, count: 137936524
-ID 169, src 5316, dst 8682, status Complete, result count 137936524, preprocessing time 0.028559 seconds, query time 3.654440 seconds,
-thread: 0, count: 381781016
-ID 170, src 8274, dst 375, status Time Out, result count 4676748312, preprocessing time 0.032083 seconds, query time 30.000516 seconds,
-thread: 0, count: 101420988
-ID 171, src 5740, dst 20194, status Complete, result count 101420988, preprocessing time 0.027806 seconds, query time 2.156615 seconds,
-thread: 0, count: 1309896840
-ID 172, src 972, dst 2920, status Complete, result count 1309896840, preprocessing time 0.029601 seconds, query time 28.929962 seconds,
-thread: 0, count: 695169123
-ID 173, src 32989, dst 4963, status Complete, result count 695169123, preprocessing time 0.028941 seconds, query time 12.402452 seconds,
-thread: 0, count: -1112494992
-ID 174, src 2057, dst 2713, status Time Out, result count 3182472304, preprocessing time 0.038126 seconds, query time 30.000795 seconds,
-thread: 0, count: -647384367
-ID 175, src 6032, dst 3687, status Time Out, result count 3647582929, preprocessing time 0.030699 seconds, query time 30.000425 seconds,
-thread: 0, count: 459291292
-ID 176, src 18291, dst 6666, status Complete, result count 459291292, preprocessing time 0.027679 seconds, query time 10.124940 seconds,
-thread: 0, count: 1383816139
-ID 177, src 237, dst 5112, status Time Out, result count 1383816139, preprocessing time 0.030826 seconds, query time 30.000469 seconds,
-thread: 0, count: 2119636986
-ID 178, src 4305, dst 2448, status Time Out, result count 2119636986, preprocessing time 0.030675 seconds, query time 30.000415 seconds,
-thread: 0, count: 976742434
-ID 179, src 682, dst 19232, status Complete, result count 976742434, preprocessing time 0.033321 seconds, query time 22.968320 seconds,
-thread: 0, count: 1375179377
-ID 180, src 5173, dst 8415, status Time Out, result count 1375179377, preprocessing time 0.029762 seconds, query time 30.000457 seconds,
-thread: 0, count: 116251981
-ID 181, src 7900, dst 25393, status Complete, result count 116251981, preprocessing time 0.030740 seconds, query time 3.212806 seconds,
-thread: 0, count: 22201834
-ID 182, src 7370, dst 2552, status Complete, result count 22201834, preprocessing time 0.024543 seconds, query time 0.516239 seconds,
-thread: 0, count: 828884895
-ID 183, src 20847, dst 2256, status Complete, result count 828884895, preprocessing time 0.025413 seconds, query time 13.093447 seconds,
-thread: 0, count: 1397572406
-ID 184, src 3987, dst 1135, status Time Out, result count 1397572406, preprocessing time 0.029168 seconds, query time 30.000469 seconds,
-thread: 0, count: 696642074
-ID 185, src 10255, dst 735, status Time Out, result count 4991609370, preprocessing time 0.035260 seconds, query time 30.000844 seconds,
-thread: 0, count: -1295297778
-ID 186, src 2198, dst 2217, status Time Out, result count 2999669518, preprocessing time 0.036444 seconds, query time 30.000838 seconds,
-thread: 0, count: 757315330
-ID 187, src 6027, dst 10937, status Complete, result count 757315330, preprocessing time 0.030260 seconds, query time 14.734634 seconds,
-thread: 0, count: 464997749
-ID 188, src 4501, dst 5836, status Complete, result count 464997749, preprocessing time 0.030054 seconds, query time 9.774491 seconds,
-thread: 0, count: 922289592
-ID 189, src 9102, dst 3641, status Complete, result count 922289592, preprocessing time 0.030491 seconds, query time 18.996844 seconds,
-thread: 0, count: 1803981482
-ID 190, src 11520, dst 4276, status Time Out, result count 1803981482, preprocessing time 0.031520 seconds, query time 30.000487 seconds,
-thread: 0, count: 71533064
-ID 191, src 5499, dst 18500, status Complete, result count 71533064, preprocessing time 0.025923 seconds, query time 1.764706 seconds,
-thread: 0, count: 1549472345
-ID 192, src 101, dst 3891, status Time Out, result count 1549472345, preprocessing time 0.038184 seconds, query time 30.000443 seconds,
-thread: 0, count: 1526574459
-ID 193, src 11875, dst 569, status Time Out, result count 1526574459, preprocessing time 0.029165 seconds, query time 30.000384 seconds,
-thread: 0, count: 20512206
-ID 194, src 515, dst 6513, status Complete, result count 20512206, preprocessing time 0.024244 seconds, query time 0.600405 seconds,
-thread: 0, count: 540034249
-ID 195, src 1448, dst 14956, status Complete, result count 540034249, preprocessing time 0.037290 seconds, query time 14.283323 seconds,
-thread: 0, count: 155272020
-ID 196, src 20560, dst 2787, status Complete, result count 155272020, preprocessing time 0.028036 seconds, query time 3.361186 seconds,
-thread: 0, count: 10205808
-ID 197, src 23300, dst 621, status Complete, result count 10205808, preprocessing time 0.022556 seconds, query time 0.260441 seconds,
-thread: 0, count: 65182442
-ID 198, src 5304, dst 10514, status Complete, result count 65182442, preprocessing time 0.024459 seconds, query time 1.415901 seconds,
-thread: 0, count: 80325056
-ID 199, src 31280, dst 14572, status Complete, result count 80325056, preprocessing time 0.026872 seconds, query time 1.686061 seconds,
+thread id: 1, branch 14543->28080 has count: 18326
+thread id: 1, branch 14543->31414 has count: 103672
+thread id: 1, branch 14543->31415 has count: 106075
+thread id: 1, branch 14543->32378 has count: 9715
+thread id: 1, branch 14543->32424 has count: 9841
+thread id: 1, branch 14543->46987 has count: 63488
+thread id: 1, branch 14543->50871 has count: 4674
+thread id: 1, branch 14543->51637 has count: 4264
+thread id: 1, branch 14543->52684 has count: 3589
+thread id: 1, branch 14543->52685 has count: 3553
+thread id: 1, branch 14543->52689 has count: 3444
+thread id: 1, branch 14543->52690 has count: 9345
+thread id: 1, branch 14543->52691 has count: 3653
+thread id: 1, branch 14543->18955 has count: 2205
+thread id: 1, branch 14543->37767 has count: 2728
+thread id: 1, branch 14543->49356 has count: 845
+thread id: 1, branch 14543->51634 has count: 393
+thread id: 1, branch 14543->52688 has count: 1721
+thread id: 0, branch 14543->1669 has count: 11059058
+thread id: 0, branch 14543->770 has count: 5961284
+thread id: 0, branch 14543->1727 has count: 5750260
+thread id: 0, branch 14543->5224 has count: 2231931
+thread id: 0, branch 14543->12810 has count: 3105917
+thread id: 0, branch 14543->21938 has count: 302018
+thread id: 0, branch 14543->9431 has count: 89295
+thread id: 0, branch 14543->12498 has count: 295142
+thread id: 0, branch 14543->14512 has count: 9223
+thread id: 0, branch 14543->14558 has count: 9321
+thread id: 0, branch 14543->15367 has count: 191384
+thread id: 0, branch 14543->17691 has count: 77382
+thread id: 0, branch 14543->19157 has count: 58728
+thread id: 0, branch 14543->20086 has count: 457989
+thread id: 0, branch 14543->21570 has count: 32650
+thread id: 0, branch 14543->22347 has count: 10602
+thread id: 0, branch 14543->22348 has count: 14120
+thread id: 0, branch 14543->23465 has count: 79526
+ID 0, src 14543, dst 6683, status Complete, result count 30087361, preprocessing time 0.336437 seconds, query time 26.538515 seconds,
+thread id: 0, branch 137->18 has count: 13547216

@@ -12,15 +12,15 @@
 
 #include "cycle_enumerator.h"
 
-bool execute_within_time_limit(CycleEnumerator* enumerator, uint32_t src, uint32_t dst,
+bool execute_within_time_limit(DirectedGraph *digraph, CycleEnumerator* enumerator, uint32_t src, uint32_t dst,
         CycleEnumerator::query_method method_type, uint64_t time_limit) {
 
     
     g_exit = false;
 
     // enumerator->execute(src, dst, method_type);
-    std::future<uint64_t> future = std::async(std::launch::async, [enumerator, src, dst, method_type](){
-        return enumerator->execute(src, dst, method_type);
+    std::future<uint64_t> future = std::async(std::launch::async, [enumerator, digraph, src, dst, method_type](){
+        return enumerator->execute(digraph, src, dst, method_type);
     });
 
     std::future_status status;
@@ -115,7 +115,7 @@ int main(int argc, char *argv[]) {
         auto query = queries[i];
 
         std::string query_status = "Complete";
-        if (!execute_within_time_limit(&enumerator, query.first, query.second, method_type, per_query_time_limit)) {
+        if (!execute_within_time_limit(&digraph, &enumerator, query.first, query.second, method_type, per_query_time_limit)) {
             terminated_query_count += 1;
             query_status = "Time Out";
         }
