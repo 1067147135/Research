@@ -1097,11 +1097,13 @@ void
     uint32_t start = single_bigraph_offset_[neighbor_offset];
     uint32_t end = single_bigraph_offset_[neighbor_offset + budget + 1];
 
+    free(stack_);
+    free(visited_);
+    
     neighbors_access_count_ += (end - start);
     #pragma omp parallel private(stack_, visited_) 
     {
-        free(stack_);
-        free(visited_);
+
         uint64_t size = sizeof(uint32_t) * (length_constraint_ + 1);
         stack_ = (uint32_t*)malloc(size);
         memset(stack_, 0, size);

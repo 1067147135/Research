@@ -8,27 +8,27 @@ Input length constraint: 7
 Input per query time limit: 120 seconds
 Input target number of results: 18446744073709551615
 ---------------------------------------------------------------------------
-2-hop-labeling finished, using time: 135053199761
+2-hop-labeling finished, using time: 119053333933
 num of queries: 200
-thread id: 1, branch 14543->28080 has count: 18326
-thread id: 1, branch 14543->31414 has count: 103672
-thread id: 1, branch 14543->31415 has count: 106075
-thread id: 1, branch 14543->32378 has count: 9715
-thread id: 1, branch 14543->32424 has count: 9841
-thread id: 1, branch 14543->46987 has count: 63488
-thread id: 1, branch 14543->50871 has count: 4674
-thread id: 1, branch 14543->51637 has count: 4264
-thread id: 1, branch 14543->52684 has count: 3589
-thread id: 1, branch 14543->52685 has count: 3553
-thread id: 1, branch 14543->52689 has count: 3444
-thread id: 1, branch 14543->52690 has count: 9345
-thread id: 1, branch 14543->52691 has count: 3653
-thread id: 1, branch 14543->18955 has count: 2205
-thread id: 1, branch 14543->37767 has count: 2728
-thread id: 1, branch 14543->49356 has count: 845
-thread id: 1, branch 14543->51634 has count: 393
-thread id: 1, branch 14543->52688 has count: 1721
-thread id: 0, branch 14543->1669 has count: 11059058
+thread id: 1, branch 14543->28080 has count: 15757
+thread id: 1, branch 14543->31414 has count: 102812
+thread id: 1, branch 14543->31415 has count: 106849
+thread id: 1, branch 14543->32378 has count: 9564
+thread id: 1, branch 14543->32424 has count: 9590
+thread id: 1, branch 14543->46987 has count: 63878
+thread id: 1, branch 14543->50871 has count: 4621
+thread id: 1, branch 14543->51637 has count: 4262
+thread id: 1, branch 14543->52684 has count: 3308
+thread id: 1, branch 14543->52685 has count: 3513
+thread id: 1, branch 14543->52689 has count: 3347
+thread id: 1, branch 14543->52690 has count: 9196
+thread id: 1, branch 14543->52691 has count: 3545
+thread id: 1, branch 14543->18955 has count: 2190
+thread id: 1, branch 14543->37767 has count: 2681
+thread id: 1, branch 14543->49356 has count: 843
+thread id: 1, branch 14543->51634 has count: 394
+thread id: 1, branch 14543->52688 has count: 1494
+thread id: 0, branch 14543->1669 has count: 11177844
 thread id: 0, branch 14543->770 has count: 5961284
 thread id: 0, branch 14543->1727 has count: 5750260
 thread id: 0, branch 14543->5224 has count: 2231931
@@ -46,5 +46,3 @@ thread id: 0, branch 14543->21570 has count: 32650
 thread id: 0, branch 14543->22347 has count: 10602
 thread id: 0, branch 14543->22348 has count: 14120
 thread id: 0, branch 14543->23465 has count: 79526
-ID 0, src 14543, dst 6683, status Complete, result count 30087361, preprocessing time 0.336437 seconds, query time 26.538515 seconds,
-thread id: 0, branch 137->18 has count: 13547216
