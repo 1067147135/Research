@@ -1,0 +1,1658 @@
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f57 by thread T6:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #3 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f57 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004e1e by thread T2:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e1e by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004ed1 by thread T5:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous read of size 1 at 0x7b8000004ed1 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004ec6 by thread T4:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous read of size 1 at 0x7b8000004ec6 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T4 (tid=2867375, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004ef1 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Previous write of size 1 at 0x7b8000004ef1 by thread T6:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004eae by thread T3:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004eae by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004dce by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004dce by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004f74 by thread T7:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #3 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous read of size 1 at 0x7b8000004f74 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T7 (tid=2867378, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f69 by thread T6:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f69 by thread T7:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T7 (tid=2867378, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004e44 by thread T2:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e44 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f1d by thread T5:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f1d by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004eca by thread T4:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #3 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous read of size 1 at 0x7b8000004eca by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T4 (tid=2867375, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004ef9 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Previous write of size 1 at 0x7b8000004ef9 by thread T5:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004ef5 by thread T3:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous read of size 1 at 0x7b8000004ef5 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004dcf by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004dcf by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004f7f by thread T7:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous read of size 1 at 0x7b8000004f7f by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T7 (tid=2867378, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f6f by thread T6:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f6f by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f45 by thread T2:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f45 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f42 by thread T5:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f42 by thread T2:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004ee2 by thread T4:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous read of size 1 at 0x7b8000004ee2 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T4 (tid=2867375, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f42 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Previous write of size 1 at 0x7b8000004f42 by thread T2:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f4b by thread T3:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f4b by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004e14 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e14 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:198 (benchmark+0x48cb)
+    #1 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f6b by thread T2:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f6b by thread T6:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f81 by thread T5:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f81 by thread T6:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f88 by thread T4:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f88 by thread T6:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T4 (tid=2867375, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f38 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #8 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Previous write of size 1 at 0x7b8000004f38 by thread T5:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004e60 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e60 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #6 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004edb by thread T3:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004edb by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #7 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f38 by thread T4:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #4 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f38 by thread T5:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T4 (tid=2867375, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004e60 by thread T2:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e60 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #6 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004e7a by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e7a by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #7 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004ef6 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #7 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Previous read of size 1 at 0x7b8000004ef6 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004e32 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e32 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #6 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004f37 by thread T3:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #3 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004f37 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #7 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004eb3 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #6 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004eb3 by thread T3:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:243 (benchmark+0x463e)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004e6e by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #3 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004e6e by main thread:
+    [failed to restore the stack]
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004dec by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004dec by main thread:
+    [failed to restore the stack]
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 1 at 0x7b8000004df0 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:237 (benchmark+0x4607)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #3 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004df0 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #5 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #6 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Location is heap block of size 4039 at 0x7b8000004000 allocated by main thread:
+    #0 memalign ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:787 (libtsan.so.0+0x2f98b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:196 (benchmark+0x4899)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:237 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 4 at 0x7ffe75d5f640 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:216 (benchmark+0x332c)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x332c)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x332c)
+
+  Previous read of size 4 at 0x7ffe75d5f640 by thread T3:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:244 (benchmark+0x464b)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #7 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #8 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e640)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:216 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 8 at 0x7ffe75d5f5d0 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x31fe)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x31fe)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x31fe)
+
+  Previous read of size 8 at 0x7ffe75d5f5d0 by thread T6:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x474d)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5d0)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 4 at 0x7ffe75d5f5e4 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x321b)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x321b)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x321b)
+
+  Previous read of size 4 at 0x7ffe75d5f5e4 by thread T7:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4759)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5e4)
+
+  Thread T7 (tid=2867378, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 4 at 0x7ffe75d5f5e0 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3230)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3230)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3230)
+
+  Previous read of size 4 at 0x7ffe75d5f5e0 by thread T1:
+    [failed to restore the stack]
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5e0)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 4 at 0x7ffe75d5f5d8 by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x325d)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x325d)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x325d)
+
+  Previous read of size 4 at 0x7ffe75d5f5d8 by thread T7:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4847)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5d8)
+
+  Thread T7 (tid=2867378, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f5dc by thread T1:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4837)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f5dc by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3248)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3248)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3248)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5dc)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0]
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f5dc by thread T3:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4837)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f5dc by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3248)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3248)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3248)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5dc)
+
+  Thread T3 (tid=2867374, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0]
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f5dc by thread T6:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4837)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f5dc by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3248)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3248)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3248)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5dc)
+
+  Thread T6 (tid=2867377, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0]
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f5dc by thread T2:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4837)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f5dc by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3248)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3248)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3248)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5dc)
+
+  Thread T2 (tid=2867373, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0]
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f5dc by thread T7:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4837)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f5dc by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3248)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3248)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3248)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5dc)
+
+  Thread T7 (tid=2867378, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0]
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f5dc by thread T4:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4837)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f5dc by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3248)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3248)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3248)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5dc)
+
+  Thread T4 (tid=2867375, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0]
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f5dc by thread T5:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:185 (benchmark+0x4837)
+    #1 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f5dc by main thread:
+    #0 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:185 (benchmark+0x3248)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) src/pruned_landmark_labeling.h:172 (benchmark+0x3248)
+    #2 main samples/benchmark_main.cc:60 (benchmark+0x3248)
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e5dc)
+
+  Thread T5 (tid=2867376, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:185 in PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0]
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Write of size 1 at 0x7b8000004a49 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:227 (benchmark+0x4584)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #2 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 1 at 0x7b8000004a49 by main thread:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:243 (benchmark+0x463e)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #3 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #4 __libc_start_main <null> (libc.so.6+0x270b2)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:227 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
+==================
+WARNING: ThreadSanitizer: heap-use-after-free (pid=2867370)
+  Write of size 1 at 0x7b8000004040 by main thread:
+    #0 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:155 (benchmark+0x2d6f)
+    #1 main samples/benchmark_main.cc:49 (benchmark+0x2d6f)
+
+  Previous write of size 8 at 0x7b8000004040 by main thread:
+    #0 free ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:707 (libtsan.so.0+0x35f25)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:212 (benchmark+0x4952)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: heap-use-after-free src/pruned_landmark_labeling.h:155 in PrunedLandmarkLabeling::dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: heap-use-after-free (pid=2867370)
+  Read of size 1 at 0x7b8000004064 by main thread:
+    #0 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:164 (benchmark+0x2df9)
+    #1 main samples/benchmark_main.cc:49 (benchmark+0x2df9)
+
+  Previous write of size 8 at 0x7b8000004060 by main thread:
+    #0 free ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:707 (libtsan.so.0+0x35f25)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:212 (benchmark+0x4952)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: heap-use-after-free src/pruned_landmark_labeling.h:164 in PrunedLandmarkLabeling::dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: heap-use-after-free (pid=2867370)
+  Read of size 1 at 0x7b8000004077 by main thread:
+    #0 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:164 (benchmark+0x3554)
+    #1 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3554)
+    #2 main samples/benchmark_main.cc:49 (benchmark+0x3554)
+
+  Previous write of size 8 at 0x7b8000004070 by main thread:
+    #0 free ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:707 (libtsan.so.0+0x35f25)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:212 (benchmark+0x4952)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: heap-use-after-free src/pruned_landmark_labeling.h:164 in PrunedLandmarkLabeling::dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: heap-use-after-free (pid=2867370)
+  Read of size 1 at 0x7b800000407a by main thread:
+    #0 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:164 (benchmark+0x3775)
+    #1 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3775)
+    #2 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3775)
+    #3 main samples/benchmark_main.cc:49 (benchmark+0x3775)
+
+  Previous write of size 8 at 0x7b8000004078 by main thread:
+    #0 free ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:707 (libtsan.so.0+0x35f25)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:212 (benchmark+0x4952)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: heap-use-after-free src/pruned_landmark_labeling.h:164 in PrunedLandmarkLabeling::dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: heap-use-after-free (pid=2867370)
+  Read of size 1 at 0x7b800000408e by main thread:
+    #0 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:164 (benchmark+0x3a3d)
+    #1 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3a3d)
+    #2 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3a3d)
+    #3 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3a3d)
+    #4 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3a3d)
+    #5 main samples/benchmark_main.cc:49 (benchmark+0x3a3d)
+
+  Previous write of size 8 at 0x7b8000004088 by main thread:
+    #0 free ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:707 (libtsan.so.0+0x35f25)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:212 (benchmark+0x4952)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: heap-use-after-free src/pruned_landmark_labeling.h:164 in PrunedLandmarkLabeling::dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: heap-use-after-free (pid=2867370)
+  Read of size 1 at 0x7b800000409e by main thread:
+    #0 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:164 (benchmark+0x3bd0)
+    #1 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3bd0)
+    #2 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3bd0)
+    #3 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3bd0)
+    #4 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3bd0)
+    #5 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3bd0)
+    #6 main samples/benchmark_main.cc:49 (benchmark+0x3bd0)
+
+  Previous write of size 8 at 0x7b8000004098 by main thread:
+    #0 free ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:707 (libtsan.so.0+0x35f25)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:212 (benchmark+0x4952)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: heap-use-after-free src/pruned_landmark_labeling.h:164 in PrunedLandmarkLabeling::dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: heap-use-after-free (pid=2867370)
+  Read of size 1 at 0x7b80000040a8 by main thread:
+    #0 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:164 (benchmark+0x3d42)
+    #1 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3d42)
+    #2 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3d42)
+    #3 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3d42)
+    #4 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3d42)
+    #5 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3d42)
+    #6 PrunedLandmarkLabeling::dfs(int, int, int, int) src/pruned_landmark_labeling.h:165 (benchmark+0x3d42)
+    #7 main samples/benchmark_main.cc:49 (benchmark+0x3d42)
+
+  Previous write of size 8 at 0x7b80000040a8 by main thread:
+    #0 free ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:707 (libtsan.so.0+0x35f25)
+    #1 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:212 (benchmark+0x4952)
+    #2 GOMP_parallel <null> (libgomp.so.1+0x128e5)
+    #3 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: heap-use-after-free src/pruned_landmark_labeling.h:164 in PrunedLandmarkLabeling::dfs(int, int, int, int)
+==================
+==================
+WARNING: ThreadSanitizer: data race (pid=2867370)
+  Read of size 4 at 0x7ffe75d5f648 by thread T1:
+    #0 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:235 (benchmark+0x4679)
+    #1 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #2 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #3 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #4 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #5 PrunedLandmarkLabeling::para_dfs(int, int, int, int, long) src/pruned_landmark_labeling.h:238 (benchmark+0x46c5)
+    #6 PrunedLandmarkLabeling::parallel_dfs(int, int, int, int) [clone ._omp_fn.0] src/pruned_landmark_labeling.h:209 (benchmark+0x49ed)
+    #7 <null> <null> (libgomp.so.1+0x1a78d)
+
+  Previous write of size 4 at 0x7ffe75d5f648 by main thread:
+    [failed to restore the stack]
+
+  Location is stack of main thread.
+
+  Location is global '<null>' at 0x000000000000 ([stack]+0x00000001e648)
+
+  Thread T1 (tid=2867372, running) created by main thread at:
+    #0 pthread_create ../../../../src/libsanitizer/tsan/tsan_interceptors_posix.cpp:962 (libtsan.so.0+0x5ea79)
+    #1 <null> <null> (libgomp.so.1+0x1adea)
+    #2 __libc_start_main <null> (libc.so.6+0x270b2)
+
+SUMMARY: ThreadSanitizer: data race src/pruned_landmark_labeling.h:235 in PrunedLandmarkLabeling::para_dfs(int, int, int, int, long)
+==================
