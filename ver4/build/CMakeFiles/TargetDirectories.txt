@@ -1,0 +1,14 @@
+/home/shiwenlan/test/MapReduce1/compare/build/CMakeFiles/rebuild_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/CMakeFiles/edit_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/cycle/CMakeFiles/rebuild_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/cycle/CMakeFiles/edit_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/cycle/CMakeFiles/CycleEnumerator.out.dir
+/home/shiwenlan/test/MapReduce1/compare/build/toolset/CMakeFiles/rebuild_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/toolset/CMakeFiles/edit_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/toolset/CMakeFiles/GenerateVertexPairs.out.dir
+/home/shiwenlan/test/MapReduce1/compare/build/toolset/CMakeFiles/EdgeList2DirectedCSR.out.dir
+/home/shiwenlan/test/MapReduce1/compare/build/util/CMakeFiles/rebuild_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/util/CMakeFiles/edit_cache.dir
+/home/shiwenlan/test/MapReduce1/compare/build/util/CMakeFiles/log.dir
+/home/shiwenlan/test/MapReduce1/compare/build/util/CMakeFiles/graph.dir
+/home/shiwenlan/test/MapReduce1/compare/build/util/CMakeFiles/io.dir

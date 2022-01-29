@@ -1,0 +1,13 @@
+mkdir build
+cd build
+cmake ..
+make
+
+mkdir dataset/facebook/for_demo
+cd build/toolset
+./EdgeList2DirectedCSR.out ../../dataset/facebook/ ../../dataset/facebook/for_demo/ #
+
+./GenerateVertexPairs.out ../../dataset/facebook/for_demo/ ../../dataset/facebook/for_demo/ 1000 0.1
+
+cd ../cycle
+./CycleEnumerator.out ../../dataset/facebook/for_demo/ ../../dataset/facebook/for_demo/hot2hot_pairs.bin ./ "IDX_DFS" 5 120

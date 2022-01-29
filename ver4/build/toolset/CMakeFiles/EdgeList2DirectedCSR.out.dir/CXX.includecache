@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../util/graph/directed_graph.h
+string
+-
+vector
+-
+
+../util/log/log.h
+cstdio
+-
+cstdarg
+-
+cstring
+-
+string
+-
+
+/home/shiwenlan/test/MapReduce1/compare/toolset/edgelist_to_csr_directed.cpp
+iostream
+-
+util/log/log.h
+/home/shiwenlan/test/MapReduce1/compare/toolset/util/log/log.h
+util/graph/directed_graph.h
+/home/shiwenlan/test/MapReduce1/compare/toolset/util/graph/directed_graph.h
+

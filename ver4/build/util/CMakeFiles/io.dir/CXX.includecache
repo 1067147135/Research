@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../util/log/log.h
+cstdio
+-
+cstdarg
+-
+cstring
+-
+string
+-
+
+/home/shiwenlan/test/MapReduce1/compare/util/io/io.cpp
+fstream
+-
+io.h
+/home/shiwenlan/test/MapReduce1/compare/util/io/io.h
+
+/home/shiwenlan/test/MapReduce1/compare/util/io/io.h
+vector
+-
+string
+-
+fstream
+-
+iostream
+-
+util/log/log.h
+/home/shiwenlan/test/MapReduce1/compare/util/io/util/log/log.h
+

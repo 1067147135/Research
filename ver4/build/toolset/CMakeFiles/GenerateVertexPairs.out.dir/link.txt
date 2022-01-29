@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -O3  -fopenmp -march=native  -rdynamic CMakeFiles/GenerateVertexPairs.out.dir/generate_vertex_pairs.cpp.o  -o GenerateVertexPairs.out  -Wl,-rpath,/home/shiwenlan/test/MapReduce1/compare/build/util ../util/libgraph.so ../util/liblog.so 
