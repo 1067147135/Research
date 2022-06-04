@@ -150,4 +150,20 @@ USPatents 40
 dfs avg =  497.52872595999986 , parallel dfs avg =  88.41465388
 acceleration rate =  5.627220196272739
 
-
+# dataset: BaiduBaike (V: 416K, E: 3M, avgDegree: 15.8)
+threadNum = 8
+dfs avg =  7.447033932 
+parallel dfs avg =  1.2589701340000004
+acceleration rate =  5.915179185656519
+threadNum = 20
+dfs avg =  7.447033932 
+parallel dfs avg =  0.9443282200000003
+acceleration rate =  7.886065219993106
+threadNum = 30
+dfs avg =  7.447033932 
+parallel dfs avg =  1.0684760520000003
+acceleration rate =  6.9697714965725766
+threadNum = 40
+dfs avg =  7.447033932 
+parallel dfs avg =  0.9956904080000004
+acceleration rate =  7.479266519156823
